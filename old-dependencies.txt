@@ -1,0 +1,5 @@
+"@splidejs/splide": "^4.1.4",
+
+	"dependencies": {
+		"@splidejs/svelte-splide": "^0.2.9"
+	}
