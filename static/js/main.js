@@ -12,7 +12,7 @@ setInterval(() => {
             bounding.push(myElement[i].getBoundingClientRect());
             }
         for (i=0; i < myElement.length; i++) {
-            console.log(bounding[i].top)
+            // console.log(bounding[i].top)
             if (bounding[i].top >= 0 && bounding[i].left >= 0 && bounding[i].right <= (window.innerWidth || document.documentElement.clientWidth) && bounding[i].bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
                 myElement[i].classList.add('inViewportActually');
                 // console.log(`si ${bounding[i]}`)

@@ -1,5 +1,5 @@
 <script>
-	// import { page } from '$app/stores';
+	import { page } from '$app/stores';
 	import logo from '$lib/img/logo.png';
 </script>
 
@@ -23,11 +23,11 @@
             <a href="/"><img src={logo} alt="logo" class="logo"></a>
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">
-            <a class="flex-grow-1 text-center" href="/listings"><li>Listings</li></a>
-            <a class="flex-grow-1 text-center" href="/about"><li>About</li></a>
-            <a class="flex-grow-1 text-center" href="/blog"><li>Blog</li></a>
-            <a class="flex-grow-1 text-center" href="/join"><li>Join</li></a>
-            <a class="flex-grow-1 text-center" href="/contact"><li>Contact</li></a>
+            <a aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} class="flex-grow-1 text-center" href="/listings"><li>Listings</li></a>
+            <a aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="flex-grow-1 text-center" href="/about"><li>About</li></a>
+            <a aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="flex-grow-1 text-center" href="/blog"><li>Blog</li></a>
+            <a aria-current={$page.url.pathname === '/join' ? 'page' : undefined} class="flex-grow-1 text-center" href="/join"><li>Join</li></a>
+            <a aria-current={$page.url.pathname === '/contact' ? 'page' : undefined} class="flex-grow-1 text-center" href="/contact"><li>Contact</li></a>
         </ul>
     </nav>
 </header>
@@ -40,6 +40,10 @@
     ul > a {
         border-bottom: solid 5px rgb(5, 195, 249, 0);
         border-top: solid 5px rgb(5, 195, 249, 0);
+    }
+
+    a[aria-current='page'] {
+        border-bottom: solid 5px rgb(5, 195, 249, 0.5);
     }
 
     ul > a > li {

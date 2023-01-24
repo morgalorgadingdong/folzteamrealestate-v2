@@ -1,11 +1,12 @@
 <script>
     let title = 'Folz Team Real Estate';
     let description = 'Sick'; 
-    import hero from '$lib/img/hero.jpg'
+    // import hero from '$lib/img/hero.jpg'
     import about from '$lib/img/about-home-page.jpg'
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
+    import FeaturedListingsContainer from './FeaturedListingsContainer.svelte';
 </script>
 
 <svelt:head>
@@ -26,10 +27,7 @@
         
     </div> -->
     
-    <div id="featuredListingsContainer" class="flexWrap flexSpaceBetweenH ninety center" >
-
-
-    </div>
+    <FeaturedListingsContainer />
 
     <div class="quarter center flexCenterH flexSpaceAroundH">
         <a href="/listings"><button class="button">See All Listings</button></a>
@@ -112,20 +110,20 @@
 
 </section>
 
-<section id="quoteSection" class="flexContainer flexCenterV ninety center flexWrap">
-    <h2 class="col-12" id="quote">"Work Hard. Be Kind."</h2>
-    <p class="grayText oneHundo">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p>
+<section id="quoteSection" class="d-flex justify-content-center align-items-center flex-wrap">
+    <h2 class="col-11" id="quote">"Work Hard. Be Kind."</h2>
+    <p class="grayText col-11">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p>
     <div class="quarter center flexCenterH flexSpaceAroundH">
         <a href="/about"><button class="button">About us</button></a>
     </div>
 </section>
 
-<section id="theMarketAtAGlance" class="inViewport">
+<section id="theMarketAtAGlance" class="inViewport my-0">
     <div class="backgroundIMGContent1">
     <h2 class="whiteText">The Willamette Valley Market at a Glance</h2>
     <p class="sectionSubHeader">For the Month of October, 2022</p>
     <br>
-    <div class="flexContainer flexLeft flexWrap flexSpaceAroundH ninety center">
+    <div class="flexContainer flexLeft flexWrap flexSpaceAroundH col-11 center">
         <div class="quarter maagItem">
             <i class="fa-solid fa-money-bill-1-wave iconHeader"></i>
             <h3 class="whiteText">Median Sales price</h3>
@@ -154,22 +152,23 @@
 </div>
 </section>
 
-<section id="aboutUsSection" class="inViewport d-flex justify-content-center align-items-center flex-wrap">
-    <h2>About Us</h2>
-    <div id="aboutContentContainer" class="ninety center flexLeft flexSpaceAroundH flexCenterV">
-        <div id ="aboutTextContainer" class="foedee textLeft">
-            <p>We are a small team of Real Estate Agents headquartered in Salem Oregon, with a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such can offer insight into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
-            <p></p>
-            <a href="/about" ><button id="aboutButton" class="button third center textCenter">About Page</button></a>
+<section id="aboutUsSection" class="inViewport col-12 my-0">
+    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap mb-5">
+        <div class="col-11 col-xl-10 d-flex justify-content-between align-items-center flex-wrap">
+            <h2 class="col-12">About Us</h2>
+            <div id ="aboutTextContainer" class="textLeft col-12 col-md-6 d-flex justify-content-between align-items-center flex-wrap mx-0 px-4">
+                <p>We are a small team of Real Estate Agents headquartered in Salem Oregon, with a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such can offer insight into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
+                <p></p>
+                <a href="/about" ><button id="aboutButton" class="button third center textCenter">About Page</button></a>
+            </div>
+            <img class="col-12 col-md-6 circleIMG" src="{ about }" alt="dfa">
+            <!-- <img class="col-12 col-md-6 circleIMG" src="$lib/img/about-home-page.jpg" alt="dfa"> -->
         </div>
-        <img class="third circleIMG" src="{ about }" alt="dfa">
     </div>
 </section>
 
 <style>
-    section {
-        min-height: 80vh;
-    }
+    
 #heroIMG {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('$lib/img/hero.jpg');
     background-size: cover;
@@ -212,6 +211,9 @@
     z-index: 1;
 }
 
+#quote {
+    color: black;
+}
 
 #theMarketAtAGlance {
   color: white;
@@ -231,6 +233,9 @@
   z-index: 1;
 }
 
+#aboutUsSection > div {
+    min-height: 80vh;
+}
 
 
 </style>
