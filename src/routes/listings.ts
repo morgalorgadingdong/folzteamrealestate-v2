@@ -295,7 +295,7 @@ export const listings = [
     // },
     
     {
-        Title: "1395MoonBeam",
+        Title: "1395Moonbeam",
         Address: "1395 Moonbeam Ct",
         City: "Salem",
         MLS: "793452",

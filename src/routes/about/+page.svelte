@@ -92,7 +92,7 @@
     
         <div id="interestedContainer" class="fiddy">
             <h3 class="textCenter">Interested in joining our growing team?</h3>
-            <a href="/join.html" ><div id="joinButton" class="button fiddy center textCenter">Learn More</div></a>
+            <a href="/join" ><div id="joinButton" class="button fiddy center textCenter">Learn More</div></a>
         </div>
 </div>
 
