@@ -1,5 +1,4 @@
 <script>
-    import aboutBanner from '$lib/img/team-photo-4.jpg'
 </script>
 
 
