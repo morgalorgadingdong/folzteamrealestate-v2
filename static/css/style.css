@@ -11,7 +11,7 @@
 /* SECTIONS
 /*******************************************/
 section {
-  min-height: 80vh !important;
+  min-height: 80vh;
 }
 
 /* NAVBAR */
@@ -128,6 +128,75 @@ body:after {
 }
 
 /* WHAT OUR CLIENTS SAY SECTION */
+.splide__slide.is-active > div {
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  transition: all 0.5s ease;
+  border: none;
+  /* transition: box-shadow 0.5s ease; */
+}
+
+.splide__slide > div {
+  transition: all 0.5s ease;
+  /* transition: box-shadow 0.5s ease; */
+  height: 300px;
+  background-color: #a5a5a5;
+  border: none;
+  position: relative;
+  z-index: 0;
+}
+
+.splide__slide p {
+  color: #3e3f3c;
+  font-size: large;
+  font-weight: 400;
+  transition: all 0.5s ease;
+}
+
+.splide__slide.is-active p {
+  color: #3e3f3c;
+  font-style: italic;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+/* .splide__slide p {
+  font-size: large;
+  background-color: #a5a5a5;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.splide__slide.is-active p {
+  background-color: rgb(255, 255, 255, 0.5);
+  transition: all 0.5s ease;
+  z-index: 2;
+} */
+
+.splide__slide .fa-quote-left, .splide__slide .fa-quote-right {
+  font-size: 5rem;
+  color: rgb(5, 195, 249, 0);
+  font-style: italic;
+  transition: all 0.5s ease;
+  z-index: 1;
+} 
+.splide__slide .fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.splide__slide .fa-quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.splide__slide.is-active .fa-quote-left, .splide__slide.is-active .fa-quote-right {
+  color: rgb(5, 195, 249, 0.2);
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
 .backgroundIMGContent2 {
   font-size: 1.2rem;
   text-align: center;
@@ -183,7 +252,7 @@ body:after {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #whatOurClientsSay > div > h2 {
@@ -737,41 +806,41 @@ p {
 
 /* Bootstrap Breakpoints */
 
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  section > div {
+  section .content-container {
     width: 90%;
     margin: auto;
   }
  }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  section > div {
+  section .content-container {
     width: 90%;
     margin: auto;
   }
  }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  section > div {
+  section .content-container {
     width: 90%;
     margin: auto;
   }
  }
 
-// X-Large devices (large desktops, 1200px and up)
+/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  section > div {
+  section .content-container {
     width: 85%;
     margin: auto;
   }
  }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-  section > div {
+  section .content-container {
     width: 75%;
     margin: auto;
   }

@@ -12,14 +12,15 @@
             <span class="lightGray"></span>
             <span class="lightGray"></span>
             <ul id="mobileMenu">
-                <a href="/listings"><li>listings</li></a>
-                <a href="/about"><li>About</li></a>
-                <a href="/blog"><li>Blog</li></a>
-                <a href="/join"><li>Join</li></a>
-                <a href="/contact"><li>Contact</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings"><li>Listings</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about"><li>About</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog"><li>Blog</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/join') ? 'page' : undefined} href="/join"><li>Join</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined} href="/contact"><li>Contact</li></a>
             </ul>
         </div>
-        <div class="d-flex justify-content-start align-items-center">
+        <div class="col-2 d-sm-none"></div>
+        <div class="d-flex justify-content-start align-items-center ">
             <a href="/"><img src={logo} alt="logo" class="logo"></a>
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">
@@ -44,6 +45,14 @@
 
     a[aria-current='page'] {
         border-bottom: solid 5px rgb(5, 195, 249, 0.5);
+    }
+
+    a.mobile-menu-item[aria-current='page'] > li {
+        color: rgb(5, 195, 249, 1);
+    }
+
+    a.mobile-menu-item {
+        border-bottom: none;
     }
 
     ul > a > li {
@@ -184,7 +193,7 @@
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background: rgb(255,255,255, .7);
+    background: rgb(255,255,255, .8);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */

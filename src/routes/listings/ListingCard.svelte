@@ -10,8 +10,8 @@
 </script>
 
 
-<a href={'./listings/' + listing.Title} class="col-3">
-    <div class="col-12 card">
+<a href={'./listings/' + listing.Title} class="col-12 col-sm-6 col-lg-3">
+    <div class="col-12 card mx-0">
         <div class="card-body">
             <div class="card-img-top" >
                 <img src="{ imgSrc } " alt="{listing.Title}"/>
@@ -40,7 +40,7 @@
         text-decoration: none;
         color: black;
     }
-    a.col-3 {
+    a {
         padding: 1rem;
     }
 

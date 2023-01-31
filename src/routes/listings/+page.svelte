@@ -6,4 +6,3 @@
     <h2 class="text-start">Listings</h2>
         <ListingsContainer />
 </section>
-

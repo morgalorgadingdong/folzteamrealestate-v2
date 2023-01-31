@@ -2,7 +2,7 @@
     <div class="flexCenterH ninety center flexSpaceBetweenH">
         <div class="flexLeft flexColumn flexCenterH whiteText flexWrap">
             <p class="testimonialText">Folz Team Real Estate</p>
-            <p class="testimonialText">2022</p>
+            <p class="testimonialText">2023</p>
         </div>
         <div class="flexRight flexCenterV flexSpaceAroundH">
             <i class="fa-brands fa-instagram whiteText footerSocial" onclick="location.href='https://www.instagram.com/folzteamrealestate/';" style="cursor: pointer;"></i>

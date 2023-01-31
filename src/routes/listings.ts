@@ -1,40 +1,58 @@
 
 export const listings = [
     {
-        Title: "1563Pelican",
-        Address: "1563 Pelican Ct NW",
+        Title: "1993Mousebird",
+        Address: "1993 Mousebird Av NW",
         City: "Salem",
-        MLS: "800991",
-        SquareFootage: "2,902",
+        MLS: "801355",
+        SquareFootage: "2,289",
         FeaturedListing: true,
         Beds: "3",
-        Baths: "3",
-        Price: "$750,000",
+        Baths: "2.5",
+        Price: "$509,000",
         Status: "Active",
-        Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
+        Details: "Well kept, updated West Salem home in coveted neighborhood. Three bedrooms plus a huge bonus room(4th BR?). Remodeled kitchen w/quartz counter, SS appliances, abundant cabinets, built-in desk, eating bar & open to gathering space. Large living/dining room area w/slider opening to covered deck, paver walkways & terraced yard. Newer furnace, water heater, windows & siding. Walking distance to schools, close to parks, services & minutes to town. Palmer-Gross tour home when built!",
         Features: [
-            "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
+            "Updated Kitchen", "Quartz Counter Tops", "Stainless Steel appliances", "Covered Deck", "Newer furnace & Water Heater", 'Great Schools'
         ],
-        FeaturedIMG: '',
-        Pics: 42
+        FeaturedPic: '',
+        Pics: 36
     },
+    // {
+    //     Title: "1563Pelican",
+    //     Address: "1563 Pelican Ct NW",
+    //     City: "Salem",
+    //     MLS: "800991",
+    //     SquareFootage: "2,902",
+    //     FeaturedListing: true,
+    //     Beds: "3",
+    //     Baths: "3",
+    //     Price: "$750,000",
+    //     Status: "Active",
+    //     Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
+    //     Features: [
+    //         "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 42
+    //     },
     {
-        Title: "7873Jani",
-        Address: "7873 Jani Ct NE",
-        City: "Keizer",
-        MLS: "800761",
-        SquareFootage: "2,460",
-        FeaturedListing: true,
-        Beds: "5",
-        Baths: "3",
-        Price: "$510,000",
-        Status: "Pending",
-        Details: "Keizer 5 BR home on quiet culdesac close to everything. Vaulted living & dining rooms w/engineered wood floors. Great room w/gas FP open to updated kitchen featuring island, granite CT, SS appl (included), pantry & abundant cabinets. Large bedroom & full bathroom on main floor. Upstairs are 4 more large BR + loft area. Bath counters/fixtures recently updated. Huge vaulted primary BR & ensuite w/dual vanity, tub & lrg walk-in closet. Fully fenced yard, patio w/remote awning, recent new roof, 3 car garage, AC",
-        Features: [
-            "Gas Fireplace", "Updated Kitchen & Bathrooms", "3 Car Garage", "Washer/Dryer included", "Granite Counter Tops", "Stainless Steel appliances"
-        ],
-        FeaturedIMG: '',
-        Pics: 42
+    Title: "7873Jani",
+    Address: "7873 Jani Ct NE",
+    City: "Keizer",
+    MLS: "800761",
+    SquareFootage: "2,460",
+    FeaturedListing: false,
+    Beds: "5",
+    Baths: "3",
+    Price: "$510,000",
+    Status: "Pending",
+    Details: "Keizer 5 BR home on quiet culdesac close to everything. Vaulted living & dining rooms w/engineered wood floors. Great room w/gas FP open to updated kitchen featuring island, granite CT, SS appl (included), pantry & abundant cabinets. Large bedroom & full bathroom on main floor. Upstairs are 4 more large BR + loft area. Bath counters/fixtures recently updated. Huge vaulted primary BR & ensuite w/dual vanity, tub & lrg walk-in closet. Fully fenced yard, patio w/remote awning, recent new roof, 3 car garage, AC",
+    Features: [
+        "Gas Fireplace", "Updated Kitchen & Bathrooms", "3 Car Garage", "Washer/Dryer included", "Granite Counter Tops", "Stainless Steel appliances"
+    ],
+    FeaturedPic: '',
+    Pics: 42
     },
     {
         Title: "1840Nebraska",
@@ -51,7 +69,7 @@ export const listings = [
         Features: [
             "Wood stove", "Updated kitchen", "Basement flex space", "Fenced back yard", "Detached garage", "RV parking space"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 23
     },
     {
@@ -60,7 +78,7 @@ export const listings = [
         City: "Salem",
         MLS: "800206",
         SquareFootage: "2002",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "4",
         Baths: "3",
         Price: "$458000",
@@ -69,27 +87,27 @@ export const listings = [
         Features: [
             "Gas fire place", "Stainless Steal Appliances", "Granite counter tops", "Private fenced backyard", "New gas furnace", "New exterior paint"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 25
     },
-    {
-        Title: "1221RiverBend",
-        Address: "1221 River Bend Rd NW",
-        City: "Salem",
-        MLS: "800180",
-        SquareFootage: "84,941",
-        FeaturedListing: true,
-        Beds: "-",
-        Baths: "-",
-        Price: "$8,500,000",
-        Status: "Active",
-        Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
-        Features: [
-            "4 Units", "Great traffic counts"
-        ],
-        FeaturedIMG: '',
-        Pics: 17
-    },
+    // {
+    //     Title: "1221RiverBend",
+    //     Address: "1221 River Bend Rd NW",
+    //     City: "Salem",
+    //     MLS: "800180",
+    //     SquareFootage: "84,941",
+    //     FeaturedListing: true,
+    //     Beds: "-",
+    //     Baths: "-",
+    //     Price: "$8,500,000",
+    //     Status: "Active",
+    //     Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
+    //     Features: [
+    //         "4 Units", "Great traffic counts"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 17
+    // },
     {
         Title: "2499Wallace",
         Address: "24499-2539 Wallace Rd",
@@ -105,7 +123,7 @@ export const listings = [
         Features: [
             "201 units", "Fitness center", "Walking trail/green space"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 10
     },
     {
@@ -123,7 +141,7 @@ export const listings = [
         Features: [
             
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 3
     },
     {
@@ -141,26 +159,8 @@ export const listings = [
         Features: [
             "Bonus room loft", "Private decks", "Washer and dryer included", "All appliances included"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 16
-    },
-    {
-        Title: "1993Mousebird",
-        Address: "1993 Mousebird Av NW",
-        City: "Salem",
-        MLS: "799411",
-        SquareFootage: "2,289",
-        FeaturedListing: true,
-        Beds: "3",
-        Baths: "2.5",
-        Price: "$519,000",
-        Status: "Active",
-        Details: "Well kept, updated West Salem home in coveted neighborhood. Three bedrooms plus a huge bonus room(4th BR?). Remodeled kitchen w/quartz counter, SS appliances, abundant cabinets, built-in desk, eating bar & open to gathering space. Large living/dining room area w/slider opening to covered deck, paver walkways & terraced yard. Newer furnace, water heater, windows & siding. Walking distance to schools, close to parks, services & minutes to town. Palmer-Gross tour home when built!",
-        Features: [
-            "Updated Kitchen", "Quartz Counter Tops", "Stainless Steel appliances", "Covered Deck", "Newer furnace & Water Heater", 'Great Schools'
-        ],
-        FeaturedIMG: '',
-        Pics: 36
     },
     {
         Title: "2291Crestview",
@@ -177,7 +177,7 @@ export const listings = [
         Features: [
             "Gas Fireplace", "View", "Private Deck", "Washer/Dryer included", "Granite Tile Counter Tops", "New appliances"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 31
     },
     {
@@ -195,7 +195,7 @@ export const listings = [
         Features: [
             "2 units", "Baseboard Heaters", "Onsite storage", "Onsite laundry facility"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 17
     },
 
@@ -214,7 +214,7 @@ export const listings = [
         Features: [
             "1/2 acre lot", "Remodeled kitchen", "Highend appliances", "Fresh exterior paint", "Brand new deck", "New HVAC Furnace", "Solid hardwood floors"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 42
     },
 
@@ -233,9 +233,29 @@ export const listings = [
         Features: [
             "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 15
     },
+
+    // {
+    //     Title: "625Jasper",  
+    //     Address: "625 NW Jasper St",
+    //     City: "Dallas",
+    //     MLS: "796902",
+    //     SquareFootage: "1,933",
+    //     FeaturedListing: true,
+    //     Beds: "6",
+    //     Baths: "2",
+    //     Price: "$460,000",
+    //     Status: "Active",
+    //     Details: "Great home w/ space for everyone! Open concept vaulted great room, newer LVP flooring, new SS kitchen range & micro. Gas water heater, furnace & AC all within 3 years old. 6 bedrooms including one off entry that could be a den. Lots of storage including under house walkin area. Fully fenced low maintenance yard w/ fire pit, elevated deck, patios, raised beds & more. Front sitting porch for morning coffee! One owner, well kept home!",
+    //     Features: [
+    //         "Gas heating", "Central AC", "Newer LVP flooring", "SS applainces", "Front porch", "Fully fenced yard", "Fire pit"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 34
+    // },
+
     {
         Title: "6423Casper",
         Address: "6423 Casper Dr N",
@@ -251,12 +271,31 @@ export const listings = [
         Features: [
             "High end appliances", "Quartz counter tops", "Custom cabinets", "Back Patio", "Large Fenced Yard", "3 car garage", "Gas heating", "Central AC"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 41
     },
 
+    // {
+    //     Title: "226237th",
+    //     Address: "2262 37th Pl NW",
+    //     City: "Salem",
+    //     MLS: "794474",
+    //     SquareFootage: "2,256",
+    //     FeaturedListing: true,
+    //     Beds: 3,
+    //     Baths: 2.5,
+    //     Price: "$519,999",
+    //     Status: "Active",
+    //     Details: "Single level on .41 lot in very desirable neighborhood. Open concept, vaulted family room, skylights & lots of windows. Kitchen has abundant cabinets, granite countertops, SS appliances & large eating bar island. Large primary suite w/jetted tub 7 walk-in closet. Covered deck & paver patio. Corner lot w/Fully fenced yard, large level back yard with fruit trees, raised beds & double gate for RV, extra vehicle or equipment access. Ask about list of improvements in last 2 years.",
+    //     Features: [
+    //         "Central AC & gas heating", "Electric range", "Mountain views", "Large corner lot", " Fenced back yard"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 20
+    // },
+    
     {
-        Title: "1395Moonbeam",
+        Title: "1395MoonBeam",
         Address: "1395 Moonbeam Ct",
         City: "Salem",
         MLS: "793452",
@@ -270,7 +309,7 @@ export const listings = [
         Features: [
             "Fireplace", "3 car garage", "Double Ovens", "Walk in pantry", "Back Patio", "Large Fenced Yard"
         ],
-        FeaturedIMG: '',
+        FeaturedPic: '',
         Pics: 16
     }
 ]
