@@ -207,10 +207,6 @@
   padding: 10px;
 }
 
-.z-reset {
-    z-index: 0;
-}
-
 .splide__arrow {
     font-weight: 900;
     background-color: rgb(255, 255, 255, 0.5);
