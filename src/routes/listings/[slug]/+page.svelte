@@ -1,5 +1,6 @@
 <script>
 	import { listings } from "../../listings";
+    import ContactCard from "../../contact/ContactCard.svelte";
     /**
 	 * @type {{ slug: string; }}
 	 */
@@ -101,30 +102,11 @@
     {/each}
 </div>
 <section class="d-flex align-content-center justify-contet-center flex-wrap">
-    <h3 class="col-12 text-center">Interested in seeing this property?</h3>
-    <form id="submissionForm" class="" method="post" netlify>
-        <div class="fields flexCenterH  flexWrap">
-            <div class="field oneHundo">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required/>
-            </div>
-            <div id="emailContainer" class="field fiddy">
-                <label for="email" class="oneHundo">Email</label><br>
-                <input type="text" name="email" id="email" required/>
-            </div>
-            <div id="telContainer" class="field fiddy">
-                <label for="tel">Phone Number</label><br>
-                <input type="tel" name="tel" id="tel"/>
-            </div>
-            <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="5"></textarea>
-            </div>
-        </div>
-        <ul class="actions oneHundo flexCenterH">
-            <li><input type="submit" value="Submit" class="oneHundo" id="submitbtn"/></li>
-        </ul>
-    </form>
+    <div class="content-container inViewport py-5">
+        <h3 class="col-12 text-center pt-3">Interested in seeing this property?</h3>
+        <ContactCard />
+    </div>
+
 </section>
 
 <style>

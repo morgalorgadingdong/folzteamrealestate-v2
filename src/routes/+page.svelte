@@ -8,6 +8,7 @@
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
     import FeaturedListingsContainer from './listings/FeaturedListingsContainer.svelte';
+    import FeaturedListingsContainerMobile from './listings/FeaturedListingsContainerMobile.svelte';
     
 </script>
 
@@ -23,12 +24,15 @@
 </section>
 
 <section id="featuredListings" class="contentSection inViewport">
+    <h2>Featured Listings</h2>
+    <FeaturedListingsContainerMobile/>
     <div class="content-container">
-        <h2>Featured Listings</h2>
+        
     
-        <FeaturedListingsContainer />
+        
+        <FeaturedListingsContainer/>
     
-        <div class="col-3 center flexCenterH flexSpaceAroundH">
+        <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="/listings"><button class="button">See All Listings</button></a>
         </div>
     </div>
@@ -52,7 +56,7 @@
             snap: true
           } }>
           <SplideTrack>
-                <SplideSlide class="my-5">
+                <SplideSlide class="my-3 mt-0">
                     <div class="flexCenterH flexColumn testimonialContainer card">
                         <i class="fa-solid fa-quote-left"></i>
                         <i class="fa-solid fa-quote-right"></i>
@@ -62,7 +66,7 @@
                         <p class="onehundo testimonialText">Heather, Salem</p>
                     </div>
                 </SplideSlide>
-                <SplideSlide class="my-5">
+                <SplideSlide class="my-3 mt-0">
                     <div class="flexCenterH flexColumn testimonialContainer card">
                         <i class="fa-solid fa-quote-left"></i>
                         <i class="fa-solid fa-quote-right"></i>
@@ -72,7 +76,7 @@
                         <p class="testimonialText">Devon, Keizer</p>
                     </div>
                 </SplideSlide>
-                <SplideSlide class="my-5">
+                <SplideSlide class="my-3 mt-0">
                     <div class="flexCenterH flexColumn testimonialContainer card">
                         <i class="fa-solid fa-quote-left"></i>
                         <i class="fa-solid fa-quote-right"></i>
@@ -82,7 +86,7 @@
                         <p class="testimonialText">Anonymous Zillow User, Salem</p>
                     </div>
                 </SplideSlide>
-                <SplideSlide class="my-5">
+                <SplideSlide class="my-3 mt-0">
                     <div class="flexCenterH flexColumn testimonialContainer card">
                         <i class="fa-solid fa-quote-left"></i>
                         <i class="fa-solid fa-quote-right"></i>
@@ -92,7 +96,7 @@
                         <p class="testimonialText">Anonymous Zillow User, Dallas</p>
                     </div>
                 </SplideSlide>
-                <SplideSlide class="my-5">
+                <SplideSlide class="my-3 mt-0">
                     <div class="flexCenterH flexColumn testimonialContainer card">
                         <i class="fa-solid fa-quote-left"></i>
                         <i class="fa-solid fa-quote-right"></i>
@@ -116,7 +120,7 @@
             </Splide>
             
         <br>
-        <div class="col-3 center flexCenterH flexSpaceAroundH">
+        <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="https://www.zillow.com/profile/Christinefolz" target="_blank" rel="noreferrer"><button id="reviewsButton" class="button">See More Reviews On Zillow</button></a>
         </div>
 
@@ -126,14 +130,14 @@
     <div class="content-container d-flex justify-content-center align-items-center flex-wrap text-center">
         <h2 class="col-11" id="quote">"Work Hard. Be Kind."</h2>
         <p class="grayText col-11">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p>
-        <div class="col-3 center flexCenterH flexSpaceAroundH">
+        <!-- <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="/about"><button class="button">About us</button></a>
-        </div>
+        </div> -->
 </div>
 </div>
 
-<section id="theMarketAtAGlance" class="inViewport my-0">
-    <div class="backgroundIMGContent1">
+<section id="theMarketAtAGlance" class="inViewport my-0 d-flex flex-wrap align-content-center">
+    <div class="backgroundIMGContent1 content-section">
     <h2 class="whiteText">The Willamette Valley Market at a Glance</h2>
     <p class="sectionSubHeader">For the Month of December, 2022</p>
     <br>
@@ -168,14 +172,14 @@
 
 <section id="aboutUsSection" class="inViewport col-12 my-0">
     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap mb-5">
-        <div class="col-11 col-xl-10 d-flex justify-content-between align-items-center flex-wrap">
+        <div class="col-11 col-xl-10 d-flex justify-content-center justify-content-md-between align-items-center flex-wrap">
             <h2 class="col-12">About Us</h2>
-            <div id ="aboutTextContainer" class="textLeft col-12 col-md-6 d-flex justify-content-between align-items-center flex-wrap mx-0 px-4">
+            <div id ="aboutTextContainer" class="textLeft col-12 col-md-6 d-flex justify-content-between align-items-center flex-wrap mx-0 px-4 order-1">
                 <p>We are a small team of Real Estate Agents headcol-3ed in Salem Oregon, with a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such offers insights into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
                 <p></p>
-                <a href="/about" ><button id="aboutButton" class="button third center textCenter">About Page</button></a>
+                <a href="/about" ><button id="aboutButton" class="button third center textCenter">Our Story</button></a>
             </div>
-            <img class="col-12 col-md-6 circleIMG" src="{ about }" alt="dfa">
+            <img class="col-10 col-md-5 rounded-5 order-0 order-md-2 my-3" src="{ about }" alt="dfa">
             <!-- <img class="col-12 col-md-6 circleIMG" src="$lib/img/about-home-page.jpg" alt="dfa"> -->
         </div>
     </div>
@@ -207,30 +211,7 @@
   padding: 10px;
 }
 
-.splide__arrow {
-    font-weight: 900;
-    background-color: rgb(255, 255, 255, 0.5);
-}
 
-.splide__arrow > i {
-    font-size: 1.5rem;
-    color: black;
-}
-
-.splide__arrow--prev {
-    position: absolute;
-    top: 50%;
-    left: 2vw;
-    z-index: 1;
-    padding: 0;
-}
-
-.splide__arrow--next {
-    position: absolute;
-    top: 50%;
-    right: 2vw;
-    z-index: 1;
-}
 
 
 
