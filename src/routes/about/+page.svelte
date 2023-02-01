@@ -9,7 +9,7 @@
         </div>
         <p class="col-12 whiteText storyP text-start mb-3">Real Estate was Christine’s passion long before it was her career. She and Her husband Patrick have been buying and selling Real Estate in the Willamette Valley for over 25 years. Before she became an Agent, Christine owned and operated her own Home Staging Business.</p>
         <p class="col-12 whiteText storyP text-start mb-3">In 2012, Christine decided it was time to turn her passion for real estate into her business. She quickly became one of the top agents in the Salem area, despite having a fraction of the experience as other successful agents. Anyone who knows Christine was not surprised in the slightest by her rapid ascent to success; her strong work ethic combined with her unwavering dedication to doing the right thing was a potent combo, launching her to the top of the ranks.</p>
-        <p class="col-12 whiteText storyP text-start mb-3">Recently, in addition to heling clients with their real estate needs, Chrisitne is building a team and mentoring newer Agents. Aside from the smaller Folz Team, Christine runs the Salem REAL BROKER office, providing agents with the right balance of mentorship and autonomy to help them be the best agents they can be.</p>
+        <p class="col-12 whiteText storyP text-start mb-3">Recently, in addition to helping clients with their real estate needs, Christine is building a team and mentoring newer Agents. Aside from the smaller Folz Team, Christine runs the Salem REAL BROKER office, providing agents with the right balance of mentorship and autonomy to help them be the best agents they can be.</p>
     </div>
     
 </section>

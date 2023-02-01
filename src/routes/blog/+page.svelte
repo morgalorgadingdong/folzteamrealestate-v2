@@ -4,8 +4,7 @@
 
 <section>
     <div class="content-container">
-        <h1>Blog</h1>
-        <div class="col-12 d-flex justify-content-center flex-wrap px-5">
+        <div class="col-12 d-flex justify-content-center flex-wrap">
             <BlogsContainer />
         </div> 
     </div>

@@ -68,8 +68,11 @@
                             <p class="">Status: <b class="{listing.Status} ">{listing.Status}</b></p>
                         </div>
                     </div>
-                </div>
-            <div class="listingInfoContainer">
+            </div>
+            <section class="listingInfoContainer">
+                <div class="content-container text-start">
+
+                
                 <div class="row flexCenterV">
                     <h2>Details</h2>
                     <div class="line"></div>
@@ -97,19 +100,26 @@
                         {/each}
                     {/if}
                 </div>
-                </div>
+            </div>
+            </section>
         {/if}
     {/each}
 </div>
-<section class="d-flex align-content-center justify-contet-center flex-wrap">
-    <div class="content-container inViewport py-5">
+<section id="contact" class="d-flex align-content-center justify-contet-center flex-wrap">
+    <div class="content-container inViewport py-5 d-flex justify-content-center flex-wrap">
         <h3 class="col-12 text-center pt-3">Interested in seeing this property?</h3>
+        <p class="col-12">(503) 949-3087</p>
+        <p class="col-12">christinefolzre@gmail.com</p>
         <ContactCard />
     </div>
 
 </section>
 
 <style>
+    section#contact {
+        min-height: 0;
+        height: fit-content;
+    }
     .individualListingBG {
         background-color: black;
         height: 700px;
@@ -176,7 +186,7 @@
     margin: auto;
 }
 
-.listingInfoContainer > div > h2 {
+.listingInfoContainer h2 {
     font-size: 2rem;
     width: max-content;
     margin: 0 30px 0 0;
@@ -184,13 +194,13 @@
 
 /* #AFADAC */
 
-.listingInfoContainer > p {
+#details {
     padding: 15px 0;
     width: 90%;
     margin: auto;
 }
 
-.listingInfoContainer > ul {
+.listingInfoContainer ul {
     padding: 15px 0;
     width: 90%;
     margin: auto;
@@ -204,7 +214,7 @@
     margin: auto;
 } */
 
-.listingInfoContainer > ul > li {
+.listingInfoContainer ul li {
     margin: 0 0 15px 0;
     display: flex;
 }

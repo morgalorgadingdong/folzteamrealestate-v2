@@ -23,7 +23,7 @@
     </div>
 </section>
 
-<section id="featuredListings" class="contentSection inViewport">
+<section id="featuredListings" class="contentSection inViewport pb-5">
     <h2>Featured Listings</h2>
     <FeaturedListingsContainerMobile/>
     <div class="content-container">
@@ -39,7 +39,8 @@
 </section>
 
 <section id="whatOurClientsSay" class="backgroundIMG2 inViewport">
-        <h2>What our Clients Say</h2>
+    <div class="py-5">
+    <h2>What our Clients Say</h2>
         <Splide aria-label="Client Testimonials" class="z-reset" hasTrack={ false } options={ {
             type: 'loop',
             perPage: 2.5,
@@ -123,20 +124,21 @@
         <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="https://www.zillow.com/profile/Christinefolz" target="_blank" rel="noreferrer"><button id="reviewsButton" class="button">See More Reviews On Zillow</button></a>
         </div>
-
+    </div>
 </section>
 
 <div id="quoteSection" class="d-flex justify-content-center align-items-center flex-wrap">
     <div class="content-container d-flex justify-content-center align-items-center flex-wrap text-center">
-        <h2 class="col-11" id="quote">"Work Hard. Be Kind."</h2>
-        <p class="grayText col-11">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p>
+        <!-- <p class="grayText">Our motto</p> -->
+        <h2 class="col-12 py-0" id="quote">Work Hard. <b>Be Kind.</b></h2>
+        <!-- <p class="grayText col-11">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p> -->
         <!-- <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="/about"><button class="button">About us</button></a>
         </div> -->
 </div>
 </div>
 
-<section id="theMarketAtAGlance" class="inViewport my-0 d-flex flex-wrap align-content-center">
+<section id="theMarketAtAGlance" class="my-0 d-flex flex-wrap align-content-center">
     <div class="backgroundIMGContent1 content-section">
     <h2 class="whiteText">The Willamette Valley Market at a Glance</h2>
     <p class="sectionSubHeader">For the Month of December, 2022</p>
@@ -175,11 +177,11 @@
         <div class="col-11 col-xl-10 d-flex justify-content-center justify-content-md-between align-items-center flex-wrap">
             <h2 class="col-12">About Us</h2>
             <div id ="aboutTextContainer" class="textLeft col-12 col-md-6 d-flex justify-content-between align-items-center flex-wrap mx-0 px-4 order-1">
-                <p>We are a small team of Real Estate Agents headcol-3ed in Salem Oregon, with a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such offers insights into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
+                <p>We are a small team of Real Estate Agents headquartered in Salem Oregon, who have a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such offers insights into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
                 <p></p>
                 <a href="/about" ><button id="aboutButton" class="button third center textCenter">Our Story</button></a>
             </div>
-            <img class="col-10 col-md-5 rounded-5 order-0 order-md-2 my-3" src="{ about }" alt="dfa">
+            <img class="col-10 col-md-5 rounded-5 order-0 order-md-2 my-3" src="{ about }" alt="Group of people in business casual attire pretending to be doing various 'real estate agent' tasks (asnwering phones, on laptop, holding a 'sold' sign, etc) around a couch in an empty room.">
             <!-- <img class="col-12 col-md-6 circleIMG" src="$lib/img/about-home-page.jpg" alt="dfa"> -->
         </div>
     </div>
@@ -218,6 +220,21 @@
 #quote {
     color: black;
 }
+
+#quoteSection b {
+    color: #05c3f9;
+    font-weight: 700;
+}
+
+
+#whatOurClientsSay h2 {
+  color: black;
+}
+
+/* #whatOurClientsSay {
+    min-height: 0;
+    height: fit-content;
+} */
 
 #theMarketAtAGlance {
   color: white;

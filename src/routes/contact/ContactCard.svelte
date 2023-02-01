@@ -1,4 +1,5 @@
 <form id="submissionForm" class="d-flex justify-content-center flexWrap col-12 col-md-6" name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <input type="hidden" name="form-name" value="netlify-form-example" />
     <div class="fields d-flex justify-content-center  flexWrap">
         <div class="field col-12">
             <label for="name">Name</label>
