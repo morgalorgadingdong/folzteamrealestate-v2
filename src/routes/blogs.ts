@@ -40,7 +40,7 @@ export const blogs = [
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `It's important to understand how much energy you currently use and what your energy consumption goals are. This will help you determine the size and number of solar panels needed to meet your energy needs. In Oregon, the average home consumes 976 kWh per month (source: https://www.electricchoice.com/blog/electricity-on-average-do-homes/)` 
+                Content: `It's important to understand how much energy you currently use and what your energy consumption goals are. This will help you determine the size and number of solar panels needed to meet your energy needs. In Oregon, the average home consumes 976 kWh per month.` 
             },
             {
                 Type: 'img',
@@ -68,7 +68,7 @@ export const blogs = [
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Many states and the federal government offer incentives for solar panel installation, such as tax credits and rebates. Oregon offers up to a maximum of $5,000 dollars in rebates for a solar electric system. The specific rate depends on your income level, but it ranges from $0.20 to $1.80 per watt (DC) of installed capacity. (source: https://www.oregon.gov/energy/Incentives/Pages/OSSRP-For-Homeowners.aspx)` 
+                Content: `Many states and the federal government offer incentives for solar panel installation, such as tax credits and rebates. Oregon offers up to a maximum of $5,000 dollars in rebates for a solar electric system. The specific rate depends on your income level, but it ranges from $0.20 to $1.80 per watt (DC) of installed capacity.` 
             },
             {
                 Type: 'heading',

@@ -22,7 +22,7 @@
                 <h5 class="card-title pt-3">{blog.Title}</h5>
                 <p class="blogDate col-12 text-left px-0">{blog.Date}</p>
                 <p class="blogDescription col-12 text-left px-0">{blog.Sections[0].Content}</p>
-                <a href={'./blog/' + blog.Title}>Read More</a>
+                <a href={'./blog/' + blog.Title}>Read More 1</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             </div>
             <p class="blogDate col-12 text-start px-0">{blog.Date}</p>
             <p class="blogDescription col-12 text-left px-0">{blog.Sections[0].Content}</p>
-            <a class="col-12 text-center" href={'./blog/' + blog.Title}>Read More</a>
+            <a class="col-12 text-center" href={'./blog/' + blog.Title}>Read More 2</a>
         </div>
     </div>
 </a>
