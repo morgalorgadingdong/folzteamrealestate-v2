@@ -42,7 +42,7 @@
                 {#if Section.Type == 'text'}
                     <p class="col-12 text-left px-0 my-3 blog-text">{Section.Content}</p>
                 {:else if Section.Type == 'img'}
-                    <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-8 mt-5 blog-img" />
+                    <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
                     <span class="col-12 text-center mb-5">{Section.Caption} <a href="{Section.Src}">source</a></span>
                 {:else if Section.Type == 'divider'}
                     <div class="mt-5 pb-5 blog-divider col-8"></div>
