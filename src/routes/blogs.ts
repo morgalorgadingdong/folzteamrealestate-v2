@@ -2,221 +2,246 @@
 export const blogs = [
     {
         Number: 4,
-        Title: "3 Simple Ways to Improve the Curb appeal of your home",
+        Title: "Questions to consider before installing solar panels on your home",
         Date: "01/27/2023",
         Author: 'Folz Team Real Estate',
-        Published: false,
+        Published: true,
+        BannerSrc: 'https://www.homedepot.com/c/ab/types-of-solar-panels/9ba683603be9fa5395fab901e8e5190c',
+        BannerAlt: 'House with solar panels.',
         Sections: [
             {
                 Type: 'text',
                 Tag: 'pre',
-                Content: `Furnishing a short-term rental can be a daunting task, but with the right approach and a bit of planning, you can create a comfortable and inviting space that will appeal to a wide range of guests. Whether you're outfitting a vacation home or a corporate rental, these 6 tips will help you create a space that will make your guests feel at home.` 
+                Content: `Installing solar panels on your home can be a great way to reduce your energy costs, decrease your carbon footprint and increase the value of your home. However, before making such a significant investment, it's important to consider all the factors involved. Here are some questions you should ask yourself before installing solar panels on your home:` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Leah Kelley.`,
-                Src: 'https://www.pexels.com/photo/white-and-brown-sofa-chair-near-white-window-curtain-6480707/',
-                Alt: 'White and brown sofa chair near white window curtain.',
+                Caption: ``,
+                Src: 'https://www.homedepot.com/c/ab/types-of-solar-panels/9ba683603be9fa5395fab901e8e5190c',
+                Alt: 'Red roof house with solar panels.',
                 Number: 1
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Opt for furniture that is easy to clean and maintain.` 
+                Content: `Is your roof suitable for solar panels?` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Furnishing a short-term rental property can be costly, so it's important to choose furniture that is easy to clean and maintain. Opt for furniture that is made of durable materials such as leather or microfiber, as these are easy to wipe down and keep looking new. Avoid materials like velvet or suede, which can be difficult to clean and can show wear and tear easily.` 
+                Content: `The first step is to determine if your roof is suitable for solar panel installation. This includes factors such as the direction and slope of the roof, as well as its age and condition.` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `What is your energy consumption?` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `It's important to understand how much energy you currently use and what your energy consumption goals are. This will help you determine the size and number of solar panels needed to meet your energy needs. In Oregon, the average home consumes 976 kWh per month (source: https://www.electricchoice.com/blog/electricity-on-average-do-homes/)` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Adrienne Andersen.`,
-                Src: 'https://www.pexels.com/photo/white-pillows-on-a-bed-2374959/',
-                Alt: 'White pillows on a bed.',
+                Caption: ``,
+                Src: 'https://www.homedepot.com/c/ab/types-of-solar-panels/9ba683603be9fa5395fab901e8e5190c',
+                Alt: 'Man installing solar panels on roof.',
                 Number: 2
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Invest in quality bedding and linens.` 
+                Content: `How much will it cost?` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Your guests will be spending a lot of time in bed, so it's important to invest in comfortable and high-quality bedding and linens. Make sure to provide plenty of pillows and blankets, and opt for soft and breathable materials like cotton or bamboo. Not only will this make your guests feel more comfortable, but it will also help protect your investment in the long run.` 
+                Content: `Installing solar panels can be a significant investment, so it's important to consider the cost and whether it will be financially beneficial for you in the long term. It's also important to compare quotes from different solar panel providers to ensure that you're getting the best deal. According to the Database of State Incentives for Renewables & Efficiency (DSIRE), the average cost of a residential solar panel system in Oregon is around $3.50 per watt. So, for a 5 kilowatt (kW) system, which is a common size for a residential home, the cost would be around $17,500 before any incentives or rebates.` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `What are the state and federal incentives available?` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Many states and the federal government offer incentives for solar panel installation, such as tax credits and rebates. Oregon offers up to a maximum of $5,000 dollars in rebates for a solar electric system. The specific rate depends on your income level, but it ranges from $0.20 to $1.80 per watt (DC) of installed capacity. (source: https://www.oregon.gov/energy/Incentives/Pages/OSSRP-For-Homeowners.aspx)` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `What is the warranty and maintenance?` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `It's important to understand the warranty and maintenance requirements of the solar panels and ensure that you are comfortable with them before making the investment.` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Charlotte May`,
-                Src: 'https://www.pexels.com/photo/living-room-interior-with-furniture-and-flowers-in-vase-5825576/',
-                Alt: 'Living room interior with furniture and flowers in vase.',
+                Caption: ``,
+                Src: 'https://www.build-review.com/11-benefits-for-installing-a-home-solar-system/',
+                Alt: 'Solar panels on roof.',
                 Number: 3
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Add personal touches to the space.` 
+                Content: `How will it affect the value of your home?` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `One of the best ways to make your short-term rental feel like a home away from home is to add personal touches to the space. This could include anything from family photos to artwork and plants. Adding these personal touches will help create a warm and inviting atmosphere, making your guests feel more comfortable and more likely to return to your property in the future.` 
-            },
-            {
-                Type: 'img',
-                Tag: 'img',
-                Caption: `Photo by Rachel Claire.`,
-                Src: 'https://www.pexels.com/photo/interior-of-living-room-with-sofa-and-armchair-5490303/',
-                Alt: 'Interior of living room with sofa and armchair.',
-                Number: 4
-            },
-            {
-                Type: 'heading',
-                Tag: 'h4',
-                Content: `Stick to a neutral color palate.` 
+                Content: `Installing solar panels can increase the value of your home, but it's important to consider how it may affect the resale value in the future.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Neutral colors such as beige, gray, and white are timeless and versatile, and they can easily be accessorized with pops of color to create a more inviting and personalized space. Using a neutral color palate will also make it easier for you to update the space and change the decor as needed. It will also be more appealing to a wider range of guests as it will not be as opinionated as a bold color scheme. This way your guests will feel more comfortable, and it will be easier to keep the property looking clean and well-maintained.` 
-            },
-            {
-                Type: 'img',
-                Tag: 'img',
-                Caption: `Photo by Andrea Davis.`,
-                Src: 'https://www.pexels.com/photo/himalayan-salt-lamp-near-laptop-on-wooden-table-3653849/',
-                Alt: 'Himalayan salt lamp near laptop on wooden table.',
-                Number: 5
-            },
-            {
-                Type: 'heading',
-                Tag: 'h4',
-                Content: `Choose furniture that suites your target market` 
-            },
-            {
-                Type: 'text',
-                Tag: 'p',
-                Content: `It's important to consider your target market when deciding on furniture and the overall layout of your short term rental. Consider who you will be hosting and choose furniture that will be comfortable, durable, and easy to maintain for that specific group of people. For example, if you are catering to families, you may want to include a dining table and chairs, while if you are catering to business travelers, a desk and comfortable chair may be more appropriate` 
-            },
-            {
-                Type: 'text',
-                Tag: 'p',
-                Content: `When it comes to furnishing a short term rental, a little bit of planning goes a long way. By putting in some upfront effort and following these tips, you can create a space that is stylish, functional, and comfortable for your guests and as well as easily maintainable; setting you, and your short term rental, up for success.` 
+                Content: `Installing solar panels on your home can be a great investment, but it's important to consider all the factors involved before making a decision. By asking yourself these questions, you can determine if solar panels are right for you and ensure that you make an informed decision. Be sure to consider the suitability of your roof, your energy consumption, the cost and incentives, warranty and maintenance, and how it will affect the value of your home. It's also a good idea to consult with a professional solar panel installer to get a more comprehensive understanding of the process and the costs involved.` 
             }
         ]
     },
     {
         Number: 3,
-        Title: "8 Roof Maintenance Tips for Homeowners",
+        Title: "7 Roof Maintenance Tips for Homeowners",
         Date: "01/20/2023",
         Author: 'Folz Team Real Estate',
-        Published: false,
-        BannerSrc: 'https://www.pexels.com/photo/brown-wooden-center-table-584399/',
-        BannerAlt: 'Brown wooden center table.',
+        Published: true,
+        BannerSrc: 'https://cigconstruction.com/author/roofing/page/2/',
+        BannerAlt: 'Roofing',
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
-                Content: `Furnishing a short-term rental can be a daunting task, but with the right approach and a bit of planning, you can create a comfortable and inviting space that will appeal to a wide range of guests. Whether you're outfitting a vacation home or a corporate rental, these 6 tips will help you create a space that will make your guests feel at home.` 
+                Tag: 'p',
+                Content: `As a homeowner, it is imperative to take good care of your roof. A well-maintained roof will not only protect your home and its contents from the elements, but it will also save you money in the long run by prolonging the life of your roof and preventing costly repairs. In this blog post, we will be discussing 7 roof maintenance tips for homeowners.` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Leah Kelley.`,
-                Src: 'https://www.pexels.com/photo/white-and-brown-sofa-chair-near-white-window-curtain-6480707/',
-                Alt: 'White and brown sofa chair near white window curtain.',
+                Caption: ``,
+                Src: 'https://sheltonroof.com/things-to-know-about-roof-maintenance-and-how-to-ensure-that-you-are-covered-and-secure/',
+                Alt: 'Roof with leaves and moss all over it.',
                 Number: 1
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Opt for furniture that is easy to clean and maintain.` 
+                Content: `1. Keep your roof clear of debris.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Furnishing a short-term rental property can be costly, so it's important to choose furniture that is easy to clean and maintain. Opt for furniture that is made of durable materials such as leather or microfiber, as these are easy to wipe down and keep looking new. Avoid materials like velvet or suede, which can be difficult to clean and can show wear and tear easily.` 
+                Content: ` Leaves, branches, and other debris can accumulate on your roof, causing damage and creating opportunities for water to seep in. Clean your roof regularly to prevent this from happening.` 
             },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `2. Check for and repair any leaks.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Leaks can lead to serious damage if left unchecked. Look for signs of water damage inside your home, such as stains on the ceiling or walls, and have any leaks repaired as soon as possible.` 
+            },
+
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Adrienne Andersen.`,
-                Src: 'https://www.pexels.com/photo/white-pillows-on-a-bed-2374959/',
-                Alt: 'White pillows on a bed.',
+                Caption: ``,
+                Src: 'https://www.21stcenturytexas.com/how-to-repair-wind-damage-of-roof-shingles/',
+                Alt: 'Roof with missing shingles.',
                 Number: 2
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Invest in quality bedding and linens.` 
+                Content: `3. Inspect your roof for missing or damaged shingles.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Your guests will be spending a lot of time in bed, so it's important to invest in comfortable and high-quality bedding and linens. Make sure to provide plenty of pillows and blankets, and opt for soft and breathable materials like cotton or bamboo. Not only will this make your guests feel more comfortable, but it will also help protect your investment in the long run.` 
+                Content: `Missing or damaged shingles can allow water to penetrate your roof, causing damage to your home's structure. Replace any missing or damaged shingles as soon as possible.` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Charlotte May`,
-                Src: 'https://www.pexels.com/photo/living-room-interior-with-furniture-and-flowers-in-vase-5825576/',
-                Alt: 'Living room interior with furniture and flowers in vase.',
+                Caption: ``,
+                Src: 'https://whyskylights.com/uploads/images/blog/P_PR_VSE_VS_00131-Featured-960x720.jpg',
+                Alt: 'Roof with skylight.',
                 Number: 3
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Add personal touches to the space.` 
+                Content: `4. Check the flashing around vents, chimneys, and skylights.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `One of the best ways to make your short-term rental feel like a home away from home is to add personal touches to the space. This could include anything from family photos to artwork and plants. Adding these personal touches will help create a warm and inviting atmosphere, making your guests feel more comfortable and more likely to return to your property in the future.` 
+                Content: `Flashing is the metal or plastic material that is used to seal the areas where different parts of your roof come together. Over time, flashing can become loose or damaged, creating opportunities for water to seep in. Have any damaged flashing repaired or replaced.` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Rachel Claire.`,
-                Src: 'https://www.pexels.com/photo/interior-of-living-room-with-sofa-and-armchair-5490303/',
-                Alt: 'Interior of living room with sofa and armchair.',
+                Caption: ``,
+                Src: 'https://www.americanhillcountrygutters.com/gutter-solutions/',
+                Alt: 'Man cleaning gutters.',
                 Number: 4
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Stick to a neutral color palate.` 
+                Content: `5. Keep gutters and downspouts clean.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `Neutral colors such as beige, gray, and white are timeless and versatile, and they can easily be accessorized with pops of color to create a more inviting and personalized space. Using a neutral color palate will also make it easier for you to update the space and change the decor as needed. It will also be more appealing to a wider range of guests as it will not be as opinionated as a bold color scheme. This way your guests will feel more comfortable, and it will be easier to keep the property looking clean and well-maintained.` 
+                Content: `Clogged gutters and downspouts can cause water to back up and damage your roof. Clean your gutters and downspouts regularly to prevent this from happening.` 
             },
             {
                 Type: 'img',
                 Tag: 'img',
-                Caption: `Photo by Andrea Davis.`,
-                Src: 'https://www.pexels.com/photo/himalayan-salt-lamp-near-laptop-on-wooden-table-3653849/',
-                Alt: 'Himalayan salt lamp near laptop on wooden table.',
+                Caption: ``,
+                Src: 'https://securelawn.com/how-to-avoid-having-tree-branches-hit-your-roof/',
+                Alt: 'Tree branches hanging over roof.',
                 Number: 5
             },
             {
                 Type: 'heading',
                 Tag: 'h4',
-                Content: `Choose furniture that suites your target market` 
+                Content: `6. Trim back any overhanging branches.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `It's important to consider your target market when deciding on furniture and the overall layout of your short term rental. Consider who you will be hosting and choose furniture that will be comfortable, durable, and easy to maintain for that specific group of people. For example, if you are catering to families, you may want to include a dining table and chairs, while if you are catering to business travelers, a desk and comfortable chair may be more appropriate` 
+                Content: `Branches that overhang your roof can scratch and damage the shingles, as well as providing a pathway for animals to enter your attic.` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://bigleagueroofers.com/should-i-get-a-roof-inspection-before-buying-my-house/',
+                Alt: 'Man inspecting roof.',
+                Number: 6
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `7. Consider a professional roof inspection.` 
             },
             {
                 Type: 'text',
                 Tag: 'p',
-                Content: `When it comes to furnishing a short term rental, a little bit of planning goes a long way. By putting in some upfront effort and following these tips, you can create a space that is stylish, functional, and comfortable for your guests and as well as easily maintainable; setting you, and your short term rental, up for success.` 
+                Content: `Even if you regularly maintain your roof, it's a good idea to have a professional inspector take a look at it every few years. They can spot problems that you may have missed, and can provide you with a detailed report of the condition of your roof.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Maintaining your roof can feel like a burden at times, but by taking a proactive approach to roof care will help you avoid costly repairs and unnecessary headache down the road. By following the tips outlined in this blog post, you can ensure that your roof is in good condition and able to keep your home safe and dry.` 
             }
         ]
     },

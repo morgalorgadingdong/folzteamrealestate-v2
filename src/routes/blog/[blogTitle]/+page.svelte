@@ -12,7 +12,7 @@
     })
 
     
-    let imgSrcBanner = `../img/blogs/${blog.Title}/blog-${blog.Number}-banner.jpg`;
+    let imgSrcBanner = `../img/blogs/${blog.Number}. ${blog.Title}/blog-${blog.Number}-banner.jpg`;
     let testBlog = blogs[1]
     let prevBlog
     let nextBlog
@@ -42,7 +42,7 @@
                 {#if Section.Type == 'text'}
                     <p class="col-12 text-left px-0 my-3 blog-text">{Section.Content}</p>
                 {:else if Section.Type == 'img'}
-                    <img src="../img/blogs/{blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-8 mt-5 blog-img" />
+                    <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-8 mt-5 blog-img" />
                     <span class="col-12 text-center mb-5">{Section.Caption} <a href="{Section.Src}">source</a></span>
                 {:else if Section.Type == 'divider'}
                     <div class="mt-5 pb-5 blog-divider col-8"></div>
@@ -54,7 +54,7 @@
             {/each}
         </div>
     </div>
-    <a href="/blog">Back to Blogs</a>
+    <a href="/blog" class=""><div class="button my-5">Back to Blogs</div></a>
     <!-- <a href={'./'+testBlog.Title}>{testBlog.Title}</a>  -->
     <!-- <p on:click={blog = testBlog}>{testBlog.Title}</p> -->
 </section>

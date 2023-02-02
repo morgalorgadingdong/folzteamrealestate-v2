@@ -8,7 +8,7 @@
             <h2 class="col-12 whiteText aboutH2 text-start pb-3">Our Story</h2>
         </div>
         <p class="col-12 whiteText storyP text-start mb-3">Real Estate was Christine’s passion long before it was her career. She and Her husband Patrick have been buying and selling Real Estate in the Willamette Valley for over 25 years. Before she became an Agent, Christine owned and operated her own Home Staging Business.</p>
-        <p class="col-12 whiteText storyP text-start mb-3">In 2012, Christine decided it was time to turn her passion for real estate into her business. She quickly became one of the top agents in the Salem area, despite having a fraction of the experience as other successful agents. Anyone who knows Christine was not surprised in the slightest by her rapid ascent to success; her strong work ethic combined with her unwavering dedication to doing the right thing was a potent combo, launching her to the top of the ranks.</p>
+        <p class="col-12 whiteText storyP text-start mb-3">In 2012, Christine decided it was time to turn her passion for real estate into her business. She quickly became one of the top agents in the Salem area, despite having a fraction of the experience as other successful agents. Anyone who knows Christine was not surprised by her rapid ascent to success; her strong work ethic combined with her unwavering dedication to doing the right thing is a rare and potent combo.</p>
         <p class="col-12 whiteText storyP text-start mb-3">Recently, in addition to helping clients with their real estate needs, Christine is building a team and mentoring newer Agents. Aside from the smaller Folz Team, Christine runs the Salem REAL BROKER office, providing agents with the right balance of mentorship and autonomy to help them be the best agents they can be.</p>
     </div>
     
@@ -17,7 +17,7 @@
     <div class="content-container d-flex justify-content-center flex-wrap">
         <h2 class="col-12 aboutH2 pb-3">The Folz Team</h2>
         <div class="col-12 flexWrap center flexSpaceAroundH lastItem">
-            <div class="col-12 col-sm-10 col-md-3 card profileCard">
+            <div class="col-10 col-sm-8 col-md-3 card profileCard">
                 <div id="christineIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Christine Folz</h3>
@@ -27,7 +27,7 @@
                     <p></p>
                 </div> -->
             </div>
-            <div class="col-12 col-sm-10 col-md-3 card profileCard">
+            <div class="col-10 col-sm-8 col-md-3 card profileCard">
                 <div id="evanIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Evan Folz</h3>
@@ -37,7 +37,7 @@
                     <p></p>
                 </div> -->
             </div>
-            <div class="col-12 col-sm-10 col-md-3 card profileCard">
+            <div class="col-10 col-sm-8 col-md-3 card profileCard">
                 <div id="laurenIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Lauren Oss</h3>
@@ -55,35 +55,35 @@
     <div class="content-container d-flex justify-content-center flex-wrap">
         <h2 class="col-12 aboutH2 pb-3">The Salem REAL Team</h2>
         <div id="salemTeamContainer" class="col-12 center flexSpaceAroundH flex-wrap">
-            <div class="col-12 col-sm-10 col-md-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/aprilrainsrealtor1';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/aprilrainsrealtor1';" style="cursor: pointer;">
                 <div id="aprilIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">April Rains</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-10 col-md-2 card profileCard-sm" onclick="location.href='https://joinreal.com/derek-adent';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://joinreal.com/derek-adent';" style="cursor: pointer;">
                 <div id="DerekIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Derek Adent</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-10 col-md-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
                 <div id="meganIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Megan Johnson</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-10 col-md-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
                 <div id="paulAndMichelleIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Paul & Michelle</h3>
                     <p class="textCenter">Real Estate Agent Team</p>
                 </div>
             </div>
-            <div class="col-12 col-sm-10 col-md-2 card profileCard-sm" onclick="location.href='https://www.shelbyholmanrealestate.com';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.shelbyholmanrealestate.com';" style="cursor: pointer;">
                 <div id="shelbyIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Shelby Holman</h3>

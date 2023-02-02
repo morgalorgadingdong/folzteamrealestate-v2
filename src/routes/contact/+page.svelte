@@ -16,3 +16,7 @@
         <ContactCard/>
     </div>
 </section>
+
+<style>
+
+</style>

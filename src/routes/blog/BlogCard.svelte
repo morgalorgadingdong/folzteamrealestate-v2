@@ -3,7 +3,7 @@
 	 * @type {{ }}
 	 */
     export let blog;
-    let imgSrc = `./img/blogs/${blog.Title}/blog-${blog.Number}-banner.jpg`;
+    let imgSrc = `./img/blogs/${blog.Number}. ${blog.Title}/blog-${blog.Number}-banner.jpg`;
     console.log(imgSrc)
 </script>
 

@@ -25,4 +25,9 @@ setInterval(() => {
 },500);
 
 
+document.body.addEventListener('click', function(e) {
+    if (e.target.id != 'mobileMenuToggler' && e.target.id != 'mobileMenu') {
+        document.getElementById('mobileMenuToggler').checked = false;
+    }
+});
 

@@ -1,22 +1,27 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/img/logo.png';
+    // function hideMobileMenu() {
+    //     setTimeout(document.getElementById("mobileMenuToggler").checked = false, 0)
+    //     console.log("hideMobileMenu");
+    // }
+
 </script>
 
 
 <header class="col-12 d-flex justify-content-center">
     <nav class="col-10 d-flex justify-content-center justify-content-md-between mt-0">
         <div id="mobileMenuToggle">
-            <input type="checkbox" />
+            <input id="mobileMenuToggler" type="checkbox" />
             <span class="lightGray"></span>
             <span class="lightGray"></span>
             <span class="lightGray"></span>
             <ul id="mobileMenu">
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings"><li>Listings</li></a>
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about"><li>About</li></a>
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog"><li>Blog</li></a>
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/join') ? 'page' : undefined} href="/join"><li>Join</li></a>
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined} href="/contact"><li>Contact</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about" ><li>About</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog" ><li>Blog</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/join') ? 'page' : undefined} href="/join" ><li>Join</li></a>
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined} href="/contact" ><li>Contact</li></a>
             </ul>
         </div>
         <div class="col-2 d-sm-none"></div>
@@ -34,6 +39,10 @@
 </header>
 
 <style>
+    header {
+        box-shadow: 0 3px 3px lightgray;
+    }
+    
     .logo {
         height: 40px;
     }
