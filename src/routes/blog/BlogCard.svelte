@@ -8,7 +8,7 @@
 </script>
 
 
-<a href={'./blog/' + blog.Title} class="col-12 col-md-5 d-lg-none" data-sveltekit-preload-data="hover">
+<a href={'./blog/' + blog.Title} class="col-12 col-md-5 d-lg-none my-3" data-sveltekit-preload-data="hover">
     <div class="col-12 card mx-0">
         <div class="card-body">
             <div class="card-img-top" >
