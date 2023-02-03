@@ -141,32 +141,32 @@
 <section id="theMarketAtAGlance" class="my-0 d-flex flex-wrap align-content-center">
     <div class="backgroundIMGContent1 content-section">
     <h2 class="whiteText">The Willamette Valley Market at a Glance</h2>
-    <p class="sectionSubHeader">For the Month of December, 2022</p>
+    <p class="sectionSubHeader">For the Month of January, 2023</p>
     <br>
     <div class="flexContainer flexLeft flexWrap flexSpaceAroundH col-11 center">
         <div class="col-6 col-md-3 maagItem">
             <i class="fa-solid fa-money-bill-1-wave iconHeader"></i>
             <h3 class="whiteText">Median Sales price</h3>
-            <p class="maagValue">$404,000</p>
-            <p><i class="fa-solid fa-arrow-down"></i> 4.1% from last month</p>
+            <p class="maagValue">$404,529</p>
+            <p><i class="fa-solid fa-arrow-up"></i> 1.1% from last month</p>
         </div>
         <div class="col-6 col-md-3 maagItem">
             <i class="fa-solid fa-border-all iconHeader"></i>
             <h3 class="whiteText">Median Sales Price Per Square Foot</h3>
-            <p class="maagValue">$260</p>
-            <p><i class="fa-solid fa-arrow-down"></i> 2.1% from last month</p>
+            <p class="maagValue">$263</p>
+            <p><i class="fa-solid fa-arrow-up"></i> 3.3% from last month</p>
         </div>
         <div class="col-6 col-md-3 maagItem">
             <i class="fa-solid fa-handshake iconHeader"></i>
             <h3 class="whiteText">Number of Closed Sales</h3>
-            <p class="maagValue">354</p>
-            <p><i class="fa-solid fa-arrow-down"></i> 9.2% from last month</p>
+            <p class="maagValue">252</p>
+            <p><i class="fa-solid fa-arrow-down"></i> 46.7% from last month</p>
         </div>
         <div class="col-6 col-md-3 maagItem">
             <i class="fa-solid fa-clock iconHeader"></i>
             <h3 class="whiteText">Median Days on the Market</h3>
-            <p class="maagValue">73</p>
-            <p><i class="fa-solid fa-arrow-up"></i> 13.3% from last month</p>
+            <p class="maagValue">86</p>
+            <p><i class="fa-solid fa-arrow-up"></i> 78.1% from last month</p>
         </div>
     </div>
 </div>
