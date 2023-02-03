@@ -1,6 +1,81 @@
 
 export const blogs = [
     {
+        Number: 5,
+        Title: "3 Simple ways to improve the curb appeal of your home",
+        Date: "02/03/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: 'https://www.pexels.com/photo/blue-and-gray-concrete-house-with-attic-during-twilight-186077/',
+        BannerAlt: 'Blue and gray concrete house with attic during twilight.',
+        Sections: [
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Curb appeal is the first impression that a potential buyer or visitor gets of your home and can greatly influence the way they perceive the value and condition of your property. Whether you're planning to sell your home or simply want to improve its appearance, there are a few simple ways to drastically improve curb appeal. Here are 3 simple ways to do it:` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `1. Maintain your lawn and landscaping` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `A well-maintained lawn and landscaping can make a huge difference in the overall appearance of your home. Regularly mow your lawn, trim hedges and bushes, and plant flowers or shrubs to add color and texture to your yard. A fresh coat of paint on the front door can also help to make your entrance more inviting.` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://www.forbes.com/home-improvement/lawn-care/front-yard-landscaping-ideas/',
+                Alt: 'Front yard landscaping.',
+                Number: 1
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `2. Make your windows shine` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Clean windows can make a big impact on the overall appearance of your home. Clean your windows inside and out, and consider adding window boxes or shutters to add a touch of character. You can also consider adding window film or frosted glass for added privacy.` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://www.greydock.com/blog/article/best-way-get-streak-free-clean-windows-spring',
+                Alt: 'Before and after of clean windows.',
+                Number: 2
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `3. Add lighting.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Lighting can be used to highlight certain features of your home and make it stand out. You can add lighting to your landscaping, porch, or even your front door. Exterior lighting can also help to improve the security of your home.` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://abulouslighting.com/alpharetta-outdoor-landscape-lighting/',
+                Alt: 'Outdoor landscape lighting.',
+                Number: 3
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Improving curb appeal doesn't have to be a daunting task. By following these simple steps, you can make a big impact on the overall appearance of your home. By maintaining your lawn and landscaping, making your windows shine and adding lighting, you can drastically improve the curb appeal of your home and make a great first impression. Not only that, but it also helps boost the value of your home, making it more attractive to potential buyers and visitors alike.` 
+            },
+        ]
+    },
+    {
         Number: 4,
         Title: "Questions to consider before installing solar panels on your home",
         Date: "01/27/2023",
