@@ -46,7 +46,7 @@ export const listings = [
     Beds: "5",
     Baths: "3",
     Price: "$510,000",
-    Status: "Pending",
+    Status: "Sold",
     Details: "Keizer 5 BR home on quiet culdesac close to everything. Vaulted living & dining rooms w/engineered wood floors. Great room w/gas FP open to updated kitchen featuring island, granite CT, SS appl (included), pantry & abundant cabinets. Large bedroom & full bathroom on main floor. Upstairs are 4 more large BR + loft area. Bath counters/fixtures recently updated. Huge vaulted primary BR & ensuite w/dual vanity, tub & lrg walk-in closet. Fully fenced yard, patio w/remote awning, recent new roof, 3 car garage, AC",
     Features: [
         "Gas Fireplace", "Updated Kitchen & Bathrooms", "3 Car Garage", "Washer/Dryer included", "Granite Counter Tops", "Stainless Steel appliances"
@@ -82,7 +82,7 @@ export const listings = [
         Beds: "4",
         Baths: "3",
         Price: "$458000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Well maintained 4BR & 2.5 bath home. Laminate flooring thru-out main floor, vaulted living room w/gas fireplace & wainscotting details on walls and open to dining room. Kitchen has SS appliances, granite countertops, abundance of cabinets + pantry & adjacent to informal family rm w/slider to covered concrete patio & private fenced backyard. Primary has walk-in closet & ensuite w/dual vanities. Epoxy floor garage w/Tesla charging station.Newer gas furnace. AC.New interior & exterior paint. Easy access to I-5",
         Features: [
             "Gas fire place", "Stainless Steal Appliances", "Granite counter tops", "Private fenced backyard", "New gas furnace", "New exterior paint"
