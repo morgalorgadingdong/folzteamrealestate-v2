@@ -27,7 +27,7 @@
 
 <section>
     <div class="blogBanner col-12 px-0">
-        <img src = {imgSrcBanner} alt="banner" class="bannerImg" />
+        <img src = {imgSrcBanner} alt="{blog.BannerAlt}" class="bannerImg" />
     </div>
     <div id="" class="d-flex flex-wrap justify-content-center content-container text-start center mb-5" >            
         <div class="col-12 blog-header d-flex align-content-center justify-content-start flex-wrap">

@@ -18,24 +18,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 36
     },
-    // {
-    //     Title: "1563Pelican",
-    //     Address: "1563 Pelican Ct NW",
-    //     City: "Salem",
-    //     MLS: "800991",
-    //     SquareFootage: "2,902",
-    //     FeaturedListing: true,
-    //     Beds: "3",
-    //     Baths: "3",
-    //     Price: "$750,000",
-    //     Status: "Active",
-    //     Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
-    //     Features: [
-    //         "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
-    //     ],
-    //     FeaturedPic: '',
-    //     Pics: 42
-    //     },
+    {
+        Title: "1563Pelican",
+        Address: "1563 Pelican Ct NW",
+        City: "Salem",
+        MLS: "800991",
+        SquareFootage: "2,902",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "3",
+        Price: "$750,000",
+        Status: "Active",
+        Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
+        Features: [
+            "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
+        ],
+        FeaturedPic: '',
+        Pics: 42
+        },
     {
     Title: "7873Jani",
     Address: "7873 Jani Ct NE",
@@ -132,7 +132,7 @@ export const listings = [
         City: "Salem",
         MLS: "800082",
         SquareFootage: "-",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "-",
         Baths: "-",
         Price: "$90,000",
