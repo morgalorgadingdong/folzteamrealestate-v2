@@ -81,7 +81,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "4",
         Baths: "3",
-        Price: "$458000",
+        Price: "$458,000",
         Status: "Sold",
         Details: "Well maintained 4BR & 2.5 bath home. Laminate flooring thru-out main floor, vaulted living room w/gas fireplace & wainscotting details on walls and open to dining room. Kitchen has SS appliances, granite countertops, abundance of cabinets + pantry & adjacent to informal family rm w/slider to covered concrete patio & private fenced backyard. Primary has walk-in closet & ensuite w/dual vanities. Epoxy floor garage w/Tesla charging station.Newer gas furnace. AC.New interior & exterior paint. Easy access to I-5",
         Features: [
@@ -90,24 +90,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 25
     },
-    // {
-    //     Title: "1221RiverBend",
-    //     Address: "1221 River Bend Rd NW",
-    //     City: "Salem",
-    //     MLS: "800180",
-    //     SquareFootage: "84,941",
-    //     FeaturedListing: true,
-    //     Beds: "-",
-    //     Baths: "-",
-    //     Price: "$8,500,000",
-    //     Status: "Active",
-    //     Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
-    //     Features: [
-    //         "4 Units", "Great traffic counts"
-    //     ],
-    //     FeaturedPic: '',
-    //     Pics: 17
-    // },
+    {
+        Title: "1221RiverBend",
+        Address: "1221 River Bend Rd NW",
+        City: "Salem",
+        MLS: "800180",
+        SquareFootage: "84,941",
+        FeaturedListing: true,
+        Beds: "-",
+        Baths: "-",
+        Price: "$7,500,000",
+        Status: "Active",
+        Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
+        Features: [
+            "4 Units", "Great traffic counts"
+        ],
+        FeaturedPic: '',
+        Pics: 17
+    },
     {
         Title: "2499Wallace",
         Address: "24499-2539 Wallace Rd",
@@ -218,24 +218,24 @@ export const listings = [
         Pics: 42
     },
 
-    {
-        Title: "370Veall",
-        Address: "370 Veall Ln NW",
-        City: "Salem",
-        MLS: "796912",
-        SquareFootage: "51,975",
-        FeaturedListing: true,
-        Beds: "NA",
-        Baths: "NA",
-        Price: "$1,300,000",
-        Status: "Active",
-        Details: "Development opportunity. Five contiguous parcels in the heart of West Salem totaling near 1.25 acres when current alley is included. Currently has 2 residential homes, pole building & mini storage business. All parcels have flexible IP zoning and are within the West Salem Urban Renewal area. Current rents well under market value.",
-        Features: [
-            "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
-        ],
-        FeaturedPic: '',
-        Pics: 15
-    },
+    // {
+    //     Title: "370Veall",
+    //     Address: "370 Veall Ln NW",
+    //     City: "Salem",
+    //     MLS: "796912",
+    //     SquareFootage: "51,975",
+    //     FeaturedListing: true,
+    //     Beds: "NA",
+    //     Baths: "NA",
+    //     Price: "$1,300,000",
+    //     Status: "Active",
+    //     Details: "Development opportunity. Five contiguous parcels in the heart of West Salem totaling near 1.25 acres when current alley is included. Currently has 2 residential homes, pole building & mini storage business. All parcels have flexible IP zoning and are within the West Salem Urban Renewal area. Current rents well under market value.",
+    //     Features: [
+    //         "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 15
+    // },
 
     // {
     //     Title: "625Jasper",  
