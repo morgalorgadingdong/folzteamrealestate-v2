@@ -1,6 +1,60 @@
 
 export const listings = [
     {
+        Title: "370Veall",
+        Address: "370 Veall Ln NW",
+        City: "Salem",
+        MLS: "802167",
+        SquareFootage: "54,791",
+        FeaturedListing: true,
+        Beds: "NA",
+        Baths: "NA",
+        Price: "$1,300,000",
+        Status: "Active",
+        Details: "Development opportunity. Five contiguous parcels in the heart of West Salem totaling near 1.25 acres when current alley is included. Currently has 2 residential homes, pole building & mini storage business. All parcels have flexible IP zoning and are within the West Salem Urban Renewal area. Current rents well under market value.",
+        Features: [
+            "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
+        ],
+        FeaturedPic: '',
+        Pics: 15
+    },
+    {
+        Title: "0000Roguelea",
+        Address: "0000 NE Roguelea Ln",
+        City: "Grants Pass",
+        MLS: "802166",
+        SquareFootage: "166,400",
+        FeaturedListing: true,
+        Beds: "347",
+        Baths: "331",
+        Price: "$4,300,000",
+        Status: "Active",
+        Details: "176 Unit Apartment Development Opportunity. Proposed 176 Unit Multi-Family Development opportunity in Grants Pass, Oregon. Plans for 19 one bedroom/one bathroom units, 140 two bedroom/two bathroom units and 16 three bedroom/2 bathroom units, in addition to a 2,500 SF rec center and pool. Subject to final approval.",
+        Features: [
+            "176 Units", "Pool", "Rec Center"
+        ],
+        FeaturedPic: '',
+        Pics: 3
+    },
+    {
+        Title: "4010Briarwood",
+        Address: "4010 Briarwood St NW",
+        City: "Salem",
+        MLS: "801955",
+        SquareFootage: "3,083",
+        FeaturedListing: true,
+        Beds: "4",
+        Baths: "4",
+        Price: "$1,150,000",
+        Status: "Preview",
+        Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
+        Features: [
+            "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"
+        ],
+        FeaturedPic: '',
+        Pics: 3
+    },
+    {
         Title: "1993Mousebird",
         Address: "1993 Mousebird Av NW",
         City: "Salem",
@@ -132,7 +186,7 @@ export const listings = [
         City: "Salem",
         MLS: "800082",
         SquareFootage: "-",
-        FeaturedListing: false,
+        FeaturedListing: true,
         Beds: "-",
         Baths: "-",
         Price: "$90,000",
@@ -218,24 +272,7 @@ export const listings = [
         Pics: 42
     },
 
-    // {
-    //     Title: "370Veall",
-    //     Address: "370 Veall Ln NW",
-    //     City: "Salem",
-    //     MLS: "796912",
-    //     SquareFootage: "51,975",
-    //     FeaturedListing: true,
-    //     Beds: "NA",
-    //     Baths: "NA",
-    //     Price: "$1,300,000",
-    //     Status: "Active",
-    //     Details: "Development opportunity. Five contiguous parcels in the heart of West Salem totaling near 1.25 acres when current alley is included. Currently has 2 residential homes, pole building & mini storage business. All parcels have flexible IP zoning and are within the West Salem Urban Renewal area. Current rents well under market value.",
-    //     Features: [
-    //         "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
-    //     ],
-    //     FeaturedPic: '',
-    //     Pics: 15
-    // },
+    
 
     // {
     //     Title: "625Jasper",  

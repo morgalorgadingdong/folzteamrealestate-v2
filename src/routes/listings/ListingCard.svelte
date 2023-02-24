@@ -75,7 +75,7 @@
         width: 50%;
     }
 
-    .Active {
+    .Active, .Preview {
         color: #02cc7d;
     }
     .Pending {

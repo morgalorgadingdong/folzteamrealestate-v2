@@ -1,9 +1,110 @@
 
 export const blogs = [
     {
+        Number: 6,
+        Title: "Why the Willamette Valley is a great place to live",
+        Date: "02/24/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: 'https://www.freepik.com/free-photo/morning-fog-creeps-with-scraps-autumn-mountain-forest-covered-gold-leaves_10522670.htm#query=oregon&position=2&from_view=search&track=sph',
+        BannerAlt: 'Willamette Valley at sunset.',
+        Sections: [
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `The Willamette Valley is a breathtaking stretch of land in the heart of Oregon, covering a distance of 150 miles. Despite covering only a small percentage of the state's area, it is home to the five largest cities in Oregon and nearly 70% of the state's population, making it one of the most sought-after places to live in the country.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `The valley offers a diverse range of living options, from bustling cities to picturesque small towns. From the days of being a stop on the Oregon Trail to present day, the Willamette Valley has always been a desirable place to call home.` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `Breathtaking Natural Beauty` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://www.freepik.com/free-photo/morning-fog-creeps-with-scraps-autumn-mountain-forest-covered-gold-leaves_10522670.htm#query=oregon&position=2&from_view=search&track=sph',
+                Alt: 'Willamette Valley at sunset.',
+                Number: 1
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Despite being a densely populated area, the Willamette Valley is surrounded by stunning mountain ranges such as the Cascade Mountains and the Oregon Coast Range. It offers breathtaking views and hiking trails for outdoor enthusiasts. The Willamette River, which runs from Portland to Eugene, is one of the largest rivers in the country and popular among swimmers, anglers, and boaters. The valley is also home to the majestic Willamette Falls and boasts a diverse array of natural beauty, including forests and grasslands.` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `Delicious Food and Wine` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://www.vecteezy.com/free-photos',
+                Alt: 'Wine grapes in a vineyard.',
+                Number: 2
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `The Willamette Valley is renowned for its wine production, boasting over two-thirds of all vineyards and wineries in Oregon, with 19,000+ acres of vineyard. It is particularly famous for its Pinot Noir production, but also offers a wide variety of international wines.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `In addition to wine, the valley's food scene is equally impressive, with most of the state's top restaurants and dining options located in its five largest cities. The valley is a major agricultural hub, making it a farm-to-table foodie's paradise.` 
+            },
+
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `Affordability` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Compared to other major metropolitan areas in the United States, the cost of living in cities in the Willamette Valley, such as Portland and Salem, is relatively low. Housing prices in the Willamette Valley are also relatively low compared to other areas on the West Coast, making it easier for families and individuals to find a comfortable place to call home. In fact, the average rent in Salem is ~85% that of the national average (source: https://www.bestplaces.net/cost_of_living/city/oregon/salem)` 
+            },
+            {
+                Type: 'heading',
+                Tag: 'h4',
+                Content: `Vibrant Culture and Entertainment` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `The Willamette Valley is a hub of culture and entertainment, with several cities offering top-notch museums, galleries, shows, and more. It is a region that boasts must-see attractions and a calendar packed with festivals, concerts, and events. ` 
+            },
+            {
+                Type: 'img',
+                Tag: 'img',
+                Caption: ``,
+                Src: 'https://www.flickr.com/photos/3cl/6914710714',
+                Alt: 'Photo of the state capitol building in Salem, Oregon.',
+                Number: 3
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `Portland is home to the famous Washington Park, which houses the Oregon Zoo and Japanese Garden, as well as a thriving art scene. Eugene is a haven for athletes and outdoor enthusiasts, with a trendy downtown. Salem, the state capital, boasts some of Oregon's best art and history museums (Check out the latest happenings in Salem at pressplaysalem.com!). Every city and town in the valley offers a unique culture, attractions, and entertainment options.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'p',
+                Content: `The Willamette Valley is a beautiful and diverse region, offering a range of living options, breathtaking natural beauty, a thriving food and wine scene, abundant economic opportunities, and a vibrant culture and entertainment scene.` 
+            }    
+        ]
+    },
+    {
         Number: 5,
         Title: "3 Simple ways to improve the curb appeal of your home",
-        Date: "02/03/2023",
+        Date: "02/10/2023",
         Author: 'Folz Team Real Estate',
         Published: true,
         BannerSrc: 'https://www.pexels.com/photo/blue-and-gray-concrete-house-with-attic-during-twilight-186077/',
