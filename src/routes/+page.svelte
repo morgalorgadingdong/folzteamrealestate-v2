@@ -242,7 +242,7 @@
       rgba(175, 173, 172, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('$lib/img/market-at-a-glance.jpg');
+    url('$lib/img/mt-hood.jpg');
 
   background-position: center;
   background-repeat: no-repeat;
