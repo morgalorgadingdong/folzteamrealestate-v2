@@ -191,7 +191,7 @@ const FeaturedListingsContainerMobile = create_ssr_component(($$result, $$props,
 });
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "#heroIMG.svelte-two6uy.svelte-two6uy{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('$lib/img/hero.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;height:85vh;width:100%;display:flex;justify-content:center;align-items:center}.heroText.svelte-two6uy.svelte-two6uy{font-size:1.2rem;text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:white;background:rgba(175, 173, 172, 0.6);padding:10px}#quote.svelte-two6uy.svelte-two6uy{color:black}#quoteSection.svelte-two6uy b.svelte-two6uy{color:#05c3f9;font-weight:700}#whatOurClientsSay.svelte-two6uy h2.svelte-two6uy{color:black}#theMarketAtAGlance.svelte-two6uy.svelte-two6uy{color:white;background-image:linear-gradient(\n      rgba(175, 173, 172, 0.5),\n      rgba(0, 0, 0, 0.5)\n    ),\n    url('$lib/img/market-at-a-glance.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;position:relative;margin:auto;background-attachment:fixed;background-position:center;z-index:1}.maagItem.svelte-two6uy .fa-arrow-down.svelte-two6uy{color:#f84c6c}.maagItem.svelte-two6uy .fa-arrow-up.svelte-two6uy{color:#02cc7d}#aboutUsSection.svelte-two6uy>div.svelte-two6uy{min-height:80vh}",
+  code: "#heroIMG.svelte-1hlo5i1.svelte-1hlo5i1{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('$lib/img/hero.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;height:85vh;width:100%;display:flex;justify-content:center;align-items:center}.heroText.svelte-1hlo5i1.svelte-1hlo5i1{font-size:1.2rem;text-align:center;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:white;background:rgba(175, 173, 172, 0.6);padding:10px}#quote.svelte-1hlo5i1.svelte-1hlo5i1{color:black}#quoteSection.svelte-1hlo5i1 b.svelte-1hlo5i1{color:#05c3f9;font-weight:700}#whatOurClientsSay.svelte-1hlo5i1 h2.svelte-1hlo5i1{color:black}#theMarketAtAGlance.svelte-1hlo5i1.svelte-1hlo5i1{color:white;background-image:linear-gradient(\n      rgba(175, 173, 172, 0.5),\n      rgba(0, 0, 0, 0.5)\n    ),\n    url('$lib/img/mt-hood.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;position:relative;margin:auto;background-attachment:fixed;background-position:center;z-index:1}.maagItem.svelte-1hlo5i1 .fa-arrow-down.svelte-1hlo5i1{color:#f84c6c}.maagItem.svelte-1hlo5i1 .fa-arrow-up.svelte-1hlo5i1{color:#02cc7d}#aboutUsSection.svelte-1hlo5i1>div.svelte-1hlo5i1{min-height:80vh}",
   map: null
 };
 let title = "Folz Team Real Estate";
@@ -202,7 +202,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<svelt:head><title>${escape(title)}</title>
     <meta name="${"description"}"${add_attribute("content", description, 0)}>
     <meta name="${"keywords"}"${add_attribute("content", keywords, 0)}></svelt:head>
-<section id="${"heroIMG"}" class="${"my-0 svelte-two6uy"}"><div class="${"heroText col-12 col-md-10 col-lg-6 svelte-two6uy"}"><h1>The Willamette Valley&#39;s most trusted Real Estate Team.</h1></div></section>
+<section id="${"heroIMG"}" class="${"my-0 svelte-1hlo5i1"}"><div class="${"heroText col-12 col-md-10 col-lg-6 svelte-1hlo5i1"}"><h1>The Willamette Valley&#39;s most trusted Real Estate Team.</h1></div></section>
 
 <section id="${"featuredListings"}" class="${"contentSection inViewport pb-5"}"><h2>Featured Listings</h2>
     ${validate_component(FeaturedListingsContainerMobile, "FeaturedListingsContainerMobile").$$render($$result, {}, {}, {})}
@@ -210,7 +210,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     
         <div class="${"col-12 center flexCenterH flexSpaceAroundH"}"><a href="${"/listings"}"><button class="${"button"}">See All Listings</button></a></div></div></section>
 
-<section id="${"whatOurClientsSay"}" class="${"backgroundIMG2 inViewport svelte-two6uy"}"><div class="${"py-5"}"><h2 class="${"svelte-two6uy"}">What our Clients Say</h2>
+<section id="${"whatOurClientsSay"}" class="${"backgroundIMG2 inViewport svelte-1hlo5i1"}"><div class="${"py-5"}"><h2 class="${"svelte-1hlo5i1"}">What our Clients Say</h2>
         ${validate_component(Splide_1, "Splide").$$render(
     $$result,
     {
@@ -297,32 +297,32 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <br>
         <div class="${"col-12 center flexCenterH flexSpaceAroundH"}"><a href="${"https://www.zillow.com/profile/Christinefolz"}" target="${"_blank"}" rel="${"noreferrer"}"><button id="${"reviewsButton"}" class="${"button"}">See More Reviews On Zillow</button></a></div></div></section>
 
-<div id="${"quoteSection"}" class="${"d-flex justify-content-center align-items-center flex-wrap svelte-two6uy"}"><div class="${"content-container d-flex justify-content-center align-items-center flex-wrap text-center"}">
-        <h2 class="${"col-12 py-0 svelte-two6uy"}" id="${"quote"}">Work Hard. <b class="${"svelte-two6uy"}">Be Kind.</b></h2>
+<div id="${"quoteSection"}" class="${"d-flex justify-content-center align-items-center flex-wrap svelte-1hlo5i1"}"><div class="${"content-container d-flex justify-content-center align-items-center flex-wrap text-center"}">
+        <h2 class="${"col-12 py-0 svelte-1hlo5i1"}" id="${"quote"}">Work Hard. <b class="${"svelte-1hlo5i1"}">Be Kind.</b></h2>
         
         </div></div>
 
-<section id="${"theMarketAtAGlance"}" class="${"my-0 d-flex flex-wrap align-content-center svelte-two6uy"}"><div class="${"backgroundIMGContent1 content-section"}"><h2 class="${"whiteText"}">The Willamette Valley Market at a Glance</h2>
+<section id="${"theMarketAtAGlance"}" class="${"my-0 d-flex flex-wrap align-content-center svelte-1hlo5i1"}"><div class="${"backgroundIMGContent1 content-section"}"><h2 class="${"whiteText"}">The Willamette Valley Market at a Glance</h2>
     <p class="${"sectionSubHeader"}">For the Month of January, 2023</p>
     <br>
-    <div class="${"flexContainer flexLeft flexWrap flexSpaceAroundH col-11 center"}"><div class="${"col-6 col-md-3 maagItem svelte-two6uy"}"><i class="${"fa-solid fa-money-bill-1-wave iconHeader"}"></i>
+    <div class="${"flexContainer flexLeft flexWrap flexSpaceAroundH col-11 center"}"><div class="${"col-6 col-md-3 maagItem svelte-1hlo5i1"}"><i class="${"fa-solid fa-money-bill-1-wave iconHeader"}"></i>
             <h3 class="${"whiteText"}">Median Sales price</h3>
             <p class="${"maagValue"}">$404,529</p>
-            <p><i class="${"fa-solid fa-arrow-up svelte-two6uy"}"></i> 1.1% from last month</p></div>
-        <div class="${"col-6 col-md-3 maagItem svelte-two6uy"}"><i class="${"fa-solid fa-border-all iconHeader"}"></i>
+            <p><i class="${"fa-solid fa-arrow-up svelte-1hlo5i1"}"></i> 1.1% from last month</p></div>
+        <div class="${"col-6 col-md-3 maagItem svelte-1hlo5i1"}"><i class="${"fa-solid fa-border-all iconHeader"}"></i>
             <h3 class="${"whiteText"}">Median Sales Price Per Square Foot</h3>
             <p class="${"maagValue"}">$263</p>
-            <p><i class="${"fa-solid fa-arrow-up svelte-two6uy"}"></i> 3.3% from last month</p></div>
-        <div class="${"col-6 col-md-3 maagItem svelte-two6uy"}"><i class="${"fa-solid fa-handshake iconHeader"}"></i>
+            <p><i class="${"fa-solid fa-arrow-up svelte-1hlo5i1"}"></i> 3.3% from last month</p></div>
+        <div class="${"col-6 col-md-3 maagItem svelte-1hlo5i1"}"><i class="${"fa-solid fa-handshake iconHeader"}"></i>
             <h3 class="${"whiteText"}">Number of Closed Sales</h3>
             <p class="${"maagValue"}">252</p>
-            <p><i class="${"fa-solid fa-arrow-down svelte-two6uy"}"></i> 46.7% from last month</p></div>
-        <div class="${"col-6 col-md-3 maagItem svelte-two6uy"}"><i class="${"fa-solid fa-clock iconHeader"}"></i>
+            <p><i class="${"fa-solid fa-arrow-down svelte-1hlo5i1"}"></i> 46.7% from last month</p></div>
+        <div class="${"col-6 col-md-3 maagItem svelte-1hlo5i1"}"><i class="${"fa-solid fa-clock iconHeader"}"></i>
             <h3 class="${"whiteText"}">Median Days on the Market</h3>
             <p class="${"maagValue"}">86</p>
-            <p><i class="${"fa-solid fa-arrow-up svelte-two6uy"}"></i> 78.1% from last month</p></div></div></div></section>
+            <p><i class="${"fa-solid fa-arrow-up svelte-1hlo5i1"}"></i> 78.1% from last month</p></div></div></div></section>
 
-<section id="${"aboutUsSection"}" class="${"inViewport col-12 my-0 svelte-two6uy"}"><div class="${"col-12 d-flex justify-content-center align-items-center flex-wrap mb-5 svelte-two6uy"}"><div class="${"col-11 col-xl-10 d-flex justify-content-center justify-content-md-between align-items-center flex-wrap"}"><h2 class="${"col-12"}">About Us</h2>
+<section id="${"aboutUsSection"}" class="${"inViewport col-12 my-0 svelte-1hlo5i1"}"><div class="${"col-12 d-flex justify-content-center align-items-center flex-wrap mb-5 svelte-1hlo5i1"}"><div class="${"col-11 col-xl-10 d-flex justify-content-center justify-content-md-between align-items-center flex-wrap"}"><h2 class="${"col-12"}">About Us</h2>
             <div id="${"aboutTextContainer"}" class="${"textLeft col-12 col-md-6 d-flex justify-content-between align-items-center flex-wrap mx-0 px-4 order-1"}"><p>We are a small team of Real Estate Agents headquartered in Salem Oregon, who have a passion for helping others achieve their real estate goals. Our team was born and raised in the Salem/Keizer area, and as such offers insights into the market and neighborhoods that only decades of being imbedded in a community can provide.</p>
                 <p></p>
                 <a href="${"/about"}"><button id="${"aboutButton"}" class="${"button third center textCenter"}">Our Story</button></a></div>

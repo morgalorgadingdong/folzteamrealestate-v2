@@ -61,12 +61,12 @@
       "_ListingCard.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-77f70223.css"
+      "_app/immutable/assets/_page-51995cc9.css"
     ],
     "assets": [
       "_app/immutable/assets/about-home-page-9ca28968.jpg",
       "_app/immutable/assets/hero-8a1c8afa.jpg",
-      "_app/immutable/assets/market-at-a-glance-47aea99c.jpg"
+      "_app/immutable/assets/mt-hood-91eab231.jpg"
     ]
   },
   "src/routes/+page.ts": {
@@ -254,7 +254,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/ListingCard-ae898f55.css"
+      "_app/immutable/assets/ListingCard-e9881d69.css"
     ]
   },
   "_environment.js": {

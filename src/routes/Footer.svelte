@@ -1,7 +1,7 @@
 <footer class="gray flexCenterV py-5">
     <div class="col-10 d-flex justify-content-center justify-content-sm-between center flex-wrap">
         <div class="col-8 col-sm-4 col-md-3 order-sm-2">
-            <img class="col-12" src="./img/real-broker-logo-whitetext.png" alt="REAL Brokers">
+            <img class="col-12" src="/img/real-broker-logo-whitetext.png" alt="REAL Brokers">
         </div>
         <div class="col-6 col-sm-3 flexLeft flexColumn flexCenterH whiteText flexWrap order-sm-1 my-3 my-sm-0">
             <p class="testimonialText">Folz Team Real Estate</p>
