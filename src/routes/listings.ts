@@ -64,7 +64,7 @@ export const listings = [
         Beds: "3",
         Baths: "2.5",
         Price: "$509,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Well kept, updated West Salem home in coveted neighborhood. Three bedrooms plus a huge bonus room(4th BR?). Remodeled kitchen w/quartz counter, SS appliances, abundant cabinets, built-in desk, eating bar & open to gathering space. Large living/dining room area w/slider opening to covered deck, paver walkways & terraced yard. Newer furnace, water heater, windows & siding. Walking distance to schools, close to parks, services & minutes to town. Palmer-Gross tour home when built!",
         Features: [
             "Updated Kitchen", "Quartz Counter Tops", "Stainless Steel appliances", "Covered Deck", "Newer furnace & Water Heater", 'Great Schools'
