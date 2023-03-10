@@ -50,6 +50,12 @@
                 <p class="text-center blog-highlight p-5 col-12 col-lg-8 my-5">{Section.Content}</p>
                 {:else if Section.Type == 'heading'}
                 <h4 class="text-start col-12 mt-3 mb-0">{Section.Content}</h4>
+                {:else if Section.Type == 'list'}
+                <ul class="text-start col-12 col-lg-8 my-3 mb-0 d-flex flex-wrap">
+                    {#each Section.ListItems as Item}
+                        <li class="blog-text my-2 col-12">{Item.Content}</li>
+                    {/each}
+                </ul>
                 {/if}
             {/each}
         </div>
@@ -131,6 +137,14 @@ a {
 .blog-divider {
     border-top: #05c3f9 solid 2px;
 }
+
+@media (max-width: 768px) {
+    .blog-text {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}
+
 </style>
 
 
