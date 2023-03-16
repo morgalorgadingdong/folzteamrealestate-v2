@@ -42,11 +42,11 @@ export const listings = [
         City: "Salem",
         MLS: "801955",
         SquareFootage: "3,083",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "4",
         Baths: "4",
         Price: "$1,150,000",
-        Status: "Preview",
+        Status: "Pending",
         Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
         Features: [
             "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"
@@ -60,7 +60,7 @@ export const listings = [
         City: "Salem",
         MLS: "801355",
         SquareFootage: "2,289",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "3",
         Baths: "2.5",
         Price: "$509,000",
@@ -78,11 +78,11 @@ export const listings = [
         City: "Salem",
         MLS: "800991",
         SquareFootage: "2,902",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "3",
         Baths: "3",
         Price: "$750,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
         Features: [
             "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
@@ -186,11 +186,11 @@ export const listings = [
         City: "Salem",
         MLS: "800082",
         SquareFootage: "-",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "-",
         Baths: "-",
         Price: "$90,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Rare flat, buildable lot with easy access to MLK Parkway and downtown Salem. Paved easement access to lot. Buyer to do due diligence regarding utilities and intended use. Please do not drive down driveway without appointment. Lot is behind 2765 Front St NE.",
         Features: [
             

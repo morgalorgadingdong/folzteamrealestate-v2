@@ -62,17 +62,17 @@ export const blogs = [
 
             },
             {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Closing: The final step in the home buying process is closing. This is where you'll sign all the necessary paperwork, including the mortgage loan agreement, and finalize the payment of the closing costs. Once everything is signed and the funds have been transferred, the property is officially yours!` 
+            },
+            {
                 Type: 'img',
                 Tag: 'img',
                 Caption: ``,
                 Src: 'https://www.vecteezy.com/free-photos',
                 Alt: 'Signing closing documents and handing over the keys.',
                 Number: 1
-            },
-            {
-                Type: 'text',
-                Tag: 'pre',
-                Content: `Closing: The final step in the home buying process is closing. This is where you'll sign all the necessary paperwork, including the mortgage loan agreement, and finalize the payment of the closing costs. Once everything is signed and the funds have been transferred, the property is officially yours!` 
             },
             {
                 Type: 'text',
