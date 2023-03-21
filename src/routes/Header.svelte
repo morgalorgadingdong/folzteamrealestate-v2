@@ -41,6 +41,7 @@
 <style>
     header {
         box-shadow: 0 3px 3px lightgray;
+        
     }
     
     .logo {
@@ -89,22 +90,22 @@
     
     #mobileMenuToggle
     {
-    position: absolute;
-    top: 37px;
-    left: 10px;
-    display: block;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
+        position: absolute;
+        top: 37px;
+        left: 10px;
+        display: block;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
     }
 
 
     #mobileMenuToggle a
     {
-    text-decoration: none;
-    color: #232323;
-    transition: color 0.3s ease;
-    display: block;
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+        display: block;
     }
 
     /* #mobileMenuToggle a:hover
@@ -115,19 +116,19 @@
 
     #mobileMenuToggle input
     {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    
-    cursor: pointer;
-    
-    opacity: 0; /* hide this */
-    z-index: 3; /* and place it over the hamburger */
-    
-    -webkit-touch-callout: none;
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        
+        cursor: pointer;
+        
+        opacity: 0; /* hide this */
+        z-index: 3; /* and place it over the hamburger */
+        
+        -webkit-touch-callout: none;
     }
 
     /*
@@ -135,22 +136,22 @@
     */
     #mobileMenuToggle span
     {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    /* opacity: .8; */
-    /* background: #EDEDED; */
-    border-radius: 3px;
-    
-    z-index: 2;
-    
-    transform-origin: 4px 0px;
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        /* opacity: .8; */
+        /* background: #EDEDED; */
+        border-radius: 3px;
+        
+        z-index: 2;
+        
+        transform-origin: 4px 0px;
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
     }
 
     #mobileMenuToggle span:first-child

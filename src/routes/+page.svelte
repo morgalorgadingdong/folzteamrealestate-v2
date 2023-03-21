@@ -109,12 +109,7 @@
                 </SplideSlide>
                 
             </SplideTrack>
-            <!-- <div class="splide__progress">
-                <div class="splide__progress__bar" />
-              </div> -->
             <div class="splide__arrows">
-                <!-- <button class="splide__arrow splide__arrow--prev">&lt;</button>
-                <button class="splide__arrow splide__arrow--next">&gt;</button> -->
                 <button class="splide__arrow splide__arrow--prev"><i class="fa-solid fa-caret-left"></i></button>
                 <button class="splide__arrow splide__arrow--next"><i class="fa-solid fa-caret-right"></i></button>
             </div>

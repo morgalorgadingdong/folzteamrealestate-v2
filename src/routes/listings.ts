@@ -171,7 +171,7 @@ export const listings = [
         FeaturedListing: true,
         Beds: "-",
         Baths: "-",
-        Price: "$54,000,000",
+        Price: "$49,000,000",
         Status: "Active",
         Details: "Opportunity to purchase a 201-unit apartment complex currently under construction, ETA for completion July 2024. Located in the expanding community of West Salem, this project is in the horizontal phase and will be a 3-story multiplex complete with fitness center, resident pool & clubhouse, walking trail/green space and on-site management office. Development is located off Wallace Rd, adjacent to neighboring retail development which includes a small shopping center, food truck pod and pavilion.",
         Features: [
@@ -189,7 +189,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "-",
         Baths: "-",
-        Price: "$90,000",
+        Price: "$80,000",
         Status: "Pending",
         Details: "Rare flat, buildable lot with easy access to MLK Parkway and downtown Salem. Paved easement access to lot. Buyer to do due diligence regarding utilities and intended use. Please do not drive down driveway without appointment. Lot is behind 2765 Front St NE.",
         Features: [
