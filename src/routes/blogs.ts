@@ -1,6 +1,102 @@
 
 export const blogs = [
     {
+        Number: 8,
+        Title: "5 Easy DIY Projects to Improve Your Home's Energy Efficiency",
+        Date: "03/24/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: 'https://unsplash.com/photos/mk9kC-klh5o',
+        BannerAlt: 'A frosted roof house in the morning fog',
+        Sections: [
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Saving energy and reducing your carbon footprint doesn't necessarily require expensive professional services or a ton of work. You can take matters into your own hands and make a significant impact on your home's energy efficiency. Here are five easy DIY projects that can help you achieve that.` 
+            },
+            {
+                Type: 'heading',
+                Content: `Seal Air Leaks` 
+            },
+
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `A well-insulated home can significantly reduce energy consumption by maintaining a comfortable temperature inside. Start by identifying gaps and cracks around doors, windows, and vents. You can use a smoke pencil, incense, or a candle to detect air movement near these areas. Once you've found the leaks, use weatherstripping, caulk, or expanding foam to seal them. It might be a good idea to pay extra attention to your attic and basement, as they can be major sources of heat loss.` 
+            },
+
+            {
+                Type: 'heading',
+                Content: `Install a Smart Thermostat` 
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/photos/RFAHj4tI37Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'A smart thermostat.',
+                Number: 2,
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Upgrading to a smart thermostat can save you up to 10% on your heating and cooling bills. These devices learn your habits and preferences over time, allowing them to automatically adjust the temperature based on when you're home, asleep, or away. Many models also have companion apps that provide energy reports and allow you to remotely control the thermostat, so you can make adjustments from anywhere. Installing a smart thermostat is usually a straightforward process involving basic wiring and following the manufacturer's instructions.` 
+            },
+
+            {
+                Type: 'heading',
+                Content: `Boost Your Insulation` 
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Insulation is key to keeping your home warm in winter and cool in summer. You can improve your insulation by adding new materials or enhancing the existing ones. For instance, you can roll out additional layers of insulation in your attic, ensuring that the recommended R-value (a measure of insulation’s effectiveness) is met for your climate zone. In addition, you can insulate hot water pipes and ductwork in unconditioned spaces, such as basements and crawlspaces. Using spray foam or rigid foam insulation on basement walls can also contribute to a more energy-efficient home.` 
+            },
+
+            {
+                Type: 'heading',
+                Content: `Upgrade to Energy-Efficient Lighting` 
+            },
+            {
+                Type: 'img',
+                Src: 'https://www.pexels.com/photo/white-cfl-bulb-542619/',
+                Alt: 'A white bulb.',
+                Number: 4,
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Lighting accounts for approximately 5% of a home's energy usage. By upgrading to energy-efficient LED bulbs, you can save up to 75% on your lighting energy consumption. LEDs not only use less energy but also last longer than traditional incandescent bulbs, reducing the need for frequent replacements. To further increase your savings, consider installing dimmer switches or motion sensors, which automatically adjust or turn off the lights when they are not needed.` 
+            },
+            
+            {
+                Type: 'heading',
+                Content: `Install Window Film or Insulating Blinds` 
+            },
+            {
+                Type: 'img',
+                Src: 'https://www.flickr.com/photos/calliope/2665937766',
+                Alt: 'Insulating blinds.',
+                Number: 5,
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `A simple and cost-effective way to improve your home's energy efficiency is by addressing window-related heat gain and loss. Installing window film or insulating blinds can significantly reduce the amount of heat entering or escaping through your windows.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Window film comes in various types, including solar control films that block solar heat and glare, and low-emissivity (low-e) films that reduce heat transfer while still allowing natural light to pass through. Application is relatively easy – simply cut the film to size and adhere it to the window glass following the manufacturer's instructions.` 
+            },
+            {
+                Type: 'text',
+                Tag: 'pre',
+                Content: `Alternatively, consider installing insulating blinds or thermal curtains. These products are designed with insulating materials, such as honeycomb fabric, that trap air and create a barrier between the window and the room. This helps keep your home cooler in the summer and warmer in the winter. Insulating blinds are available in various colors and styles to match your home's decor, and installation typically involves attaching the brackets and mounting the blinds according to the manufacturer's guidelines.` 
+            }
+
+           
+        ]
+    },
+    {
         Number: 7,
         Title: "Understanding the home buying process from start to finish",
         Date: "03/10/2023",

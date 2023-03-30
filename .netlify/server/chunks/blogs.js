@@ -1,5 +1,85 @@
 const blogs = [
   {
+    Number: 7,
+    Title: "Understanding the home buying process from start to finish",
+    Date: "03/10/2023",
+    Author: "Folz Team Real Estate",
+    Published: true,
+    BannerSrc: "https://unsplash.com/photos/wwqZ8CM21gg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    BannerAlt: "A qaint red house.",
+    Sections: [
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Buying your first home can be an exciting but also overwhelming experience. There are many steps involved in the home buying process, but with the right preparation and guidance, you can navigate the process with ease. Here’s a breakdown of what to expect when buying your first home.`
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Determine your budget: Before you start your search, it's important to know how much you can afford to spend on a home. This will help you narrow down your options and prevent you from falling in love with a property that's out of your price range. We almost always recommend starting the process by speaking with a lender to get pre-approved for a mortgage, which will give you a clear idea of what you can afford.`
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Hire a real estate agent: Working with a trusted real estate agent can make all the difference in finding the perfect home. A good agent will listen to your needs and preferences, offer advice and guidance, and help negotiate the best deal for you.`
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Begin your search: With your budget in mind, start your search for potential homes. You can browse online listings, attend open houses, and even drive around neighborhoods you like to look for "For Sale" signs. Your agent can also help you find homes that meet your criteria.`
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Make an offer: Once you've found a home you love, it's time to make an offer. Your agent can help you draft a purchase agreement and submit it to the seller. The seller will then have the option to accept, reject, or counter your offer.`
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Escrow: After you have accepted an offer, you will enter into what is called escrow. This is a period of time during which the seller takes the property off the market and both parties work to finalize the sale. During this time, a neutral third-party, such as a title company, will hold onto the funds until all of the conditions of the sale have been met. There are a number of costs that often surprise first time home buyers during this period. Those costs include..`
+      },
+      {
+        Type: "list",
+        ListItems: [
+          {
+            Type: "text",
+            Content: `Earnest money deposit: Typically 1-3% of the home's purchase price, this deposit shows the seller that you're serious about buying the home.`
+          },
+          {
+            Type: "text",
+            Content: "Home inspection: This typically costs between $300 and $500 and is necessary to identify any potential issues with the home. This information can also help you negotiate repairs or price reductions before finalizing the purchase."
+          },
+          {
+            Type: "text",
+            Content: "Appraisal: This typically costs between $600 and $900 and is required by the lender to ensure that the home is worth the purchase price."
+          },
+          {
+            Type: "text",
+            Content: `Closing costs: These can vary but typically range from 2-5% of the home's purchase price and cover things such as loan origination fees, title fees, and taxes.`
+          }
+        ]
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `Closing: The final step in the home buying process is closing. This is where you'll sign all the necessary paperwork, including the mortgage loan agreement, and finalize the payment of the closing costs. Once everything is signed and the funds have been transferred, the property is officially yours!`
+      },
+      {
+        Type: "img",
+        Tag: "img",
+        Caption: ``,
+        Src: "https://www.vecteezy.com/free-photos",
+        Alt: "Signing closing documents and handing over the keys.",
+        Number: 1
+      },
+      {
+        Type: "text",
+        Tag: "pre",
+        Content: `It's important to have a good, responsive real estate agent by your side throughout the home buying process. They will be there to answer your questions, offer advice, and provide guidance every step of the way. Finding the right real estate agent is key to a successful home buying experience. With the right agent, you can have confidence that you're making informed decisions that will lead you to your dream home. So if you're ready to start your home buying journey, don't hesitate to reach out to me. I'm here to help!`
+      }
+    ]
+  },
+  {
     Number: 6,
     Title: "Why the Willamette Valley is a great place to live",
     Date: "02/24/2023",

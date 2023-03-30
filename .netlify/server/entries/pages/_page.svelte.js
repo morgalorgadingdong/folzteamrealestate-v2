@@ -286,9 +286,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
             })}`;
           }
         })}
-            
-            <div class="${"splide__arrows"}">
-                <button class="${"splide__arrow splide__arrow--prev"}"><i class="${"fa-solid fa-caret-left"}"></i></button>
+            <div class="${"splide__arrows"}"><button class="${"splide__arrow splide__arrow--prev"}"><i class="${"fa-solid fa-caret-left"}"></i></button>
                 <button class="${"splide__arrow splide__arrow--next"}"><i class="${"fa-solid fa-caret-right"}"></i></button></div>`;
       }
     }

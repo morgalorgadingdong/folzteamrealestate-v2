@@ -18,7 +18,7 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-4ba9388a.css"
+      "_app/immutable/assets/_layout-d315c480.css"
     ],
     "assets": [
       "_app/immutable/assets/logo-7252c2f7.png"
@@ -132,7 +132,7 @@
       "_blogs.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-8cbf6455.css"
+      "_app/immutable/assets/_page-04712bd0.css"
     ]
   },
   "src/routes/blog/[blogTitle]/+page.ts": {
