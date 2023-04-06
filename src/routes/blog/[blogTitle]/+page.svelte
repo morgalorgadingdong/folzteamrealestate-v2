@@ -40,12 +40,12 @@
         <div class="col-12 d-flex justify-content-center flex-wrap mt-3 px-3">
             {#each blog.Sections as Section}
                 {#if Section.Type == 'text'}
-                    <p class="col-12 text-left px-0 my-3 blog-text">{Section.Content}</p>
+                    <p class="col-12 text-left px-0 my-3 blog-text {Section.Class}">{Section.Content}</p>
                 {:else if Section.Type == 'img'}
                     <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
                     <span class="col-12 text-center mb-5">{Section.Caption} <a href="{Section.Src}">source</a></span>
                 {:else if Section.Type == 'divider'}
-                    <div class="mt-5 pb-5 blog-divider col-8"></div>
+                    <div class="mt-5 pb-5 blog-divider col-8 {Section.Class}"></div>
                 {:else if Section.Type == 'highlight'}
                 <p class="text-center blog-highlight p-5 col-12 col-lg-8 my-5">{Section.Content}</p>
                 {:else if Section.Type == 'heading'}
@@ -67,6 +67,24 @@
  <!-- <p on:click={reloadPage(nextBlog.Title)}>{nextBlog.Title}</p> -->
 
 <style>
+    .blog-divider.divider-invisible {
+        border-top: 0px solid rgba(175, 173, 172,0);
+        margin-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .indented {
+        padding-left: 2rem !important;
+    }
+
+    .sub-header {
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-style: italic;
+        margin-bottom: -0.5rem !important;
+        color: #3e3f3c;
+    }
+    
     .blog-text {
         font-size: 1.2rem;
         line-height: 1.5rem;
@@ -111,7 +129,7 @@
 } */
 
 .blog-header {
-    height: 23vh;
+    min-height: 23vh;
 }
 
 .blogDate {

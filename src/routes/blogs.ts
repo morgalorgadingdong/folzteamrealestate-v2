@@ -1,6 +1,226 @@
 
 export const blogs = [
     {
+        Number: 9,
+        Title: "A Guide to Interviewing Potential Real Estate Agents",
+        Date: "04/07/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: '',
+        BannerAlt: 'Christine Folz Real Estate Agent looking at her phone while sitting on a chair',
+        Sections: [
+            {
+                Type: 'text',
+                Content: `Hiring the right real estate agent is crucial for a successful property buying or selling experience. This guide will help you identify the best agent for your needs by suggesting key questions to ask during the interview process. These questions will help you evaluate their experience, qualifications, marketing strategies, and communication style to determine if they're a good fit for your real estate needs.` 
+            },
+
+            {
+                Type: 'divider'
+               },
+
+            {
+                Type: 'heading',
+                Content: `Experience and Qualifications` 
+            },
+
+            {
+                Type: 'text',
+                Content: `How long have you been in the real estate industry?`,
+                Class: 'sub-header'
+            },
+
+            {
+                Type: 'text',
+                Content: `A seasoned agent typically has a better understanding of the market and a proven track record. While experience is important, don't discount newer agents who may have strong motivation and fresh perspectives.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'text',
+                Content: `Are you a full-time agent?`,
+                Class: 'sub-header'
+            },
+
+            {
+                Type: 'text',
+                Content: `Full-time agents are more likely to be committed to their profession and stay up-to-date with industry trends.`,
+                Class: 'indented' 
+            },
+
+           {
+            Type: 'divider',
+            Class: 'divider-invisible'
+           },
+
+            {
+                Type: 'heading',
+                Content: `Local Market Expertise` 
+            },
+
+            {
+                Type: 'text',
+                Content: `How familiar are you with the local market and the specific neighborhoods I'm interested in?`,
+                Class: 'sub-header' 
+            },
+
+            {
+                Type: 'text',
+                Content: `An agent with local market expertise will have a better understanding of pricing trends, neighborhood amenities, and potential pitfalls.`,
+                Class: 'indented'
+            },
+
+            {
+                Type: 'text',
+                Content: `How many transactions have you completed in my target area within the last year?`,
+                Class: 'sub-header' 
+            },
+
+            {
+                Type: 'text',
+                Content: `This question helps gauge the agent's recent experience and success in your desired area.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'divider',
+                Class: 'divider-invisible'
+               },
+
+            {
+                Type: 'heading',
+                Content: `Marketing and Sales Strategy` 
+            },
+
+            {
+                Type: 'text',
+                Content: `What is your marketing strategy for selling my home?`,
+                Class: 'sub-header' 
+            },
+            {
+                Type: 'text',
+                Content: `For sellers, an effective marketing plan is essential to attract potential buyers. The agent should discuss their approach to online and offline marketing, including professional photography, virtual tours, social media promotion, website promotion, and open houses.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'text',
+                Content: `How do you determine the listing price for a property?`,
+                Class: 'sub-header' 
+            },
+            {
+                Type: 'text',
+                Content: `An agent should conduct a thorough comparative market analysis (CMA) to price your property competitively. They should also explain their reasoning and be open to discussion.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'text',
+                Content: `How do you help buyers find the right property?`,
+                Class: 'sub-header' 
+            },
+            {
+                Type: 'text',
+                Content: `For buyers, the agent should explain their process for identifying suitable properties, including personalized searches and off-market opportunities.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'divider',
+                Class: 'divider-invisible'
+               },
+
+            {
+                Type: 'heading',
+                Content: `Communication and Availability` 
+            },
+
+            {
+                Type: 'text',
+                Content: `How do you communicate with your clients, and how often can I expect updates?`,
+                Class: 'sub-header'
+            },
+            {
+                Type: 'text',
+                Content: `Effective communication is key to a successful real estate transaction. The agent should be able to accommodate your preferred communication style (phone, email, text) and provide regular updates.`,
+                Class: 'indented'
+            },
+
+            {
+                Type: 'text',
+                Content: `What is your availability for showings and meetings?`,
+                Class: 'sub-header'
+            },
+            {
+                Type: 'text',
+                Content: `An agent should be able to work with your schedule and promptly arrange showings or meetings as needed.`,
+                Class: 'indented'
+            },
+
+            {
+                Type: 'divider',
+                Class: 'divider-invisible'
+               },
+
+            {
+                Type: 'heading',
+                Content: `Client References and Reviews` 
+            },
+
+            {
+                Type: 'text',
+                Content: `Can you provide references from recent clients?`,
+                Class: 'sub-header' 
+            },
+            {
+                Type: 'text',
+                Content: `Speaking with past clients can provide valuable insights into the agent's professionalism, communication, and overall performance.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'text',
+                Content: `How do you handle negative reviews or client complaints?` ,
+                Class: 'sub-header'
+            },
+            {
+                Type: 'text',
+                Content: `It's important to know how the agent addresses issues that may arise during the transaction and if they take responsibility for their actions.`,
+                Class: 'indented' 
+            },
+
+            {
+                Type: 'divider',
+                Class: 'divider-invisible'
+               },
+
+            {
+                Type: 'heading',
+                Content: `Commission and Fees` 
+            },
+
+            {
+                Type: 'text',
+                Content: `What is your commission structure, and are there any additional fees?`,
+                Class: 'sub-header' 
+            },
+            {
+                Type: 'text',
+                Content: `Understanding the agent's commission and any additional fees upfront will help you budget accordingly and avoid surprises later in the process.`,
+                Class: 'indented' 
+            },
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'text',
+                Content: `The process of buying or selling a home can be complex and stressful. By asking these questions, you can find a real estate agent who has the experience, knowledge, and commitment to guide you through the process and help you achieve your goals. Remember, the best agent for you is one who aligns with your priorities, communicates effectively, and has a proven track record of success in your local market.`,
+                Class: '' 
+            },
+           
+        ]
+    },
+    {
         Number: 8,
         Title: "5 Easy DIY Projects to Improve Your Home's Energy Efficiency",
         Date: "03/24/2023",
@@ -11,7 +231,7 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Saving energy and reducing your carbon footprint doesn't necessarily require expensive professional services or a ton of work. You can take matters into your own hands and make a significant impact on your home's energy efficiency. Here are five easy DIY projects that can help you achieve that.` 
             },
             {
@@ -21,7 +241,7 @@ export const blogs = [
 
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `A well-insulated home can significantly reduce energy consumption by maintaining a comfortable temperature inside. Start by identifying gaps and cracks around doors, windows, and vents. You can use a smoke pencil, incense, or a candle to detect air movement near these areas. Once you've found the leaks, use weatherstripping, caulk, or expanding foam to seal them. It might be a good idea to pay extra attention to your attic and basement, as they can be major sources of heat loss.` 
             },
 
@@ -37,7 +257,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Upgrading to a smart thermostat can save you up to 10% on your heating and cooling bills. These devices learn your habits and preferences over time, allowing them to automatically adjust the temperature based on when you're home, asleep, or away. Many models also have companion apps that provide energy reports and allow you to remotely control the thermostat, so you can make adjustments from anywhere. Installing a smart thermostat is usually a straightforward process involving basic wiring and following the manufacturer's instructions.` 
             },
 
@@ -47,7 +267,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Insulation is key to keeping your home warm in winter and cool in summer. You can improve your insulation by adding new materials or enhancing the existing ones. For instance, you can roll out additional layers of insulation in your attic, ensuring that the recommended R-value (a measure of insulation’s effectiveness) is met for your climate zone. In addition, you can insulate hot water pipes and ductwork in unconditioned spaces, such as basements and crawlspaces. Using spray foam or rigid foam insulation on basement walls can also contribute to a more energy-efficient home.` 
             },
 
@@ -63,7 +283,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Lighting accounts for approximately 5% of a home's energy usage. By upgrading to energy-efficient LED bulbs, you can save up to 75% on your lighting energy consumption. LEDs not only use less energy but also last longer than traditional incandescent bulbs, reducing the need for frequent replacements. To further increase your savings, consider installing dimmer switches or motion sensors, which automatically adjust or turn off the lights when they are not needed.` 
             },
             
@@ -79,17 +299,17 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `A simple and cost-effective way to improve your home's energy efficiency is by addressing window-related heat gain and loss. Installing window film or insulating blinds can significantly reduce the amount of heat entering or escaping through your windows.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Window film comes in various types, including solar control films that block solar heat and glare, and low-emissivity (low-e) films that reduce heat transfer while still allowing natural light to pass through. Application is relatively easy – simply cut the film to size and adhere it to the window glass following the manufacturer's instructions.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Alternatively, consider installing insulating blinds or thermal curtains. These products are designed with insulating materials, such as honeycomb fabric, that trap air and create a barrier between the window and the room. This helps keep your home cooler in the summer and warmer in the winter. Insulating blinds are available in various colors and styles to match your home's decor, and installation typically involves attaching the brackets and mounting the blinds according to the manufacturer's guidelines.` 
             }
 
@@ -107,32 +327,32 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Buying your first home can be an exciting but also overwhelming experience. There are many steps involved in the home buying process, but with the right preparation and guidance, you can navigate the process with ease. Here’s a breakdown of what to expect when buying your first home.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Determine your budget: Before you start your search, it's important to know how much you can afford to spend on a home. This will help you narrow down your options and prevent you from falling in love with a property that's out of your price range. We almost always recommend starting the process by speaking with a lender to get pre-approved for a mortgage, which will give you a clear idea of what you can afford.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Hire a real estate agent: Working with a trusted real estate agent can make all the difference in finding the perfect home. A good agent will listen to your needs and preferences, offer advice and guidance, and help negotiate the best deal for you.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Begin your search: With your budget in mind, start your search for potential homes. You can browse online listings, attend open houses, and even drive around neighborhoods you like to look for "For Sale" signs. Your agent can also help you find homes that meet your criteria.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Make an offer: Once you've found a home you love, it's time to make an offer. Your agent can help you draft a purchase agreement and submit it to the seller. The seller will then have the option to accept, reject, or counter your offer.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Escrow: After you have accepted an offer, you will enter into what is called escrow. This is a period of time during which the seller takes the property off the market and both parties work to finalize the sale. During this time, a neutral third-party, such as a title company, will hold onto the funds until all of the conditions of the sale have been met. There are a number of costs that often surprise first time home buyers during this period. Those costs include..` 
             },
             {
@@ -159,7 +379,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Closing: The final step in the home buying process is closing. This is where you'll sign all the necessary paperwork, including the mortgage loan agreement, and finalize the payment of the closing costs. Once everything is signed and the funds have been transferred, the property is officially yours!` 
             },
             {
@@ -172,7 +392,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `It's important to have a good, responsive real estate agent by your side throughout the home buying process. They will be there to answer your questions, offer advice, and provide guidance every step of the way. Finding the right real estate agent is key to a successful home buying experience. With the right agent, you can have confidence that you're making informed decisions that will lead you to your dream home. So if you're ready to start your home buying journey, don't hesitate to reach out to me. I'm here to help!` 
             },
         ]
@@ -188,12 +408,12 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `The Willamette Valley is a breathtaking stretch of land in the heart of Oregon, covering a distance of 150 miles. Despite covering only a small percentage of the state's area, it is home to the five largest cities in Oregon and nearly 70% of the state's population, making it one of the most sought-after places to live in the country.` 
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `The valley offers a diverse range of living options, from bustling cities to picturesque small towns. From the days of being a stop on the Oregon Trail to present day, the Willamette Valley has always been a desirable place to call home.` 
             },
             {
@@ -289,7 +509,7 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Curb appeal is the first impression that a potential buyer or visitor gets of your home and can greatly influence the way they perceive the value and condition of your property. Whether you're planning to sell your home or simply want to improve its appearance, there are a few simple ways to drastically improve curb appeal. Here are 3 simple ways to do it:` 
             },
             {
@@ -364,7 +584,7 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Installing solar panels on your home can be a great way to reduce your energy costs, decrease your carbon footprint and increase the value of your home. However, before making such a significant investment, it's important to consider all the factors involved. Here are some questions you should ask yourself before installing solar panels on your home:` 
             },
             {
@@ -609,7 +829,7 @@ export const blogs = [
         Sections: [
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Furnishing a short-term rental can be a daunting task, but with the right approach and a bit of planning, you can create a comfortable and inviting space that will appeal to a wide range of guests. Whether you're outfitting a vacation home or a corporate rental, these 5 tips will help you create a space that will make your guests feel at home.` 
             },
             {
@@ -749,7 +969,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: 'Engineered wood flooring, on the other hand, is made from multiple layers of wood that are fused together. The top layer is a thin layer of real wood, while the bottom layers are made from cheaper, more stable woods such as plywood or high-density fiberboard.'
             },
             {
@@ -762,7 +982,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Now that we've covered the basics, let's delve into the pros and cons of each option.`
             },
             {
@@ -771,12 +991,12 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `One major advantage of engineered wood flooring is its stability. Because it is made from multiple layers of wood that are fused together, it is less prone to warping and shrinking than solid hardwood flooring. This makes it a good choice for homes in areas with high humidity or temperature fluctuations.`,
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Another advantage of engineered wood flooring is that it is easier to install than solid hardwood flooring. Because it is made from multiple layers of wood, it can be easily cut and fit into place. This can make it a more cost-effective option for homeowners, as the installation process is typically quicker and requires less labor.`,
             },
             {
@@ -789,22 +1009,22 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Additionally, engineered wood flooring is typically more durable than solid hardwood flooring. The multiple layers of wood make it more resistant to scratches and dents, which can be a concern for homeowners with pets or children. It is also easier to maintain, as it can be cleaned and refinished more easily than solid hardwood flooring.`
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `On the downside, one major disadvantage of engineered wood flooring is that it is not as long-lasting as solid hardwood flooring. Hardwood floors can last for decades or even centuries with proper maintenance and care, while engineered wood flooring has a lifespan of around 20-30 years. The lifespan of engineered wood flooring can be shortened if it is exposed to moisture or high humidity, as the layers of the flooring can start to delaminate. With that being said, it is worth noting that the lifespan of both solid hardwood and engineered wood flooring can also be impacted by factors such as the quality of the product, the level of foot traffic, and the level of care and maintenance provided.`
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Another potential drawback of engineered wood flooring is that it may not have the same level of natural beauty as solid hardwood flooring. While the top layer of engineered wood flooring is made from real wood, it is a thin layer that is fused to the bottom layers. This means that the wood grain is not as prominent as it is on solid hardwood flooring, which can give it a less natural look.`
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `Finally, it's important to consider the cost of both options. While engineered wood flooring is generally less expensive than solid hardwood flooring, the cost can vary depending on the type of wood and the quality of the flooring. In general, solid hardwood flooring is more expensive than engineered wood flooring, but it may be worth the investment for homeowners who are looking for a long-lasting flooring option. In general, solid hardwood flooring can cost anywhere between $5 to $15 per square foot while engineered wood flooring can cost between $3 to $10 per square foot, depending on the quality and finish.`
             },
             {
@@ -814,7 +1034,7 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Tag: 'pre',
+                
                 Content: `In summary, both engineered wood flooring and solid hardwood flooring have their pros and cons. Engineered wood flooring is more stable, easier to install, and more durable, but it is not as long-lasting as solid hardwood flooring and may not have the same level of natural beauty. Solid hardwood flooring is more expensive and may require more maintenance, but it can potentially last a lifetime if well-maintained.`
             }
         ]
