@@ -87,19 +87,34 @@
                         <li><p class="bold blueText mx-1">✓ </p><p> {feature}</p></li>
                     {/each}
                 </ul>
-                <div class="row flexCenterV">
-                    <h2>Photos</h2>
-                    <div class="line"></div>
-                </div>
-                <div id="photosContainer" class="listingPhotosContainer flexLeft flexWrap">
-                    {#if listing.Pics > 0}
-                        {#each Array(listing.Pics) as pic}
-                            <div class="col-12 col-md-6 col-lg-{returnColumnSize()} listingPhotoContainer">
-                                <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
-                            </div>
-                        {/each}
-                    {/if}
-                </div>
+                {#if listing.Pics > 0}
+                    <div class="row flexCenterV">
+                        <h2>Photos</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div id="photosContainer" class="listingPhotosContainer justify-content-center flexWrap">
+                        {#if listing.Pics >= 3}
+                            {#each Array(listing.Pics) as pic}
+                                <div class="col-12 col-md-6 col-lg-{returnColumnSize()} listingPhotoContainer">
+                                    <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
+                                </div>
+                            {/each}
+                        {:else if listing.Pics >= 2}
+                            {#each Array(listing.Pics) as pic}
+                                <div class="col-12 col-md-6">
+                                    <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
+                                </div>
+                            {/each}
+                        {:else}
+                            {#each Array(listing.Pics) as pic}
+                                <div class="col-12 col-md-6">
+                                    <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
+                                </div>
+                            {/each} 
+                        {/if}
+                        
+                    </div>
+                {/if}
             </div>
             </section>
         {/if}

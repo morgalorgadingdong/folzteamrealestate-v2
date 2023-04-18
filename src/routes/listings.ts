@@ -1,6 +1,42 @@
 
 export const listings = [
     {
+        Title: "101Moolack",
+        Address: "Hwy 101 Moolack Shores",
+        City: "Newport",
+        MLS: "803858",
+        SquareFootage: "160,736",
+        FeaturedListing: true,
+        Beds: "NA",
+        Baths: "NA",
+        Price: "$499,000",
+        Status: "Active",
+        Details: "Ocean front buildable property. Amazing panoramic views. Build your ocean front home here. Development study indicates lot could accommodate a 5000+ sqft home. Lots of parking. Close to Newport and services. Development report available.",
+        Features: [
+            "Ocean Front", "Panoramic Views", "Buildable", "Close to Newport"
+        ],
+        FeaturedPic: '',
+        Pics: 1
+    },
+    {
+        Title: "3620Mainline",
+        Address: "3620 Mainline",
+        City: "Salem",
+        MLS: "803831",
+        SquareFootage: "33,977",
+        FeaturedListing: true,
+        Beds: "NA",
+        Baths: "NA",
+        Price: "$1,732,500",
+        Status: "Active",
+        Details: "Commercial IG zoned property for sale with multiple income streams, includes an industrial, detached office & several residential units. The industrial building is equipped w/forced air furnace. 3 phase electrical & piped for air. Office w/mini split & bath. Fully fenced w/rolling gate. Adjacent is .21 acre paved lot w/ transfer loading dock. Also includes a duplex & house. Current rents $8000+. Great opportunity for an investor or owner occupy.",
+        Features: [
+            "Industrial Building", "Office", "Duplex", "House", "Great Investment Opportunity"
+        ],
+        FeaturedPic: '',
+        Pics: 31
+    },
+    {
         Title: "370Veall",
         Address: "370 Veall Ln NW",
         City: "Salem",
@@ -46,7 +82,7 @@ export const listings = [
         Beds: "4",
         Baths: "4",
         Price: "$1,150,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
         Features: [
             "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"
@@ -82,7 +118,7 @@ export const listings = [
         Beds: "3",
         Baths: "3",
         Price: "$750,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Custom single level builder's personal home in desirable neighborhood. Living room has large windows, stunning FP & high ceilings adjacent to formal dining rm. Chef's kitchen w/walk thru butlers pantry & open to family rm & nook. Family rm has wall of built-ins w/wood burning FP insert. LRG primary BR w/huge walk-in closet, gas FP & door to covered patio. Ensuite has jetted tub, dual vanities & abundant storage. On .29 acre, fully fenced, landscaped, 36x18 RV pad w/full hookups. Also has shop/shed w/electic",
         Features: [
             "Gas Fireplace", "Fully Fenced", "RV Pad w/ hookups", "Covered Patio", "Detached Shop"
@@ -150,7 +186,7 @@ export const listings = [
         City: "Salem",
         MLS: "800180",
         SquareFootage: "84,941",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "-",
         Baths: "-",
         Price: "$7,500,000",
@@ -168,7 +204,7 @@ export const listings = [
         City: "Salem",
         MLS: "800179",
         SquareFootage: "341,102",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "-",
         Baths: "-",
         Price: "$49,000,000",
