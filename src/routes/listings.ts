@@ -16,7 +16,7 @@ export const listings = [
             "Ocean Front", "Panoramic Views", "Buildable", "Close to Newport"
         ],
         FeaturedPic: '',
-        Pics: 1
+        Pics: 13
     },
     {
         Title: "3620Mainline",
