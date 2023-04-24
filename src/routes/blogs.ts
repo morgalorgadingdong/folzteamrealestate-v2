@@ -1,5 +1,192 @@
 
 export const blogs = [
+    
+    {
+        Number: 10,
+        Title: "A Guide to Easy Cleanliness and Organization in Your Home",
+        Date: "04/21/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: '',
+        BannerAlt: '',
+        Sections: [
+            {
+                Type: 'text',
+                Content: `Maintaining a clean and organized home is often easier said than done, but investing a little time upfront can go a long way toward creating a living space that's both visually appealing and functional. By tackling organization projects in various areas of your home, you can streamline daily tasks, reduce stress, and enjoy a more efficient living environment. In this article, we'll explore different parts of the home and provide suggestions for items to purchase that will help you stay organized and clean in the long run.` 
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Bathroom` 
+            },
+
+            {
+                Type: 'text',
+                Content: `The bathroom is one of the most frequently used rooms in the home, and keeping it organized can make your daily routine more efficient. Here are some items to help you maintain a tidy bathroom:`,
+                Class: ''
+            },
+
+            {
+                Type: 'list',
+                ListItems: [
+                    {
+                        Type: 'text',
+                        Content: `Over-the-toilet storage (Estimated Cost: $40-$100): This space-saving solution offers extra storage for toiletries and towels without taking up valuable floor space.`
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Shower caddy (Estimated Cost: $15-$50): Keep your shower essentials organized and within easy reach by investing in a hanging or corner-mounted shower caddy.'
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Drawer organizers (Estimated Cost: $10-$30): Use compartmentalized trays or modular organizers to keep your bathroom drawers neat and easy to navigate.'
+                    }
+                ]
+            },
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Kitchen` 
+            },
+
+            {
+                Type: 'text',
+                Content: `The kitchen is often the heart of the home, and keeping it clean and organized can make meal prep and cleanup a breeze. Here are some organizational tools for your kitchen:`,
+                Class: ''
+            },
+
+            {
+                Type: 'list',
+                ListItems: [
+                    {
+                        Type: 'text',
+                        Content: `Pantry organizers (Estimated Cost: $10-$50): Utilize clear bins or baskets to group pantry items by category, making it easier to find what you need.`
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Pot and pan rack (Estimated Cost: $30-$100): Free up cabinet space and keep your cookware organized by installing a pot and pan rack on your wall or ceiling.'
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Cabinet shelf risers (Estimated Cost: $10-$30): Double your cabinet storage space by using shelf risers to create additional levels for dishes, cups, and bowls.'
+                    }
+                ]
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Living Room` 
+            },
+
+            {
+                Type: 'text',
+                Content: `Your living room should be a relaxing space where you can unwind, so keeping it clutter-free is essential. Here are some items to help you stay organized in the living room:`,
+                Class: ''
+            },
+
+            {
+                Type: 'list',
+                ListItems: [
+                    {
+                        Type: 'text',
+                        Content: `Media console (Estimated Cost: $100-$500): Invest in a media console with ample storage for your TV, gaming consoles, and other electronics, as well as compartments or drawers for organizing DVDs, games, and remote controls.`
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Storage ottoman (Estimated Cost: $50-$200): A storage ottoman serves as a footrest, additional seating, and a hidden storage compartment for blankets, magazines, and other items.'
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Wall-mounted shelves (Estimated Cost: $20-$100): Make use of vertical space by installing wall-mounted shelves to display books, decorative items, or even small storage baskets.'
+                    }
+                ]
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Bedroom` 
+            },
+
+            {
+                Type: 'text',
+                Content: `A well-organized bedroom can help you relax and sleep better at night. Here are some bedroom organization essentials:`,
+                Class: ''
+            },
+
+            {
+                Type: 'list',
+                ListItems: [
+                    {
+                        Type: 'text',
+                        Content: `Closet organizers (Estimated Cost: $30-$200): Maximize your closet space with hanging shelves, shoe racks, and slim hangers. Consider using storage bins or dividers to separate clothes by season or category.`
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Bedside caddy (Estimated Cost: $10-$30): Keep your nighttime essentials organized and within reach with a bedside caddy that slips under your mattress or hangs from your bed frame.'
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Under-bed storage (Estimated Cost: $20-$50): Utilize the space under your bed for additional storage by using rolling bins or vacuum-sealed bags for clothing, linens, or other items.'
+                    }
+                ]
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Home Office` 
+            },
+
+            {
+                Type: 'text',
+                Content: `A clutter-free workspace can boost productivity and focus. Here are some items to help you organize your home office:`,
+                Class: ''
+            },
+
+            {
+                Type: 'list',
+                ListItems: [
+                    {
+                        Type: 'text',
+                        Content: `Coat rack or wall hooks (Estimated Cost: $20-$100): Provide a designated space for hanging coats, hats, and bags to keep them off the floor and easy to find.`
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Shoe storage (Estimated Cost: $30-$100): Keep shoes organized with a shoe rack or cubby system. Alternatively, consider a storage bench that doubles as seating.'
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Key holder (Estimated Cost: $10-$30): Install a key holder or small floating shelf near the door to ensure you never misplace your keys.'
+                    }
+                ]
+            },
+
+            {
+                Type: 'text',
+                Content: `Creating a clean and organized home takes a bit of effort initially, but the benefits of investing time upfront are well worth it. With these organization tips and product recommendations, you can design a living space that's easy to maintain and enjoyable to inhabit. By implementing the right organizational tools for each area of your house, you'll foster a more efficient and relaxing atmosphere. Remember that organization is an ongoing process; periodically assess your needs and adjust your systems as necessary to maintain a well-ordered home.`,
+                Class: ''
+            }
+           
+        ]
+    },
     {
         Number: 9,
         Title: "A Guide to Interviewing Potential Real Estate Agents",
