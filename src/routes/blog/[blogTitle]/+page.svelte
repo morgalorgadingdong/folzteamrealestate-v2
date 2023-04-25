@@ -51,9 +51,14 @@
                 {:else if Section.Type == 'heading'}
                 <h4 class="text-start col-12 mt-3 mb-0">{Section.Content}</h4>
                 {:else if Section.Type == 'list'}
-                <ul class="text-start col-12 col-lg-8 my-3 mb-0 d-flex flex-wrap">
+                <ul class="text-start col-12 col-lg-8 my-3 mb-0 d-flex flex-wrap justify-content-center">
                     {#each Section.ListItems as Item}
-                        <li class="blog-text my-2 col-12">{Item.Content}</li>
+                        {#if Item.Type == 'text'}
+                            <li class="blog-text my-2 col-12">{Item.Content}</li>
+                        {:else if Item.Type == 'img'}
+                            <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Item.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
+                            <span class="col-12 text-center">{#if Item.Caption}{Item.Caption}{/if} <a href="{Item.Src}">source</a></span>
+                        {/if}
                     {/each}
                 </ul>
                 {/if}

@@ -34,12 +34,30 @@ export const blogs = [
                 Type: 'list',
                 ListItems: [
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/AmazerBath-Storage-Bathroom-Qrganizer-Shelves/dp/B0B6J6SF3T/ref=sr_1_17?keywords=Over-the-toilet+storage&sr=8-17&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc',
+                        Alt: 'Over-the-toilet storage from amazon.com',
+                        Number: 1,
+                    },
+                    {
                         Type: 'text',
                         Content: `Over-the-toilet storage (Estimated Cost: $40-$100): This space-saving solution offers extra storage for toiletries and towels without taking up valuable floor space.`
                     },
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Kitsure-Adhesive-Pack-Rustproof-Shower-Drill-Free-Quick-Dry-Shower-Stainless/dp/B09Z2XJ34K/ref=sr_1_5?keywords=shower+caddy&sr=8-5',
+                        Alt: 'Shower caddy from amazon.com',
+                        Number: 2,
+                    },
+                    {
                         Type: 'text',
-                        Content: 'Shower caddy (Estimated Cost: $15-$50): Keep your shower essentials organized and within easy reach by investing in a hanging or corner-mounted shower caddy.'
+                        Content: 'Shower caddy (Estimated Cost: $15-$50): Keep your shower essentials organized and within easy reach by investing in a hanging or wall-mounted shower caddy.'
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Poeland-Organizer-Storage-Bedroom-Bathroom/dp/B07ZPT72H1/ref=sr_1_9?keywords=bathroom+drawer+organizers&sr=8-9',
+                        Alt: 'Drawer organizers from amazon.com',
+                        Number: 3,
                     },
                     {
                         Type: 'text',
@@ -66,12 +84,30 @@ export const blogs = [
                 Type: 'list',
                 ListItems: [
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Airtight-Containers-Vtopmart-Organization-Canisters/dp/B08ZK5WDWN/ref=sr_1_7?keywords=Pantry%2Borganizers&sr=8-7&th=1',
+                        Alt: 'Pantry organizer from amazon.com',
+                        Number: 4,
+                    },
+                    {
                         Type: 'text',
                         Content: `Pantry organizers (Estimated Cost: $10-$50): Utilize clear bins or baskets to group pantry items by category, making it easier to find what you need.`
                     },
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/MAWEW-Hanging-Combination-Measures-Inches-%EF%BC%88Black%EF%BC%89/dp/B0BQVXS554/ref=sr_1_6?keywords=pot%2Band%2Bpan%2Brack&sr=8-6&th=1',
+                        Alt: 'Hanging pots and pan rack from amazon.com',
+                        Number: 5,
+                    },
+                    {
                         Type: 'text',
                         Content: 'Pot and pan rack (Estimated Cost: $30-$100): Free up cabinet space and keep your cookware organized by installing a pot and pan rack on your wall or ceiling.'
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/SONGMICS-Organizer-Stackable-Expandable-UKCS02NW/dp/B07XMBSGKZ/ref=sr_1_5?keywords=Cabinet%2Bshelf%2Brisers&sr=8-5&th=1',
+                        Alt: 'Cabinet shelf risers from amazon.com',
+                        Number: 6,
                     },
                     {
                         Type: 'text',
@@ -99,12 +135,30 @@ export const blogs = [
                 Type: 'list',
                 ListItems: [
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Walker-Edison-Portsmouth-Classic-Inches/dp/B07K9CF6VX/ref=sr_1_37?keywords=Media%2Bconsole&sr=8-37&ufe=app_do%3Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3&th=1',
+                        Alt: 'Media console from amazon.com',
+                        Number: 7,
+                    },
+                    {
                         Type: 'text',
                         Content: `Media console (Estimated Cost: $100-$500): Invest in a media console with ample storage for your TV, gaming consoles, and other electronics, as well as compartments or drawers for organizing DVDs, games, and remote controls.`
                     },
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/AmazonBasics-Storage-Bench-Ottoman-Light/dp/B0871DD1NM/ref=sr_1_1_sspa?crid=25REECDUA0JTR&keywords=Storage%2Bottoman&qid=1682390980&sprefix=storage%2Bottoma%2Caps%2C207&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyS0NWSVFaQUpJTThOJmVuY3J5cHRlZElkPUEwMDE4NjE5MzVZNUhYUDRYME8yNiZlbmNyeXB0ZWRBZElkPUEwODU2MzU3M0JHUEtEOVQ0RVhLMSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1',
+                        Alt: 'Storage ottoman from amazon.com',
+                        Number: 8,
+                    },
+                    {
                         Type: 'text',
                         Content: 'Storage ottoman (Estimated Cost: $50-$200): A storage ottoman serves as a footrest, additional seating, and a hidden storage compartment for blankets, magazines, and other items.'
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Floating-Shelves-Mounted-Bathroom-Pictures/dp/B096XSSDF3/ref=sr_1_17?keywords=Wall-mounted%2Bshelves&sr=8-17&th=1',
+                        Alt: 'Wall-mounted shelves from amazon.com',
+                        Number: 9,
                     },
                     {
                         Type: 'text',
@@ -132,12 +186,30 @@ export const blogs = [
                 Type: 'list',
                 ListItems: [
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Pipishell-Hanging-Organizer-6-Shelf-Removable/dp/B09PVBCC1Y/ref=sr_1_6?keywords=Bedroom+closet+hanging+organizers&sr=8-6',
+                        Alt: 'Closet organizer from amazon.com',
+                        Number: 10,
+                    },
+                    {
                         Type: 'text',
                         Content: `Closet organizers (Estimated Cost: $30-$200): Maximize your closet space with hanging shelves, shoe racks, and slim hangers. Consider using storage bins or dividers to separate clothes by season or category.`
                     },
                     {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Bedside-HANDMADE-College-Hospital-Organizer/dp/B07HN1KBWQ/ref=sr_1_17?keywords=bedside%2Bcaddy&sr=8-17&th=1',
+                        Alt: 'Bedside caddy from amazon.com',
+                        Number: 11,
+                    },
+                    {
                         Type: 'text',
                         Content: 'Bedside caddy (Estimated Cost: $10-$30): Keep your nighttime essentials organized and within reach with a bedside caddy that slips under your mattress or hangs from your bed frame.'
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Constructed-Heavy-duty-Stackable-Containers-Organizing/dp/B09BBCL7ZX/ref=sxin_18_ac_d_mf_brs?ac_md=4-1-TkVBVEVSSVpF-ac_d_mf_brs_brs&content-id=amzn1.sym.1ad31f34-ba12-4dca-be4b-f62f7f5bb10d%3Aamzn1.sym.1ad31f34-ba12-4dca-be4b-f62f7f5bb10d&cv_ct_cx=under%2Bbed%2Bstorage&keywords=under%2Bbed%2Bstorage&pd_rd_i=B09BBCL7ZX&pd_rd_r=ae525deb-f4af-4fcd-82eb-75c1bb3bc4af&pd_rd_w=fNksV&pd_rd_wg=UHbiN&pf_rd_p=1ad31f34-ba12-4dca-be4b-f62f7f5bb10d&pf_rd_r=8JPQQP6V487AWKNGWPJX&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-2-8b2f235a-dddf-4202-bbb9-592393927392&th=1',
+                        Alt: 'Under-bed storage bins from amazon.com',
+                        Number: 12,
                     },
                     {
                         Type: 'text',
@@ -165,20 +237,40 @@ export const blogs = [
                 Type: 'list',
                 ListItems: [
                     {
-                        Type: 'text',
-                        Content: `Coat rack or wall hooks (Estimated Cost: $20-$100): Provide a designated space for hanging coats, hats, and bags to keep them off the floor and easy to find.`
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/DALTACK-4-Trays-Desktop-Organizer-Supplies/dp/B08YYJRV4R?ref_=ast_slp_dp&th=1',
+                        Alt: 'Desk organizer from amazon.com',
+                        Number: 13,
                     },
                     {
                         Type: 'text',
-                        Content: 'Shoe storage (Estimated Cost: $30-$100): Keep shoes organized with a shoe rack or cubby system. Alternatively, consider a storage bench that doubles as seating.'
+                        Content: `Desk organizer (Estimated Cost: $15-$50): Keep your desk tidy with an organizer that can hold pens, pencils, paper clips, and other office supplies.`
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/DEVAISE-Locking-Cabinet-Pedestal-Assembled/dp/B0B55MHDJ9/ref=psdc_1069108_t1_B075QBKFSD?th=1',
+                        Alt: 'Filing cabinets from amazon.com',
+                        Number: 14,
                     },
                     {
                         Type: 'text',
-                        Content: 'Key holder (Estimated Cost: $10-$30): Install a key holder or small floating shelf near the door to ensure you never misplace your keys.'
+                        Content: 'Filing cabinet (Estimated Cost: $50-$200): Organize your important documents with a filing cabinet or a portable file box. Use labeled hanging file folders to categorize your papers and make them easy to find.'
+                    },
+                    {
+                        Type: 'img',
+                        Src: 'https://www.amazon.com/Anker-Management-Magnetic-Multipurpose-Lightning/dp/B09T36NM13/ref=sr_1_15?keywords=Cable%2Bmanagement&sr=8-15&th=1',
+                        Alt: 'Anker magnetic cable management from amazon.com',
+                        Number: 15,
+                    },
+                    {
+                        Type: 'text',
+                        Content: 'Cable management tools (Estimated Cost: $5-$30): Keep cords and cables neat and untangled with cable organizers, clips, or sleeves.'
                     }
                 ]
             },
-
+            {
+                Type: 'divider'
+            },
             {
                 Type: 'text',
                 Content: `Creating a clean and organized home takes a bit of effort initially, but the benefits of investing time upfront are well worth it. With these organization tips and product recommendations, you can design a living space that's easy to maintain and enjoyable to inhabit. By implementing the right organizational tools for each area of your house, you'll foster a more efficient and relaxing atmosphere. Remember that organization is an ongoing process; periodically assess your needs and adjust your systems as necessary to maintain a well-ordered home.`,
