@@ -82,7 +82,7 @@ export const listings = [
         Beds: "4",
         Baths: "4",
         Price: "$1,150,000",
-        Status: "Pending",
+        Status: "Active",
         Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
         Features: [
             "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"
