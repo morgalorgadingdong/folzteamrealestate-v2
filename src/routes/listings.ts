@@ -1,6 +1,24 @@
 
 export const listings = [
     {
+        Title: "156Front",
+        Address: "156 Front (#280) St NE",
+        City: "Salem",
+        MLS: "803885",
+        SquareFootage: "1,700",
+        FeaturedListing: true,
+        Beds: "2",
+        Baths: "2",
+        Price: "$540,000",
+        Status: "Active",
+        Details: "Exclusive luxury condo. Close to dining, parks, theaters, WU & more. Floor to ceiling windows with up/down custom blinds. Well-planned kitchen w/ custom cabs, quartz counters, SS appliances, pot-filler, soft close, under cab lights & large island. Ensuite w/elfa shelving, heated bathroom floor, large walk-in tiled shower & dual vanity. Small art/office room & 2nd bedroom/den room-doesn't have egress. LVT, gas furnace & on-demand H20 heater. Sale includes deeded parking space. Private entrance from garden!",
+        Features: [
+            "High walkability", "Close to Parks", "Floor to Ceiling Windows", "Custom Cabinets", "SS Appliances", "Heated Bathroom Floor", "Gas Furnace", "On-Demand H20 Heater", "Deeded Parking Space", "Private Entrance from Garden"
+        ],
+        FeaturedPic: '',
+        Pics: 40
+    },
+    {
         Title: "101Moolack",
         Address: "Hwy 101 Moolack Shores",
         City: "Newport",
