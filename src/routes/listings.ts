@@ -78,7 +78,7 @@ export const listings = [
         City: "Grants Pass",
         MLS: "802166",
         SquareFootage: "166,400",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "347",
         Baths: "331",
         Price: "$4,300,000",
