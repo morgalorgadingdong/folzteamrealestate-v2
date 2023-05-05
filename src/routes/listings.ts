@@ -10,7 +10,7 @@ export const listings = [
         Beds: "2",
         Baths: "2",
         Price: "$540,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Exclusive luxury condo. Close to dining, parks, theaters, WU & more. Floor to ceiling windows with up/down custom blinds. Well-planned kitchen w/ custom cabs, quartz counters, SS appliances, pot-filler, soft close, under cab lights & large island. Ensuite w/elfa shelving, heated bathroom floor, large walk-in tiled shower & dual vanity. Small art/office room & 2nd bedroom/den room-doesn't have egress. LVT, gas furnace & on-demand H20 heater. Sale includes deeded parking space. Private entrance from garden!",
         Features: [
             "High walkability", "Close to Parks", "Floor to Ceiling Windows", "Custom Cabinets", "SS Appliances", "Heated Bathroom Floor", "Gas Furnace", "On-Demand H20 Heater", "Deeded Parking Space", "Private Entrance from Garden"
@@ -100,7 +100,7 @@ export const listings = [
         Beds: "4",
         Baths: "4",
         Price: "$1,150,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
         Features: [
             "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"
