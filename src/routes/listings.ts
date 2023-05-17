@@ -24,7 +24,7 @@ export const listings = [
         City: "Salem",
         MLS: "803885",
         SquareFootage: "1,700",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "2",
         Baths: "2",
         Price: "$540,000",
