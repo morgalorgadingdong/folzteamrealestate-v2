@@ -101,13 +101,13 @@
                             {/each}
                         {:else if listing.Pics >= 2}
                             {#each Array(listing.Pics) as pic}
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 listingPhotoContainer">
                                     <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
                                 </div>
                             {/each}
                         {:else}
                             {#each Array(listing.Pics) as pic}
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 listingPhotoContainer">
                                     <img src={renderPicture(listing)} alt="listing" class="listingPhoto" />
                                 </div>
                             {/each} 

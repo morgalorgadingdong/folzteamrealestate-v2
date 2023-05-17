@@ -1,6 +1,24 @@
 
 export const listings = [
     {
+        Title: "1015Oak",
+        Address: "1015 Oak (Unit 68) St",
+        City: "Silverton",
+        MLS: "804942",
+        SquareFootage: "1,407",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "2",
+        Price: "$340,000",
+        Status: "Preview",
+        Details: "Beautiful home in Silver Cliff Estates with recent updates and renovations, making it a comfortable & modern living space. Vaulted ceilings & large primary bedroom with soaking tub adds to the home's appeal. All new interior paint, flooring, and fixtures, along with new exterior paint. 4 bedroom, 2 bath Golden West home on its own land with low taxes. Affordable Silverton living with low cost of ownership. HOA $62/month.",
+        Features: [
+            "Vaulted Ceilings", "Large Primary Bedroom", "Soaking Tub", "New Interior Paint", "New Flooring", "New Fixtures", "New Exterior Paint"
+        ],
+        FeaturedPic: '',
+        Pics: 2
+    },
+    {
         Title: "156Front",
         Address: "156 Front (#280) St NE",
         City: "Salem",
