@@ -1,16 +1,34 @@
 
 export const listings = [
     {
+        Title: "85350Dilley",
+        Address: "85350 Dilley Ln",
+        City: "Eugene",
+        MLS: "806017",
+        SquareFootage: "1,312",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "2",
+        Price: "$579,000",
+        Status: "Active",
+        Details: "Updated & private, this 3/2 home is fully fenced & gated, providing security & seclusion. A 71K remodel includes improvements to kitchen,bathrooms, floors, windows, doors & other areas of the home. Kitchen has stainless steel appliances, farm sink & granite. New in 2022 paint, HVAC, insulation, Trex decking & more. Plumbing in place for future primary bath expansion. Newer 628sf outbuilding available for storing toys.Several sectioned-off large pens suitable for livestock or other animals. LOW utilities!",
+        Features: [
+            "Fully Fenced", "Recently Remodel", "Stainless Steel Appliances", "Farm Sink", "Granite", "New Paint", "New HVAC", "New Insulation", "New Trex Decking", "628sf Outbuilding", "Several Sectioned-off Large Pens"
+        ],
+        FeaturedPic: '',
+        Pics: 41
+    },
+    {
         Title: "1015Oak",
         Address: "1015 Oak (Unit 68) St",
         City: "Silverton",
         MLS: "804942",
         SquareFootage: "1,407",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "3",
         Baths: "2",
         Price: "$340,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Beautiful home in Silver Cliff Estates with recent updates and renovations, making it a comfortable & modern living space. Vaulted ceilings & large primary bedroom with soaking tub adds to the home's appeal. All new interior paint, flooring, and fixtures, along with new exterior paint. 4 bedroom, 2 bath Golden West home on its own land with low taxes. Affordable Silverton living with low cost of ownership. HOA $62/month.",
         Features: [
             "Vaulted Ceilings", "Large Primary Bedroom", "Soaking Tub", "New Interior Paint", "New Flooring", "New Fixtures", "New Exterior Paint"
@@ -28,7 +46,7 @@ export const listings = [
         Beds: "2",
         Baths: "2",
         Price: "$540,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Exclusive luxury condo. Close to dining, parks, theaters, WU & more. Floor to ceiling windows with up/down custom blinds. Well-planned kitchen w/ custom cabs, quartz counters, SS appliances, pot-filler, soft close, under cab lights & large island. Ensuite w/elfa shelving, heated bathroom floor, large walk-in tiled shower & dual vanity. Small art/office room & 2nd bedroom/den room-doesn't have egress. LVT, gas furnace & on-demand H20 heater. Sale includes deeded parking space. Private entrance from garden!",
         Features: [
             "High walkability", "Close to Parks", "Floor to Ceiling Windows", "Custom Cabinets", "SS Appliances", "Heated Bathroom Floor", "Gas Furnace", "On-Demand H20 Heater", "Deeded Parking Space", "Private Entrance from Garden"
@@ -118,7 +136,7 @@ export const listings = [
         Beds: "4",
         Baths: "4",
         Price: "$1,150,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "3000sqft home on 9.84 wooded acres is sure to appeal to those seeking privacy & a connection w/nature. Remodeled 3 BR home w/3 flex spaces offers flexibility for additional BRs, office space, exercise or hobby areas.The gourmet kitchen is sure to please any home chef & the 2 decks provide ample space for outdoor entertaining or relaxation.The 800+ square foot shop w/full bath, 10ft door & loft for storage,RV, or potential ADU. Low county taxes & utilities. Unique blend o/privacy, nature & modern amenities.",
         Features: [
             "Detached Shop", "9.84 acres", "Gourmet Kitchen", "RV Parking", "ADU Potential"

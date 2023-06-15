@@ -40,16 +40,16 @@
         <div class="col-12 d-flex justify-content-center flex-wrap mt-3 px-3">
             {#each blog.Sections as Section}
                 {#if Section.Type == 'text'}
-                    <p class="col-12 text-left px-0 my-3 blog-text {Section.Class}">{Section.Content}</p>
+                    <p class="col-12 col-lg-8 text-left px-0 my-3 blog-text {Section.Class}">{Section.Content}</p>
                 {:else if Section.Type == 'img'}
                     <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
-                    <span class="col-12 text-center mb-5">{Section.Caption} <a href="{Section.Src}">source</a></span>
+                    <span class="col-12 text-center mb-5">{#if Section.Caption}{Section.Caption}{/if} <a href="{Section.Src}">source</a></span>
                 {:else if Section.Type == 'divider'}
                     <div class="mt-5 pb-5 blog-divider col-8 {Section.Class}"></div>
                 {:else if Section.Type == 'highlight'}
                 <p class="text-center blog-highlight p-5 col-12 col-lg-8 my-5">{Section.Content}</p>
                 {:else if Section.Type == 'heading'}
-                <h4 class="text-start col-12 mt-3 mb-0">{Section.Content}</h4>
+                <h4 class="text-start col-12 col-lg-8 mt-3 mb-0">{Section.Content}</h4>
                 {:else if Section.Type == 'list'}
                 <ul class="text-start col-12 col-lg-8 my-3 mb-0 d-flex flex-wrap justify-content-center">
                     {#each Section.ListItems as Item}

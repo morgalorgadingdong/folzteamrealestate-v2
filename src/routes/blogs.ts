@@ -1,6 +1,174 @@
+// Banner
+// Photo by <a href="https://unsplash.com/@roselyntirado?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roselyn Tirado</a> on <a href="https://unsplash.com/photos/GDWmu0bFfS4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+// Lanscaping
+// Photo by <a href="https://unsplash.com/@fanofthe5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jared Muller</a> on <a href="https://unsplash.com/photos/EkhWxU_pgLo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+// Home office
+// Photo by <a href="https://unsplash.com/@collovhome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Collov Home Design</a> on <a href="https://unsplash.com/photos/UUsQk_9bdR8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+// Lamp
+// Photo by <a href="https://unsplash.com/@joelhenry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Henry</a> on <a href="https://unsplash.com/photos/pdIwPL3HU2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+// Curtains
+// Photo by <a href="https://unsplash.com/@robwingate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Wingate</a> on <a href="https://unsplash.com/photos/Fd9tUmRBJzk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 export const blogs = [
-    
+    {
+        Number: 11,
+        Title: "Home Value Boosters - Top Renovations That Pay Off",
+        Date: "05/30/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: '',
+        BannerAlt: '',
+        Sections: [
+            {
+                Type: 'text',
+                Content: `In my 15 years as a real estate agent in the Willamette Valley, I've observed the effect that certain home renovations can have on a property's value. Not every renovation will significantly increase the selling price, but some consistently make a difference. In this guide, I've compiled a list of home upgrades that, in my experience, offer good value for money and can help boost your home's overall worth.` 
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Enhance Your Curb Appeal` 
+            },
+
+            {
+                Type: 'text',
+                Content: `First impressions matter, and that begins with your home's exterior. An attractive front door not only welcomes guests but also leaves a lasting impression on potential buyers. A fresh coat of paint can breathe new life into your door, transforming it into an inviting gateway to the rest of the home. Opt for a color that complements your home's exterior while also standing out to passersby. This easy yet impactful upgrade can significantly boost your home's attractiveness.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Maintaining a well-kept, eye-catching landscape is another key factor in amplifying curb appeal. Investing time into pruning your shrubs, planting vibrant flowers, and ensuring your lawn is neat and tidy can work wonders. If you're pressed for time or unsure where to begin, don't hesitate to hire a professional. Even a modest investment in professional landscaping services can yield substantial dividends in your home's aesthetic appeal and perceived value.`,
+                Class: ''
+            },
+            
+
+
+            {
+                Type: 'heading',
+                Content: `Let There Be Light` 
+            },
+            {
+                Type: 'text',
+                Content: `Lighting is a key component in setting the ambiance of your home, creating a warm, inviting space that potential buyers will love. Let's put the spotlight on enhancing your interior illumination without any structural changes like increasing window sizes or adding skylights.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Firstly, consider the placement and style of your light fixtures. The right fixtures can serve as a design statement, complementing your interior decor while brightening up your living space. Don't be afraid to add more fixtures where needed, particularly in areas that require task lighting like the kitchen or office.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Secondly, pay attention to your window treatments. High-quality curtains can be an excellent investment. They serve to diffuse natural light beautifully during the day and provide privacy at night. Choose materials that match your home’s aesthetic, but ensure they also provide light control and insulation. In rooms where more sunlight is desired, consider sheer curtains to let in a diffused glow without compromising on privacy.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Finally, consider upgrading your existing light bulbs to energy-efficient LEDs. LED bulbs not only reduce energy consumption and save on electricity bills, but they also offer a broad range of color temperatures, from warm and cozy to bright and cool. This gives you the freedom to choose the perfect lighting mood for each room in your home.`,
+                Class: ''
+            },
+
+            {
+                Type: 'heading',
+                Content: `Update Your Kitchen` 
+            },
+
+            {
+                Type: 'text',
+                Content: `The kitchen, often regarded as the heart of the home, offers great potential for enhancing your property's value through thoughtful updates. We'll start by focusing on the essential components: countertops, cabinets, and appliances.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Countertops take center stage in any kitchen and choosing a durable, stylish material can significantly upgrade the space. Consider the burgeoning trend of concrete countertops. These surfaces boast a unique, contemporary aesthetic while offering robust durability. Additionally, concrete countertops can be customized in various colors and finishes to suit your kitchen's design, making them a versatile option.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Next, examine your cabinets. Ensuring sufficient storage space and a sleek design can make your kitchen more functional and attractive. A fresh coat of paint or updated hardware can breathe new life into old cabinets without the need for a full replacement.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Lastly, pay attention to appliances. Energy-efficient models can reduce electricity costs and are often more appealing to eco-conscious buyers. From a modern refrigerator to a high-performing oven, each appliance contributes to a kitchen that is both stylish and functional.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Minor updates should not be overlooked. Replacing old cabinet hardware, installing a new backsplash, or adding under-cabinet lighting can make a substantial difference in the overall look and feel of your kitchen. With these thoughtful renovations, your kitchen will be a space that potential buyers can't help but imagine themselves in.`,
+                Class: ''
+            },
+
+            {
+                Type: 'heading',
+                Content: `Revitalize Your Bathrooms` 
+            },
+
+            {
+                Type: 'text',
+                Content: `Bathrooms are private sanctuaries, and giving them a touch-up can create a significant impression on potential buyers. Simple upgrades such as re-grouting tiles, replacing dated fixtures, and installing water-efficient toilets and showerheads can dramatically improve your bathrooms' look and function.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `For those looking for more extensive renovations, consider a contemporary vanity, a walk-in shower, or even a soaking tub. Each of these can transform your bathroom into a spa-like retreat, increasing your home's overall appeal and value.`,
+                Class: ''
+            },
+
+            {
+                Type: 'heading',
+                Content: `Opt for Smart Home Technology` 
+            },
+            {
+                Type: 'text',
+                Content: `With the rise of technology, smart home features have become increasingly desirable. The first smart home upgrade I'd recommend is a programmable thermostat that adapts to your schedule, optimizes energy use, and keeps your home comfortable.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Consider other smart home devices too, like smart lighting systems, which allow you to control the brightness and color of your lights from your phone, or security systems that provide added safety. These improvements not only enhance convenience and energy efficiency, but they also make your home more appealing to tech-savvy buyers.`,
+                Class: ''
+            },
+
+            {
+                Type: 'heading',
+                Content: `Create Additional Living Space` 
+            },
+
+            {
+                Type: 'text',
+                Content: `Adding more usable space to your home is a surefire way to boost its value, even without building an extension. Think about finishing a basement, converting an attic into a bedroom, or even transforming a corner of your living room into a cozy home office.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Understand the needs of your target market: families might appreciate an extra bedroom or playroom, while young professionals might prefer a dedicated home office or workout area. Tailoring your home to meet these needs can substantially increase its value and appeal.`,
+                Class: ''
+            },
+
+            {
+
+                Type: 'divider',
+            },
+            {
+                Type: 'text',
+                Content: `As you embark on your home renovation journey, remember that each project should be tailored to your local market and the unique features of your property. If you're in the Willamette valley and have any questions, I'd be happy to help you determine which renovations will add the most value to your property. I can also provide recommendations for local contractors and vendors who can help you complete your renovation projects. Happy Home Improving!`,
+            }
+           
+        ]
+    },
     {
         Number: 10,
         Title: "A Guide to Easy Cleanliness and Organization in Your Home",
