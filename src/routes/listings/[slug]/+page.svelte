@@ -279,7 +279,7 @@ button {
     /* background-color: rgb(5, 195, 249,.3); */
 }
 
-.Active {
+.Active, .Preview {
         color: #02cc7d;
     }
     .Pending {

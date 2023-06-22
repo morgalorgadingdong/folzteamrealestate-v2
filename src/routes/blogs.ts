@@ -24,7 +24,7 @@ export const blogs = [
         Title: "Home Value Boosters - Top Renovations That Pay Off",
         Date: "05/30/2023",
         Author: 'Folz Team Real Estate',
-        Published: true,
+        Published: false,
         BannerSrc: '',
         BannerAlt: '',
         Sections: [

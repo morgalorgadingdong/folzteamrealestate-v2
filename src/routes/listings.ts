@@ -1,5 +1,24 @@
 
+
 export const listings = [
+    {
+        Title: "2358Ptarmigan",
+        Address: "2358 Ptarmigan St NW",
+        City: "Salem",
+        MLS: "806353",
+        SquareFootage: "1,920",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "3",
+        Price: "$470,000",
+        Status: "Preview",
+        Details: "Meticulously kept and charmingly updated home in an established West Salem neighborhood with Glen Creek in your backyard. Recent updates include quartz kitchen counter-tops with imported Italian tile backsplash, bathroom counters, vinyl windows, engineered wood on the main & carpet upstairs. Listen to your Creek from the Trex-deck or your covered cedar deck. Extra long driveway and no HOA, bring your RV!",
+        Features: [
+            "Quartz Kitchen Counter-tops", "Italian Tile Backsplash", "Covered Cedar Deck", "Extra Long Driveway", "No HOA"
+        ],
+        FeaturedPic: '',
+        Pics: 0
+    },
     {
         Title: "85350Dilley",
         Address: "85350 Dilley Ln",
@@ -96,7 +115,7 @@ export const listings = [
         City: "Salem",
         MLS: "802167",
         SquareFootage: "54,791",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "NA",
         Baths: "NA",
         Price: "$1,300,000",
