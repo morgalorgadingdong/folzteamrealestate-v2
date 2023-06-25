@@ -11,7 +11,7 @@ export const listings = [
         Beds: "3",
         Baths: "3",
         Price: "$470,000",
-        Status: "Preview",
+        Status: "Pending",
         Details: "Meticulously kept and charmingly updated home in an established West Salem neighborhood with Glen Creek in your backyard. Recent updates include quartz kitchen counter-tops with imported Italian tile backsplash, bathroom counters, vinyl windows, engineered wood on the main & carpet upstairs. Listen to your Creek from the Trex-deck or your covered cedar deck. Extra long driveway and no HOA, bring your RV!",
         Features: [
             "Quartz Kitchen Counter-tops", "Italian Tile Backsplash", "Covered Cedar Deck", "Extra Long Driveway", "No HOA"
@@ -136,7 +136,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "347",
         Baths: "331",
-        Price: "$4,300,000",
+        Price: "$2,900,000",
         Status: "Active",
         Details: "176 Unit Apartment Development Opportunity. Proposed 176 Unit Multi-Family Development opportunity in Grants Pass, Oregon. Plans for 19 one bedroom/one bathroom units, 140 two bedroom/two bathroom units and 16 three bedroom/2 bathroom units, in addition to a 2,500 SF rec center and pool. Subject to final approval.",
         Features: [
@@ -262,7 +262,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "-",
         Baths: "-",
-        Price: "$7,500,000",
+        Price: "$8,900,000",
         Status: "Active",
         Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
         Features: [
@@ -280,7 +280,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "-",
         Baths: "-",
-        Price: "$49,000,000",
+        Price: "$57,555,000",
         Status: "Active",
         Details: "Opportunity to purchase a 201-unit apartment complex currently under construction, ETA for completion July 2024. Located in the expanding community of West Salem, this project is in the horizontal phase and will be a 3-story multiplex complete with fitness center, resident pool & clubhouse, walking trail/green space and on-site management office. Development is located off Wallace Rd, adjacent to neighboring retail development which includes a small shopping center, food truck pod and pavilion.",
         Features: [
