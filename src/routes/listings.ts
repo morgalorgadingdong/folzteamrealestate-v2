@@ -2,6 +2,24 @@
 
 export const listings = [
     {
+        Title: "2222Simmons",
+        Address: "2222 Simmons St NW",
+        City: "Salem",
+        MLS: "806686",
+        SquareFootage: "3,980",
+        FeaturedListing: true,
+        Beds: "5",
+        Baths: "4",
+        Price: "$1,625,000",
+        Status: "Preview",
+        Details: "Custom one owner 5 bedroom home. Updates & stunning details thru-out, including gourmet kitchen w/Viking appls, quartz countertops & custom cabinetry. Main floor showcases local Zena Forest Oregon White Oak floors. Large Meranti deck & 250sf vaultscreen porch seamlessly connect indoor & outdoor living. On 4.67 acres offering space & privacy. Custom barn/shop, fenced pastures, 2 seasonal ponds, strong well & lots of trees. Modern updates, quality craftsmanship in desirable neighborhood w/coveted schools.",
+        Features: [
+            "Gourmet Kitchen", "Viking Appliances", "Quartz Countertops", "Custom Cabinetry", "Zena Forest Oregon White Oak Floors", "Meranti Deck", "Vaultscreen Porch", "Custom Barn/Shop", "Fenced Pastures", "2 Seasonal Ponds" 
+        ],
+        FeaturedPic: '',
+        Pics: 58
+    },
+    {
         Title: "2358Ptarmigan",
         Address: "2358 Ptarmigan St NW",
         City: "Salem",
