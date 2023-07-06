@@ -37,7 +37,7 @@
             <!-- <img src='$lib/' alt="{listing.Caption0}"/> -->
         </div>
         <!-- <div class="card-img-top"></div> -->
-        <div class="col-8 px-2 d-flex align-content-center justify-content-start flex-wrap px-3">
+        <div class="col-8 d-flex align-content-center justify-content-start flex-wrap ps-4">
             <div class="col-12 d-flex justify-content-start card-title-container">
                 <h5 class="card-title text-left py-1">{blog.Title}</h5>
             </div>

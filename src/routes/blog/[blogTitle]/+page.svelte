@@ -42,8 +42,8 @@
                 {#if Section.Type == 'text'}
                     <p class="col-12 col-lg-8 text-left px-0 my-3 blog-text {Section.Class}">{Section.Content}</p>
                 {:else if Section.Type == 'img'}
-                    <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
-                    <span class="col-12 text-center mb-5">{#if Section.Caption}{Section.Caption}{/if} <a href="{Section.Src}">source</a></span>
+                    <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Section.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-3 blog-img" />
+                    <span class="col-12 text-center mb-3">{#if Section.Caption}{Section.Caption}{/if} <a href="{Section.Src}">source</a></span>
                 {:else if Section.Type == 'divider'}
                     <div class="mt-5 pb-5 blog-divider col-8 {Section.Class}"></div>
                 {:else if Section.Type == 'highlight'}
@@ -56,8 +56,8 @@
                         {#if Item.Type == 'text'}
                             <li class="blog-text my-2 col-12">{Item.Content}</li>
                         {:else if Item.Type == 'img'}
-                            <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Item.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-5 blog-img" />
-                            <span class="col-12 text-center">{#if Item.Caption}{Item.Caption}{/if} <a href="{Item.Src}">source</a></span>
+                            <img src="../img/blogs/{blog.Number}. {blog.Title}/blog-{blog.Number}-{Item.Number}.jpg" alt="{Section.Alt}" class="col-10 col-md-8 mt-3 blog-img" />
+                            <span class="col-12 text-center mb-3">{#if Item.Caption}{Item.Caption}{/if} <a href="{Item.Src}">source</a></span>
                         {/if}
                     {/each}
                 </ul>

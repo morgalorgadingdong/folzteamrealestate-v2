@@ -1,30 +1,12 @@
-// Banner
-// Photo by <a href="https://unsplash.com/@roselyntirado?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roselyn Tirado</a> on <a href="https://unsplash.com/photos/GDWmu0bFfS4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
-// Lanscaping
-// Photo by <a href="https://unsplash.com/@fanofthe5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jared Muller</a> on <a href="https://unsplash.com/photos/EkhWxU_pgLo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-// Home office
-// Photo by <a href="https://unsplash.com/@collovhome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Collov Home Design</a> on <a href="https://unsplash.com/photos/UUsQk_9bdR8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-// Lamp
-// Photo by <a href="https://unsplash.com/@joelhenry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Henry</a> on <a href="https://unsplash.com/photos/pdIwPL3HU2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-// Curtains
-// Photo by <a href="https://unsplash.com/@robwingate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Wingate</a> on <a href="https://unsplash.com/photos/Fd9tUmRBJzk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
 export const blogs = [
     {
         Number: 11,
         Title: "Home Value Boosters - Top Renovations That Pay Off",
-        Date: "05/30/2023",
+        Date: "06/30/2023",
         Author: 'Folz Team Real Estate',
-        Published: false,
+        Published: true,
         BannerSrc: '',
         BannerAlt: '',
         Sections: [
@@ -41,11 +23,18 @@ export const blogs = [
                 Type: 'heading',
                 Content: `Enhance Your Curb Appeal` 
             },
+            
 
             {
                 Type: 'text',
                 Content: `First impressions matter, and that begins with your home's exterior. An attractive front door not only welcomes guests but also leaves a lasting impression on potential buyers. A fresh coat of paint can breathe new life into your door, transforming it into an inviting gateway to the rest of the home. Opt for a color that complements your home's exterior while also standing out to passersby. This easy yet impactful upgrade can significantly boost your home's attractiveness.`,
                 Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://www.forbes.com/home-improvement/lawn-care/front-yard-landscaping-ideas/',
+                Alt: 'Front yard landscaping.',
+                Number: 1
             },
             {
                 Type: 'text',
@@ -70,6 +59,13 @@ export const blogs = [
                 Class: ''
             },
             {
+                Type: 'img',
+                Src: 'https://unsplash.com/@robwingate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Wingate</a> on <a href="https://unsplash.com/photos/Fd9tUmRBJzk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'A cozy day bed with curtains on the window.',
+                Number: 2
+            },
+            
+            {
                 Type: 'text',
                 Content: `Secondly, pay attention to your window treatments. High-quality curtains can be an excellent investment. They serve to diffuse natural light beautifully during the day and provide privacy at night. Choose materials that match your home’s aesthetic, but ensure they also provide light control and insulation. In rooms where more sunlight is desired, consider sheer curtains to let in a diffused glow without compromising on privacy.`,
                 Class: ''
@@ -92,8 +88,14 @@ export const blogs = [
             },
             {
                 Type: 'text',
-                Content: `Countertops take center stage in any kitchen and choosing a durable, stylish material can significantly upgrade the space. Consider the burgeoning trend of concrete countertops. These surfaces boast a unique, contemporary aesthetic while offering robust durability. Additionally, concrete countertops can be customized in various colors and finishes to suit your kitchen's design, making them a versatile option.`,
+                Content: `Countertops take center stage in any kitchen and choosing a durable, stylish material can significantly upgrade the space. For those light on cash but heavy on elbow grease, consider the burgeoning trend of concrete countertops. These surfaces boast a unique, contemporary aesthetic while offering robust durability at a price that can't be beat. Additionally, concrete countertops can be customized in various colors and finishes to suit your kitchen's design, making them a versatile option.`,
                 Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/@robwingate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'A modern, updated kitchen',
+                Number: 3
             },
             {
                 Type: 'text',
@@ -122,6 +124,13 @@ export const blogs = [
                 Class: ''
             },
             {
+                Type: 'img',
+                Src: 'https://unsplash.com/photos/bXfGnlaNuM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'Fresh shower tiles and a modern shower head',
+                Number: 4
+            },
+  
+            {
                 Type: 'text',
                 Content: `For those looking for more extensive renovations, consider a contemporary vanity, a walk-in shower, or even a soaking tub. Each of these can transform your bathroom into a spa-like retreat, increasing your home's overall appeal and value.`,
                 Class: ''
@@ -135,6 +144,12 @@ export const blogs = [
                 Type: 'text',
                 Content: `With the rise of technology, smart home features have become increasingly desirable. The first smart home upgrade I'd recommend is a programmable thermostat that adapts to your schedule, optimizes energy use, and keeps your home comfortable.`,
                 Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/photos/RFAHj4tI37Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'A smart thermostat.',
+                Number: 5,
             },
             {
                 Type: 'text',
@@ -151,6 +166,12 @@ export const blogs = [
                 Type: 'text',
                 Content: `Adding more usable space to your home is a surefire way to boost its value, even without building an extension. Think about finishing a basement, converting an attic into a bedroom, or even transforming a corner of your living room into a cozy home office.`,
                 Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/@collovhome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'A home office',
+                Number: 6,
             },
             {
                 Type: 'text',
@@ -172,7 +193,7 @@ export const blogs = [
     {
         Number: 10,
         Title: "A Guide to Easy Cleanliness and Organization in Your Home",
-        Date: "04/21/2023",
+        Date: "05/21/2023",
         Author: 'Folz Team Real Estate',
         Published: true,
         BannerSrc: '',

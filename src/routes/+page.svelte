@@ -38,7 +38,7 @@
     </div>
 </section>
 
-<section id="whatOurClientsSay" class="backgroundIMG2 inViewport">
+<section id="whatOurClientsSay" class="inViewport">
     <div class="py-5">
     <h2>What our Clients Say</h2>
         <Splide aria-label="Client Testimonials" class="z-reset" hasTrack={ false } options={ {
@@ -223,13 +223,12 @@
 
 
 #whatOurClientsSay h2 {
-  color: black;
+  color: #05c3f9;
 }
 
-/* #whatOurClientsSay {
-    min-height: 0;
-    height: fit-content;
-} */
+#whatOurClientsSay {
+    background-color: var(--bs-body-color);
+}
 
 #theMarketAtAGlance {
   color: white;
