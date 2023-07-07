@@ -224,6 +224,7 @@
 
 #whatOurClientsSay h2 {
   color: #05c3f9;
+  color: #FFFFFF;
 }
 
 #whatOurClientsSay {
