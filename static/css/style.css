@@ -200,19 +200,19 @@ body:after {
   z-index: 2;
 } */
 
-.splide__slide .fa-quote-left, .splide__slide .fa-quote-right {
+.testimonialContainer .fa-quote-left, .testimonialContainer .fa-quote-right {
   font-size: 5rem;
   color: rgb(5, 195, 249, 0);
   font-style: italic;
   transition: all 0.5s ease;
   z-index: 1;
 } 
-.splide__slide .fa-quote-left {
+.testimonialContainer .fa-quote-left {
   position: absolute;
   top: 0;
   left: 0;
 }
-.splide__slide .fa-quote-right {
+.testimonialContainer .fa-quote-right {
   position: absolute;
   bottom: 0;
   right: 10px;

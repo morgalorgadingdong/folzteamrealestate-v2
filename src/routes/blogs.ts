@@ -1,6 +1,203 @@
+// vinyard and banner
+// Photo by <a href="https://unsplash.com/@dmey503?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dan Meyers</a> on <a href="https://unsplash.com/photos/0AgtPoAARtE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
+
+// Steam rising off a river that runs right below the snowline in an old-growth forest in the Cascade Mountains of Oregon. Taken right as sunset.
+
+
+// Wine country in the Willamette Valley in Oregon, at sunset.
+
+
+
+
+
+
+// // Surfer
+// Photo by <a href="https://unsplash.com/@chrishenryphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Henry</a> on <a href="https://unsplash.com/photos/71fiCzdQgZA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+
+
+// // Mountains
+// Photo by <a href="https://unsplash.com/@clintmckoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clint McKoy</a> on <a href="https://unsplash.com/photos/Qg1qw7P_LNs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+
+// // Silver falls
+// Photo by <a href="https://unsplash.com/@clintmckoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clint McKoy</a> on <a href="https://unsplash.com/photos/Qg1qw7P_LNs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+
+// // Silver falls better
+// Photo by Sathyaprabha Rakkimuthu: https://www.pexels.com/photo/south-falls-in-oregon-11915086/
 
 export const blogs = [
+    {
+        Number: 12,
+        Title: "Why Salem is a Great Place to Purchase a Rental Property",
+        Date: "07/28/2023",
+        Author: 'Folz Team Real Estate',
+        Published: true,
+        BannerSrc: '',
+        BannerAlt: '',
+        Sections: [
+            {
+                Type: 'html',
+                Content: `Having served as a real estate agent in the Willamette Valley for 15 years, I've witnessed the transformation of Salem, Oregon, into a promising investment destination. The city has seen an impressive 18% increase in rental prices over the past year <sup>1</sup>, a testament to its growing appeal among investors. But what makes Salem such an attractive choice for real estate investment? Let's delve deeper.` 
+            },
+
+            {
+                Type: 'divider'
+            },
+
+            {
+                Type: 'heading',
+                Content: `Location and Accessibility` 
+            },
+            
+
+            {
+                Type: 'html',
+                Content: `Salem's geographical advantage is one of its key selling points. Nestled in the heart of the Willamette Valley, it offers easy access to Portland, Eugene, the coast, and ski resorts. This central location makes it an ideal place for those who want to enjoy the best of Oregon without the hustle and bustle of a big city.
+                Additionally, the city is surrounded by the lush Willamette Valley, known for its vineyards, gardens, and pastoral fields. This natural charm adds a unique appeal to Salem, making it not just a great place to invest, but also a wonderful place to live`,
+                Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/@dmey503?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'Sweeping vinyards',
+                Number: 1
+            },
+            {
+                Type: 'heading',
+                Content: `Market Stability` 
+            },
+            {
+                Type: 'text',
+                Content: `Another factor that makes Salem a promising investment destination is its stable real estate market. The city has seen steady population growth, which has led to a consistent demand for homes. This demand, coupled with the city's strategic location, has resulted in a reliable real estate market that offers opportunities for increasing home equity`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Adding to this stability is the city's robust employment sector. Salem's biggest employers include the State of Oregon, Salem Health Hospitals & Clinics, public schools, and local universities and colleges such as Willamette and Chemeketa. These institutions provide a steady stream of jobs, making the city fairly resistant to economic recessions. This resilience further strengthens Salem's real estate market, making it an even more attractive destination for investors.`,
+                Class: ''
+            },
+            {
+                Type: 'heading',
+                Content: `Affordability` 
+            },
+
+            {
+                Type: 'html',
+                Content: `When it comes to affordability, Salem stands out in Oregon. The city's median home value is $423,498 <sup>3</sup>, significantly lower than that of Eugene ($474,791) <sup>4</sup> and Portland ($544,317) <sup>5</sup>. This affordability makes Salem an attractive choice for investors, especially those looking to invest in rental properties or single-family homes.
+                Salem's steady economy and increasing demand for homes mean that investing in the city's real estate market is not just affordable, but also a sound financial decision`,
+                Class: ''
+            },
+            {
+                Type: 'heading',
+                Content: `Quality of Life` 
+            },
+
+            {
+                Type: 'text',
+                Content: `But Salem is not just about investment opportunities. Having lived here for over 30 years, I can testify that that Salem also offers a high quality of life. With numerous wineries, outdoor recreation opportunities, and a vibrant culture, Salem is a city that has something for everyone.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Nestled in the heart of the idyllic Willamette Valley, Salem is a haven for outdoor enthusiasts. From hiking and fishing to rafting and cycling, the city offers a plethora of recreational opportunities. Silver Falls State Park, with its 9,000 acres of natural beauty, is just a short drive away. Within the city limits, Minto-Brown Island Park invites visitors to explore its expansive wetlands and forests.`,
+                Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://www.pexels.com/photo/south-falls-in-oregon-11915086/',
+                Alt: 'Silver Falls',
+                Number: 2
+            },
+            {
+                Type: 'text',
+                Content: `For families, Salem is a city that keeps on giving. The Oregon State Fair, with its carnival rides, concerts, and agricultural exhibits, is a hit with kids and adults alike. The Gilbert House Children’s Museum offers hands-on exhibits and educational programs, while a variety of summer camps and daytime activities keep the younger ones engaged and entertained.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Food and drink connoisseurs will find themselves at home in Salem. The city's food scene is renowned for its farm-to-table cuisine, served in a variety of restaurants and cafes. Wine lovers can indulge in tastings and tours at over 20 award-winning wineries located in and around the city, many of which offer stunning views of the Willamette Valley.`,
+                Class: ''
+            },
+            {
+                Type: 'text',
+                Content: `Cultural aficionados are not left out either. Salem boasts a strong arts scene, with numerous museums, art galleries, and theaters. The Deepwood Museum & Gardens offer beautiful scenery, while the State Capitol provides guided tours of the iconic building. Throughout the year, the city hosts a variety of festivals and events, showcasing local talent and fostering a sense of community.`,
+                Class: ''
+            },
+            {
+                Type: 'heading',
+                Content: `Don't just take my word for it` 
+            },
+            {
+                Type: 'text',
+                Content: `I asked a recent client of mine to share their experience with purchasing their first investment property in Salem, here’s what they had to say:`,
+                Class: ''
+            },
+            {
+                Type: 'quote',
+                Content: `Purchasing a rental property in Salem with Christine was one of the best financial decisions I've ever made, and that's without factoring in the lucky uptick in my property's value. From the get-go the property has been generating cash flow, and that cash flow has only increased with each passing year. I'm only a few years in, and I'm almost done recouping my initial investment from the monthly income alone (when you factor in the appreciation and my increasing equity, I broke even years ago). I hope Christine is still working when I'm ready to purchase my second investment property in Salem, as not only did she help me land a great deal, she offered a wealth of advice and wisdom throughout the entire home-buying journey, which was invaluable to a first-timer in the real estate investment world like myself.`,
+                Class: ''
+            },
+            {
+                Type: 'img',
+                Src: 'https://unsplash.com/@dmey503?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+                Alt: 'Steam rising off a river that runs right below the snowline in an old-growth forest in the Cascade Mountains of Oregon. Taken right as sunset.',
+                Number: 3
+            },
+            {
+                Type: 'heading',
+                Content: `Conclusion` 
+            },
+
+            {
+                Type: 'text',
+                Content: `As we’ve seen, Salem, Oregon is a great place to purchase a rental property for a multitude of reasons. Its strategic location, market stability, affordability, and quality of life make it an attractive choice for real estate investors. So why wait? Explore rental property options in Salem today and take the first step towards an investment in your future.`,
+                Class: ''
+            },
+            {
+                Type: 'divider'
+            },
+            {
+                Type: 'text',
+                Content: `Sources`,
+                Class: 'pb-0'
+            },
+            {
+                Type: 'link',
+                Content: `1. homebay.com`,
+                url: 'https://homebay.com/best-places-buy-rental-property-oregon/'
+            },
+            {
+                Type: 'link',
+                Content: `2. listwithclever.com`,
+                url: 'https://listwithclever.com/real-estate-blog/top-5-best-real-estate-investment-markets-in-oregon/'
+            },
+            {
+                Type: 'link',
+                Content: `3. Zillow Salem Home Values`,
+                url: 'https://listwithclever.com/real-estate-blog/top-5-best-real-estate-investment-markets-in-oregon/'
+            }
+            ,
+            {
+                Type: 'link',
+                Content: `4. Zillow Eugene Home Values`,
+                url: 'https://listwithclever.com/real-estate-blog/top-5-best-real-estate-investment-markets-in-oregon/'
+            }
+            ,
+            {
+                Type: 'link',
+                Content: `5. Zillow Portland Home Values`,
+                url: 'https://listwithclever.com/real-estate-blog/top-5-best-real-estate-investment-markets-in-oregon/'
+            }
+           
+        ]
+    },
     {
         Number: 11,
         Title: "Home Value Boosters - Top Renovations That Pay Off",

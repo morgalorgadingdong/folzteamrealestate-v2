@@ -61,6 +61,16 @@
                         {/if}
                     {/each}
                 </ul>
+                {:else if Section.Type == 'html'}
+                    <p class="col-12 col-lg-8 text-left px-0 my-3 blog-text {Section.Class}">{@html Section.Content}</p>
+                {:else if Section.Type == 'quote'}
+                    <div class="flexCenterH flexColumn testimonialContainer col-12 col-lg-8 px-0 mx-0">
+                        <i class="fa-solid fa-quote-left px-3 px-md-5"></i>
+                        <!-- <i class="fa-solid fa-quote-right"></i> -->
+                        <p class="col-12 text-left px-3 px-md-5 my-3  blog-text {Section.Class}">{@html Section.Content}</p>
+                    </div>
+                {:else if Section.Type == 'link'}
+                    <a href="{Section.url}" class="col-12 col-lg-8  px-0"><p class="col-12 text-left px-0 my-3 blog-text {Section.Class}">{Section.Content}</p></a>
                 {/if}
             {/each}
         </div>
@@ -166,6 +176,25 @@ a {
         font-size: 1rem;
         line-height: 1.2rem;
     }
+}
+
+.testimonialContainer {
+    height: fit-content;
+    position: relative;
+    padding: 1rem;
+    background-color: rgba(211, 211, 211, 0);
+}
+
+.testimonialContainer p {
+    /* background-color: rgba(211, 211, 211, 0.5); */
+    padding: 1rem;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.testimonialContainer .fa-quote-left, .testimonialContainer .fa-quote-right {
+  color: rgb(5, 195, 249, 0.5);
+  font-size: 3rem;
 }
 
 </style>
