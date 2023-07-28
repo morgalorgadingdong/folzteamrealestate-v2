@@ -2,6 +2,60 @@
 
 export const listings = [
     {
+            Title: "625Jasper",  
+            Address: "625 NW Jasper St",
+            City: "Dallas",
+            MLS: "807143",
+            SquareFootage: "1,933",
+            FeaturedListing: false,
+            Beds: "6",
+            Baths: "2",
+            Price: "$470,000",
+            Status: "Pending",
+            Details: "Great home w/ space for everyone! Open concept vaulted great room, newer LVP flooring, new SS kitchen range & micro. Gas water heater, furnace & AC all within 3 years old. 6 bedrooms including one off entry that could be a den. Lots of storage including under house walkin area. Fully fenced low maintenance yard w/ fire pit, elevated deck, patios, raised beds & more. Front sitting porch for morning coffee! One owner, well kept home!",
+            Features: [
+                "Gas heating", "Central AC", "Newer LVP flooring", "SS applainces", "Front porch", "Fully fenced yard", "Fire pit"
+            ],
+            FeaturedPic: '',
+            Pics: 34
+        },
+    {
+        Title: "2499Wallace",
+        Address: "24499-2539 Wallace Rd",
+        City: "Salem",
+        MLS: "807124",
+        SquareFootage: "341,102",
+        FeaturedListing: false,
+        Beds: "-",
+        Baths: "-",
+        Price: "$20,000,000",
+        Status: "Active",
+        Details: "Opportunity to purchase & take over the development/completion of 201-unit apartment complex project.Located in expanding community of West Salem, this property will be delivered with all horizontal work completed, including excavation & all public & private pipe work, electrical & water. Plans & permits for 3-story multiplex complete w/fitness center, pool & clubhouse, walking trail/green space & on-site management office. Adjacent to neighboring development- small shopping center, food pods & pavilion.",
+        Features: [
+            "201 units", "Fitness center", "Walking trail/green space"
+        ],
+        FeaturedPic: '',
+        Pics: 10
+    },
+    {
+        Title: "1230Lawless",  
+        Address: "1230 Lawless St NE",
+        City: "Keizer",
+        MLS: "806908",
+        SquareFootage: "1,075",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "1",
+        Price: "$385,000",
+        Status: "Active",
+        Details: "Well maintained Keizer ranch house in great neighborhood on large corner lot w/lots of parking including 40' long RV area. Laminate floors, vinyl windows, fireplace in livingroom & energy efficient features like newer insulation, wrapped pipes & ductless heating/cooling.Outside has nearly 200 sf shop w/concrete floor, fully insulated, sheetrocked & electric. Shed, lean-to & garden area. New in last 2 years: driveway, sidewalks, fence (wood & chainlink) & chimney rebuilt from roof up. New roof & gutters 2011",
+        Features: [
+            "Laminate floors", "Vinyl windows", "Fireplace", "Ductless heating/cooling", "Shop", "Shed", "Lean-to", "Garden area", "New roof & gutters 2011"
+        ],
+        FeaturedPic: '',
+        Pics: 32
+    },
+    {
         Title: "2222Simmons",
         Address: "2222 Simmons St NW",
         City: "Salem",
@@ -43,11 +97,11 @@ export const listings = [
         City: "Eugene",
         MLS: "806017",
         SquareFootage: "1,312",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "3",
         Baths: "2",
         Price: "$579,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Updated & private, this 3/2 home is fully fenced & gated, providing security & seclusion. A 71K remodel includes improvements to kitchen,bathrooms, floors, windows, doors & other areas of the home. Kitchen has stainless steel appliances, farm sink & granite. New in 2022 paint, HVAC, insulation, Trex decking & more. Plumbing in place for future primary bath expansion. Newer 628sf outbuilding available for storing toys.Several sectioned-off large pens suitable for livestock or other animals. LOW utilities!",
         Features: [
             "Fully Fenced", "Recently Remodel", "Stainless Steel Appliances", "Farm Sink", "Granite", "New Paint", "New HVAC", "New Insulation", "New Trex Decking", "628sf Outbuilding", "Several Sectioned-off Large Pens"
@@ -64,7 +118,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "3",
         Baths: "2",
-        Price: "$340,000",
+        Price: "$295,000",
         Status: "Pending",
         Details: "Beautiful home in Silver Cliff Estates with recent updates and renovations, making it a comfortable & modern living space. Vaulted ceilings & large primary bedroom with soaking tub adds to the home's appeal. All new interior paint, flooring, and fixtures, along with new exterior paint. 4 bedroom, 2 bath Golden West home on its own land with low taxes. Affordable Silverton living with low cost of ownership. HOA $62/month.",
         Features: [
@@ -154,7 +208,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "347",
         Baths: "331",
-        Price: "$2,900,000",
+        Price: "$2,400,000",
         Status: "Active",
         Details: "176 Unit Apartment Development Opportunity. Proposed 176 Unit Multi-Family Development opportunity in Grants Pass, Oregon. Plans for 19 one bedroom/one bathroom units, 140 two bedroom/two bathroom units and 16 three bedroom/2 bathroom units, in addition to a 2,500 SF rec center and pool. Subject to final approval.",
         Features: [
@@ -289,24 +343,7 @@ export const listings = [
         FeaturedPic: '',
         Pics: 17
     },
-    {
-        Title: "2499Wallace",
-        Address: "24499-2539 Wallace Rd",
-        City: "Salem",
-        MLS: "800179",
-        SquareFootage: "341,102",
-        FeaturedListing: false,
-        Beds: "-",
-        Baths: "-",
-        Price: "$57,555,000",
-        Status: "Active",
-        Details: "Opportunity to purchase a 201-unit apartment complex currently under construction, ETA for completion July 2024. Located in the expanding community of West Salem, this project is in the horizontal phase and will be a 3-story multiplex complete with fitness center, resident pool & clubhouse, walking trail/green space and on-site management office. Development is located off Wallace Rd, adjacent to neighboring retail development which includes a small shopping center, food truck pod and pavilion.",
-        Features: [
-            "201 units", "Fitness center", "Walking trail/green space"
-        ],
-        FeaturedPic: '',
-        Pics: 10
-    },
+    
     {
         Title: "0Front",
         Address: "0 Front St NE",
@@ -401,24 +438,6 @@ export const listings = [
 
     
 
-    // {
-    //     Title: "625Jasper",  
-    //     Address: "625 NW Jasper St",
-    //     City: "Dallas",
-    //     MLS: "796902",
-    //     SquareFootage: "1,933",
-    //     FeaturedListing: true,
-    //     Beds: "6",
-    //     Baths: "2",
-    //     Price: "$460,000",
-    //     Status: "Active",
-    //     Details: "Great home w/ space for everyone! Open concept vaulted great room, newer LVP flooring, new SS kitchen range & micro. Gas water heater, furnace & AC all within 3 years old. 6 bedrooms including one off entry that could be a den. Lots of storage including under house walkin area. Fully fenced low maintenance yard w/ fire pit, elevated deck, patios, raised beds & more. Front sitting porch for morning coffee! One owner, well kept home!",
-    //     Features: [
-    //         "Gas heating", "Central AC", "Newer LVP flooring", "SS applainces", "Front porch", "Fully fenced yard", "Fire pit"
-    //     ],
-    //     FeaturedPic: '',
-    //     Pics: 34
-    // },
 
     {
         Title: "6423Casper",
