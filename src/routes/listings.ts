@@ -2,6 +2,42 @@
 
 export const listings = [
     {
+        Title: "15270Sparrow",  
+        Address: "15270 SW Sparrow Lp",
+        City: "Beaverton",
+        MLS: "808221",
+        SquareFootage: "1,083",
+        FeaturedListing: true,
+        Beds: "2",
+        Baths: "2.5",
+        Price: "$375,000",
+        Status: "Active",
+        Details: "Desirable Progress Ridge condo. Well maintained and move-in ready. Upgrades include Bamboo flooring, extra cabinetry in kitchen, designer interior paint colors and more. Gas fireplace in living room with slider to large deck with great territorial views. Kitchen appliances and stack washer/dryer included. Tandem garage also has small storage area. Close to services & Progress Lake Park. Great place to live!",
+        Features: [
+            "Bamboo flooring", "Gas fireplace", "Large deck", "Tandem garage", "Close to services & Progress Lake Park"
+        ],
+        FeaturedPic: '',
+        Pics: 30  
+    },
+    {
+        Title: "133519th",  
+        Address: "1335 19th St NE",
+        City: "Salem",
+        MLS: "807667",
+        SquareFootage: "2,120",
+        FeaturedListing: true,
+        Beds: "4",
+        Baths: "2",
+        Price: "$445,000",
+        Status: "Active",
+        Details: "Updated Englewood home close to park & school. Remodeled in 2016 while retaining classic features like extensive trim, arches, wood floors & built-ins strikes a balance between modern & original character. Stunning, well designed kitchen remodel, 4 bedrooms, 2 full baths, + bonus room. New w/in last 6 years: Furnace, roof, gutters, paint, appliances, granite surfaces, electrical/wiring, plumbing, paint, UGS & more. Deep lot w/alley access provides room for garden,future outdoor areas & additional parking.",
+        Features: [
+            "Recently Updated", "Wood floors", "Bonus room", "New roof", "granite countertops", "SS appliances", "Alley access"
+        ],
+        FeaturedPic: '',
+        Pics: 41
+    },
+    {
             Title: "625Jasper",  
             Address: "625 NW Jasper St",
             City: "Dallas",
@@ -55,24 +91,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 32
     },
-    {
-        Title: "2222Simmons",
-        Address: "2222 Simmons St NW",
-        City: "Salem",
-        MLS: "806686",
-        SquareFootage: "3,980",
-        FeaturedListing: true,
-        Beds: "5",
-        Baths: "4",
-        Price: "$1,625,000",
-        Status: "Active",
-        Details: "Custom one owner 5 bedroom home. Updates & stunning details thru-out, including gourmet kitchen w/Viking appls, quartz countertops & custom cabinetry. Main floor showcases local Zena Forest Oregon White Oak floors. Large Meranti deck & 250sf vaultscreen porch seamlessly connect indoor & outdoor living. On 4.67 acres offering space & privacy. Custom barn/shop, fenced pastures, 2 seasonal ponds, strong well & lots of trees. Modern updates, quality craftsmanship in desirable neighborhood w/coveted schools.",
-        Features: [
-            "Gourmet Kitchen", "Viking Appliances", "Quartz Countertops", "Custom Cabinetry", "Zena Forest Oregon White Oak Floors", "Meranti Deck", "Vaultscreen Porch", "Custom Barn/Shop", "Fenced Pastures", "2 Seasonal Ponds" 
-        ],
-        FeaturedPic: '',
-        Pics: 58
-    },
+    // {
+    //     Title: "2222Simmons",
+    //     Address: "2222 Simmons St NW",
+    //     City: "Salem",
+    //     MLS: "806686",
+    //     SquareFootage: "3,980",
+    //     FeaturedListing: true,
+    //     Beds: "5",
+    //     Baths: "4",
+    //     Price: "$1,625,000",
+    //     Status: "Active",
+    //     Details: "Custom one owner 5 bedroom home. Updates & stunning details thru-out, including gourmet kitchen w/Viking appls, quartz countertops & custom cabinetry. Main floor showcases local Zena Forest Oregon White Oak floors. Large Meranti deck & 250sf vaultscreen porch seamlessly connect indoor & outdoor living. On 4.67 acres offering space & privacy. Custom barn/shop, fenced pastures, 2 seasonal ponds, strong well & lots of trees. Modern updates, quality craftsmanship in desirable neighborhood w/coveted schools.",
+    //     Features: [
+    //         "Gourmet Kitchen", "Viking Appliances", "Quartz Countertops", "Custom Cabinetry", "Zena Forest Oregon White Oak Floors", "Meranti Deck", "Vaultscreen Porch", "Custom Barn/Shop", "Fenced Pastures", "2 Seasonal Ponds" 
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 58
+    // },
     {
         Title: "2358Ptarmigan",
         Address: "2358 Ptarmigan St NW",
@@ -83,7 +119,7 @@ export const listings = [
         Beds: "3",
         Baths: "3",
         Price: "$470,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Meticulously kept and charmingly updated home in an established West Salem neighborhood with Glen Creek in your backyard. Recent updates include quartz kitchen counter-tops with imported Italian tile backsplash, bathroom counters, vinyl windows, engineered wood on the main & carpet upstairs. Listen to your Creek from the Trex-deck or your covered cedar deck. Extra long driveway and no HOA, bring your RV!",
         Features: [
             "Quartz Kitchen Counter-tops", "Italian Tile Backsplash", "Covered Cedar Deck", "Extra Long Driveway", "No HOA"
@@ -119,7 +155,7 @@ export const listings = [
         Beds: "3",
         Baths: "2",
         Price: "$295,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Beautiful home in Silver Cliff Estates with recent updates and renovations, making it a comfortable & modern living space. Vaulted ceilings & large primary bedroom with soaking tub adds to the home's appeal. All new interior paint, flooring, and fixtures, along with new exterior paint. 4 bedroom, 2 bath Golden West home on its own land with low taxes. Affordable Silverton living with low cost of ownership. HOA $62/month.",
         Features: [
             "Vaulted Ceilings", "Large Primary Bedroom", "Soaking Tub", "New Interior Paint", "New Flooring", "New Fixtures", "New Exterior Paint"
@@ -169,7 +205,7 @@ export const listings = [
         City: "Salem",
         MLS: "803831",
         SquareFootage: "33,977",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "NA",
         Baths: "NA",
         Price: "$1,732,500",
