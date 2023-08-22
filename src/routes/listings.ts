@@ -83,7 +83,7 @@ export const listings = [
         Beds: "3",
         Baths: "1",
         Price: "$385,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Well maintained Keizer ranch house in great neighborhood on large corner lot w/lots of parking including 40' long RV area. Laminate floors, vinyl windows, fireplace in livingroom & energy efficient features like newer insulation, wrapped pipes & ductless heating/cooling.Outside has nearly 200 sf shop w/concrete floor, fully insulated, sheetrocked & electric. Shed, lean-to & garden area. New in last 2 years: driveway, sidewalks, fence (wood & chainlink) & chimney rebuilt from roof up. New roof & gutters 2011",
         Features: [
             "Laminate floors", "Vinyl windows", "Fireplace", "Ductless heating/cooling", "Shop", "Shed", "Lean-to", "Garden area", "New roof & gutters 2011"
@@ -370,7 +370,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "-",
         Baths: "-",
-        Price: "$8,900,000",
+        Price: "$8,500,000",
         Status: "Active",
         Details: "Amazing opportunity to own this unique investment in West Salem. Highly anticipated River Bend Shopping Center & Checkpoint 221 food truck pod is in the last phase of construction & is set for completion Feb 2023. Consisting of a 4-unit shopping center, pavilion & food truck pod, this development is a much-needed neighborhood center for local residents to shop & relax in a rapidly expanding community. Property is adjacent to 48-unit apartment complex & another 201-unit apartment construction.",
         Features: [
