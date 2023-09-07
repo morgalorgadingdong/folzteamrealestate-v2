@@ -2,6 +2,24 @@
 
 export const listings = [
     {
+        Title: "5089Constellation",  
+        Address: "5089 Constellation Av NE",
+        City: "Salem",
+        MLS: "808982",
+        SquareFootage: "1,907",
+        FeaturedListing: false,
+        Beds: "4",
+        Baths: "3",
+        Price: "$475,000",
+        Status: "Pending",
+        Details: "Quality Forest Ridge construction. Well laid out floorplan w/ 4 BRs & 2 1/2 bath. Custom cabinets, large island, pantry, granite, & SS appliances. Great room concept w/slider to fully fenced backyard backing up to greenspace/nursery. UGS front & back. Spacious primary with walk-in closet. Energy efficient features including tankless water heater. Extra parking and space for RV behind fence. Property line in back goes all the way to gravel rd.",
+        Features: [
+            
+        ],
+        FeaturedPic: '',
+        Pics: 36  
+    },
+    {
         Title: "15270Sparrow",  
         Address: "15270 SW Sparrow Lp",
         City: "Beaverton",
@@ -29,7 +47,7 @@ export const listings = [
         Beds: "4",
         Baths: "2",
         Price: "$445,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Updated Englewood home close to park & school. Remodeled in 2016 while retaining classic features like extensive trim, arches, wood floors & built-ins strikes a balance between modern & original character. Stunning, well designed kitchen remodel, 4 bedrooms, 2 full baths, + bonus room. New w/in last 6 years: Furnace, roof, gutters, paint, appliances, granite surfaces, electrical/wiring, plumbing, paint, UGS & more. Deep lot w/alley access provides room for garden,future outdoor areas & additional parking.",
         Features: [
             "Recently Updated", "Wood floors", "Bonus room", "New roof", "granite countertops", "SS appliances", "Alley access"
@@ -47,7 +65,7 @@ export const listings = [
             Beds: "6",
             Baths: "2",
             Price: "$470,000",
-            Status: "Pending",
+            Status: "Sold",
             Details: "Great home w/ space for everyone! Open concept vaulted great room, newer LVP flooring, new SS kitchen range & micro. Gas water heater, furnace & AC all within 3 years old. 6 bedrooms including one off entry that could be a den. Lots of storage including under house walkin area. Fully fenced low maintenance yard w/ fire pit, elevated deck, patios, raised beds & more. Front sitting porch for morning coffee! One owner, well kept home!",
             Features: [
                 "Gas heating", "Central AC", "Newer LVP flooring", "SS applainces", "Front porch", "Fully fenced yard", "Fire pit"
@@ -235,24 +253,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 15
     },
-    {
-        Title: "0000Roguelea",
-        Address: "0000 NE Roguelea Ln",
-        City: "Grants Pass",
-        MLS: "802166",
-        SquareFootage: "166,400",
-        FeaturedListing: false,
-        Beds: "347",
-        Baths: "331",
-        Price: "$2,400,000",
-        Status: "Active",
-        Details: "176 Unit Apartment Development Opportunity. Proposed 176 Unit Multi-Family Development opportunity in Grants Pass, Oregon. Plans for 19 one bedroom/one bathroom units, 140 two bedroom/two bathroom units and 16 three bedroom/2 bathroom units, in addition to a 2,500 SF rec center and pool. Subject to final approval.",
-        Features: [
-            "176 Units", "Pool", "Rec Center"
-        ],
-        FeaturedPic: '',
-        Pics: 3
-    },
+    // {
+    //     Title: "0000Roguelea",
+    //     Address: "0000 NE Roguelea Ln",
+    //     City: "Grants Pass",
+    //     MLS: "802166",
+    //     SquareFootage: "166,400",
+    //     FeaturedListing: false,
+    //     Beds: "347",
+    //     Baths: "331",
+    //     Price: "$2,400,000",
+    //     Status: "Active",
+    //     Details: "176 Unit Apartment Development Opportunity. Proposed 176 Unit Multi-Family Development opportunity in Grants Pass, Oregon. Plans for 19 one bedroom/one bathroom units, 140 two bedroom/two bathroom units and 16 three bedroom/2 bathroom units, in addition to a 2,500 SF rec center and pool. Subject to final approval.",
+    //     Features: [
+    //         "176 Units", "Pool", "Rec Center"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 3
+    // },
     {
         Title: "4010Briarwood",
         Address: "4010 Briarwood St NW",
