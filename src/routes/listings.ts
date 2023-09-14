@@ -2,6 +2,42 @@
 
 export const listings = [
     {
+        Title: "14954th",  
+        Address: "1495 4th St NE",
+        City: "Salem",
+        MLS: "809414",
+        SquareFootage: "936",
+        FeaturedListing: true,
+        Beds: "2",
+        Baths: "1",
+        Price: "$310,000",
+        Status: "Active",
+        Details: "Remodeled home on large fully fenced lot w/alley access & room for RVs, boats, & vehicles. Kitchen-all new cabinets, solid surface counters. SS appliances & full tile BS. New floor coverings thru-out. Square footage does not include partially finished basement w/permitted bathroom piped in & separate entrance. Multi family zoning potential for basement apartment &/or ADU in large yard. New shed & recent trees planted. New electric panel, Vinyl windows & gas furnace. Welcoming front porch recently redone!",
+        Features: [
+            "Remodeled", "SS Appliances", "Fully Fenced", "RV Parking", "New Shed", "New Electric Panel", "New Vinyl Windows", "New Gas Furnace", "New Front Porch"
+        ],
+        FeaturedPic: '',
+        Pics: 38  
+    },
+    {
+        Title: "101711th",  
+        Address: "1017 11th Ave SW",
+        City: "Albany",
+        MLS: "809176",
+        SquareFootage: "1068",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "2",
+        Price: "$359,000",
+        Status: "Preview",
+        Details: "Thoughtfully remodeled home in desirable West Albany neighborhood. Near services, hospital, schools, parks & downtown. Complete rehab. New windows, roof, kitchen, baths, flooring, paint, on-demand H2O heater & much more! Open concept living showcases large kitchen w/all new cabinets, quartz CT, ss appl & large island. Primary has slider to back deck, en-suite & extra living loft space w/spiral staircase. Alley access for dual living possibilities? Great primary residence or investment property.",
+        Features: [
+            "Recently remodeled", "SS Appliances", "Alley Access", "New Windows", "New Roof", "New Kitchen", "New Bathrooms", "New Flooring", "New Paint", "On-Demand H20 Heater"
+        ],
+        FeaturedPic: '',
+        Pics: 1 
+    },
+    {
         Title: "5089Constellation",  
         Address: "5089 Constellation Av NE",
         City: "Salem",
@@ -14,7 +50,7 @@ export const listings = [
         Status: "Pending",
         Details: "Quality Forest Ridge construction. Well laid out floorplan w/ 4 BRs & 2 1/2 bath. Custom cabinets, large island, pantry, granite, & SS appliances. Great room concept w/slider to fully fenced backyard backing up to greenspace/nursery. UGS front & back. Spacious primary with walk-in closet. Energy efficient features including tankless water heater. Extra parking and space for RV behind fence. Property line in back goes all the way to gravel rd.",
         Features: [
-            
+            "Custom Cabinets", "Granite countertops", "SS Appliances", "Fully Fenced", "RV Parking"
         ],
         FeaturedPic: '',
         Pics: 36  
@@ -43,7 +79,7 @@ export const listings = [
         City: "Salem",
         MLS: "807667",
         SquareFootage: "2,120",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "4",
         Baths: "2",
         Price: "$445,000",
@@ -97,7 +133,7 @@ export const listings = [
         City: "Keizer",
         MLS: "806908",
         SquareFootage: "1,075",
-        FeaturedListing: true,
+        FeaturedListing: false,
         Beds: "3",
         Baths: "1",
         Price: "$385,000",
