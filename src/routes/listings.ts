@@ -2,6 +2,42 @@
 
 export const listings = [
     {
+        Title: "748275th",  
+        Address: "7482 75th Pl SE",
+        City: "Salem",
+        MLS: "810809",
+        SquareFootage: "2015",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "3",
+        Price: "$1,275,000",
+        Status: "Active",
+        Details: "A Pilot's Dream, property offers an unparalleled opportunity. Take to the skies w/ease & land directly on your own private airstrip then taxi right to your doorstep. On 7 secluded acres offering tranquility & convenience w/multiple outbuildings including 2 plane hangers. Home has been completely remodeled & features vaulted ceilings in great room, split living design, updated kitchen/baths & unique master en-suite loft. This exclusive property is a rare gem & an aviation enthusiast's chance of a lifetime.",
+        Features: [
+            "Private Airstrip", "2 Plane Hangers", "Remodeled", "Vaulted Ceilings", "7 acres", "Updated Kitchen & Bathrooms", "Unique Master En-Suite Loft"
+        ],
+        FeaturedPic: '',
+        Pics: 42  
+    },
+    {
+        Title: "532Hile",  
+        Address: "532 Hile Ln NE",
+        City: "Salem",
+        MLS: "810702",
+        SquareFootage: "2208",
+        FeaturedListing: true,
+        Beds: "4",
+        Baths: "3",
+        Price: "$480,000",
+        Status: "Active",
+        Details: "Well layed out 4 bedroom custom built home in 2010. Open floorplan great for entertaining. Large master suite with vaulted ceiling, walk in closet, maple cabinets & crown molding. Good size utility with lots of storage. Low utilities with shared well plus low county taxes. Fully fenced, AC. On quiet dead end private lane. Easy access to schools, I-5 and services.",
+        Features: [
+            "Custom Built", "Open Floorplan", "Large Master Suite", "Shared Well", "Low County Taxes", "Fully Fenced", "AC"
+        ],
+        FeaturedPic: '',
+        Pics: 29  
+    },
+    {
         Title: "14954th",  
         Address: "1495 4th St NE",
         City: "Salem",
@@ -11,7 +47,7 @@ export const listings = [
         Beds: "2",
         Baths: "1",
         Price: "$310,000",
-        Status: "Active",
+        Status: "Sold",
         Details: "Remodeled home on large fully fenced lot w/alley access & room for RVs, boats, & vehicles. Kitchen-all new cabinets, solid surface counters. SS appliances & full tile BS. New floor coverings thru-out. Square footage does not include partially finished basement w/permitted bathroom piped in & separate entrance. Multi family zoning potential for basement apartment &/or ADU in large yard. New shed & recent trees planted. New electric panel, Vinyl windows & gas furnace. Welcoming front porch recently redone!",
         Features: [
             "Remodeled", "SS Appliances", "Fully Fenced", "RV Parking", "New Shed", "New Electric Panel", "New Vinyl Windows", "New Gas Furnace", "New Front Porch"
@@ -47,7 +83,7 @@ export const listings = [
         Beds: "4",
         Baths: "3",
         Price: "$475,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Quality Forest Ridge construction. Well laid out floorplan w/ 4 BRs & 2 1/2 bath. Custom cabinets, large island, pantry, granite, & SS appliances. Great room concept w/slider to fully fenced backyard backing up to greenspace/nursery. UGS front & back. Spacious primary with walk-in closet. Energy efficient features including tankless water heater. Extra parking and space for RV behind fence. Property line in back goes all the way to gravel rd.",
         Features: [
             "Custom Cabinets", "Granite countertops", "SS Appliances", "Fully Fenced", "RV Parking"
@@ -83,7 +119,7 @@ export const listings = [
         Beds: "4",
         Baths: "2",
         Price: "$445,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Updated Englewood home close to park & school. Remodeled in 2016 while retaining classic features like extensive trim, arches, wood floors & built-ins strikes a balance between modern & original character. Stunning, well designed kitchen remodel, 4 bedrooms, 2 full baths, + bonus room. New w/in last 6 years: Furnace, roof, gutters, paint, appliances, granite surfaces, electrical/wiring, plumbing, paint, UGS & more. Deep lot w/alley access provides room for garden,future outdoor areas & additional parking.",
         Features: [
             "Recently Updated", "Wood floors", "Bonus room", "New roof", "granite countertops", "SS appliances", "Alley access"
@@ -137,7 +173,7 @@ export const listings = [
         Beds: "3",
         Baths: "1",
         Price: "$385,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Well maintained Keizer ranch house in great neighborhood on large corner lot w/lots of parking including 40' long RV area. Laminate floors, vinyl windows, fireplace in livingroom & energy efficient features like newer insulation, wrapped pipes & ductless heating/cooling.Outside has nearly 200 sf shop w/concrete floor, fully insulated, sheetrocked & electric. Shed, lean-to & garden area. New in last 2 years: driveway, sidewalks, fence (wood & chainlink) & chimney rebuilt from roof up. New roof & gutters 2011",
         Features: [
             "Laminate floors", "Vinyl windows", "Fireplace", "Ductless heating/cooling", "Shop", "Shed", "Lean-to", "Garden area", "New roof & gutters 2011"
@@ -191,7 +227,7 @@ export const listings = [
         Beds: "3",
         Baths: "2",
         Price: "$579,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Updated & private, this 3/2 home is fully fenced & gated, providing security & seclusion. A 71K remodel includes improvements to kitchen,bathrooms, floors, windows, doors & other areas of the home. Kitchen has stainless steel appliances, farm sink & granite. New in 2022 paint, HVAC, insulation, Trex decking & more. Plumbing in place for future primary bath expansion. Newer 628sf outbuilding available for storing toys.Several sectioned-off large pens suitable for livestock or other animals. LOW utilities!",
         Features: [
             "Fully Fenced", "Recently Remodel", "Stainless Steel Appliances", "Farm Sink", "Granite", "New Paint", "New HVAC", "New Insulation", "New Trex Decking", "628sf Outbuilding", "Several Sectioned-off Large Pens"
