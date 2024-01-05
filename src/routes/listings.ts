@@ -2,6 +2,60 @@
 
 export const listings = [
     {
+        Title: "215537th",  
+        Address: "2155 37th Av NW",
+        City: "Salem",
+        MLS: "811817",
+        SquareFootage: "2,001",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "3",
+        Price: "$578,500",
+        Status: "Pending",
+        Details: "Sale includes 2 separate 1/4 acre lots. Mountain views! One owner home & first time ever on the market. Custom home in desirable West Salem neighborhood with coveted schools. High end walnut flooring, casement windows, solid interior doors & more. Updated kitchen & baths. Large family room with french doors to multi level brick patios. Generous sized bedrooms all with walnut flooring. New HVAC in 2023, roof in 2019. Private backyard with established landscaping. Extra lot included in sale.",
+        Features: [
+            "Mountain Views", "Custom Home", "Double lot", "Walnut Flooring", "Updated Kitchen & Bathrooms", "New HVAC", "New Roof", "Established Landscaping"
+        ],
+        FeaturedPic: '',
+        Pics: 42  
+    },
+    {
+        Title: "1890Mousebird",  
+        Address: "1890 Mousebird Av NW",
+        City: "Salem",
+        MLS: "811420",
+        SquareFootage: "1,696",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "2",
+        Price: "$429,000",
+        Status: "Pending",
+        Details: "Originally built as a custom home this 3 bedroom, 2 bath open concept home features vaulted ceiling, gas fireplace & large picture window in the great room. Updated kitchen w/quartz countertops, gas range, pantry, subway tile, lots of cabinets. Primary BR w/door to deck & updated ensuite w/large tiled shower. Large BRs & updated hall bath. Fully fenced backyard,UGS. Apprx 500sf shop/storage w/electric & shelving in basement w/exterior access. Sunrise view off deck & UGS. Great location & coveted schools.",
+        Features: [
+            "Gas Fireplace", "Vaulted Ceilings", "Updated Kitchen", "Quartz Countertops", "Gas Range", "Subway Tile", "Fully Fenced", "UGS", "Shop/Storage"
+        ],
+        FeaturedPic: '',
+        Pics: 32  
+    },
+    {
+        Title: "1990Wallace",  
+        Address: "1990 Wallace Rd NW",
+        City: "Salem",
+        MLS: "811181",
+        SquareFootage: "558,837",
+        FeaturedListing: true,
+        Beds: "-",
+        Baths: "-",
+        Price: "$950,000",
+        Status: "Active",
+        Details: "Sale includes Polk county tax IDs 314820, 314846, 354776. Marine drive will split parels 314820 and 314864. West sides of parcels offer portential for multiple development uses- east sides are outside the urban growth boundary and partially in the flood plane. Parcel 354776 is paved access off Wallace Rd. Two existing wells and Existing barn on property. Marine drive would run from Harritt to Taybin Rd. Travel lanes, sidewalk and 12' multi-use path on east side. Connector streets-Harritt, Beckett & 5th ave",
+        Features: [
+            "Development Opportunity", "Existing Barn", "Existing Wells", "Paved Access"
+        ],
+        FeaturedPic: '',
+        Pics: 2  
+    },
+    {
         Title: "748275th",  
         Address: "7482 75th Pl SE",
         City: "Salem",
@@ -101,7 +155,7 @@ export const listings = [
         Beds: "2",
         Baths: "2.5",
         Price: "$375,000",
-        Status: "Active",
+        Status: "Pending",
         Details: "Desirable Progress Ridge condo. Well maintained and move-in ready. Upgrades include Bamboo flooring, extra cabinetry in kitchen, designer interior paint colors and more. Gas fireplace in living room with slider to large deck with great territorial views. Kitchen appliances and stack washer/dryer included. Tandem garage also has small storage area. Close to services & Progress Lake Park. Great place to live!",
         Features: [
             "Bamboo flooring", "Gas fireplace", "Large deck", "Tandem garage", "Close to services & Progress Lake Park"
@@ -151,7 +205,7 @@ export const listings = [
         City: "Salem",
         MLS: "807124",
         SquareFootage: "341,102",
-        FeaturedListing: false,
+        FeaturedListing: true,
         Beds: "-",
         Baths: "-",
         Price: "$20,000,000",
