@@ -20,6 +20,42 @@ export const listings = [
         Pics: 39  
     },
     {
+        Title: "1584DoaksFerry",  
+        Address: "1584 Doaks Ferry Rd NW",
+        City: "Salem",
+        MLS: "819680",
+        SquareFootage: "4,092",
+        FeaturedListing: true,
+        Beds: "4",
+        Baths: "3",
+        Price: "$875,000",
+        Status: "Active",
+        Details: "Walking distance to coveted West Salem schools. Boasting 4,092 sf & 4 BRs on 1 acre. Features huge kitchen w/abundant oak cabinets, formal dining, skylights, living room w/FP, mountain views, sunroom & 25x10.9 heated/cooled storage rm. Downstairs- huge family room w/wet bar, flex space, BR & full bath(dual living?). Outside has rose garden, fruit trees & room for small farm animals if desired! Plus potential to divide into 3+ residential lots & live in this beautiful home.Lots of options for a great price!",
+        Features: [
+            "Mountain Views", "Formal Dining", "Skylights", "Sunroom", "Heated/Cooled Storage Room", "Wet Bar", "Flex Space", "Rose Garden", "Fruit Trees", "Room for Small Farm Animals"
+        ],
+        FeaturedPic: '',
+        Pics: 19  
+    },
+    {
+        Title: "370Veall",
+        Address: "370 Veall Ln NW",
+        City: "Salem",
+        MLS: "823504",
+        SquareFootage: "54,791",
+        FeaturedListing: false,
+        Beds: "NA",
+        Baths: "NA",
+        Price: "$1,100,000",
+        Status: "Active",
+        Details: "Prime redevelopment opportunity West Salem! Potential for variety of uses, including multi-family, apartments, office, retail shops, cafes & restaurants. Five contiguous parcels totaling aprox 1.25 acres(including current alley).Located w/in West Salem Central Business zoned for commercial & mixed-use developments. Existing structures(residential homes, pole building & mini storage business)could either be leveraged in redevelopment plans or potentially cleared for fresh start. Current rents below market",
+        Features: [
+            "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
+        ],
+        FeaturedPic: '',
+        Pics: 15
+    },
+    {
         Title: "215537th",  
         Address: "2155 37th Av NW",
         City: "Salem",
@@ -379,24 +415,7 @@ export const listings = [
         FeaturedPic: '',
         Pics: 31
     },
-    {
-        Title: "370Veall",
-        Address: "370 Veall Ln NW",
-        City: "Salem",
-        MLS: "802167",
-        SquareFootage: "54,791",
-        FeaturedListing: false,
-        Beds: "NA",
-        Baths: "NA",
-        Price: "$1,300,000",
-        Status: "Active",
-        Details: "Development opportunity. Five contiguous parcels in the heart of West Salem totaling near 1.25 acres when current alley is included. Currently has 2 residential homes, pole building & mini storage business. All parcels have flexible IP zoning and are within the West Salem Urban Renewal area. Current rents well under market value.",
-        Features: [
-            "5 contiguous parcels", "2 Residential Homes", "Mini Storage Business", "Pole Building", "Flexible Zoning"
-        ],
-        FeaturedPic: '',
-        Pics: 15
-    },
+    
     // {
     //     Title: "0000Roguelea",
     //     Address: "0000 NE Roguelea Ln",

@@ -169,7 +169,7 @@
     padding: 50px 10px;
     text-align: center;
     height: fit-content;
-    background-color: rgb(5, 195, 249,.3);
+    background-color: rgb(5, 195, 249,.4);
     z-index: 1;
 }
 
