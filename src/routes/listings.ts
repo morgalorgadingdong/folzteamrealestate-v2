@@ -2,6 +2,24 @@
 
 export const listings = [
     {
+        Title: "25055th",  
+        Address: "2505 5th St NE",
+        City: "Salem",
+        MLS: "823948",
+        SquareFootage: "1456",
+        FeaturedListing: true,
+        Beds: "3",
+        Baths: "1",
+        Price: "$400,000",
+        Status: "Active",
+        Details: "Classic home with spacious fully fenced yard, high ceilings on both floors & timeless charm! Main floor features laminate flooring, upper level has original refinished hardwood floors. Electrical & plumbing updates, high-efficiency in-line water heater & extra basement storage. New exterior paint (March 2022), furnace (Nov 2021) & 200-amp electrical panel(April 2024) Large yard has raised garden beds & 2 storage sheds. Attached newer 2 car garage & electric gate. Character-filled home w/modern upgrades!",
+        Features: [
+            "Fully Fenced", "Original Hardwood Floors", "Updated Electrical & Plumbing", "High-Efficiency Water Heater", "2 Storage Sheds", "New Exterior Paint", "New Furnace", "New Electrical Panel", "Attached 2 Car Garage", "Electric Gate"
+        ],
+        FeaturedPic: '',
+        Pics: 39  
+    },
+    {
         Title: "215537th",  
         Address: "2155 37th Av NW",
         City: "Salem",
@@ -11,7 +29,7 @@ export const listings = [
         Beds: "3",
         Baths: "3",
         Price: "$578,500",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Sale includes 2 separate 1/4 acre lots. Mountain views! One owner home & first time ever on the market. Custom home in desirable West Salem neighborhood with coveted schools. High end walnut flooring, casement windows, solid interior doors & more. Updated kitchen & baths. Large family room with french doors to multi level brick patios. Generous sized bedrooms all with walnut flooring. New HVAC in 2023, roof in 2019. Private backyard with established landscaping. Extra lot included in sale.",
         Features: [
             "Mountain Views", "Custom Home", "Double lot", "Walnut Flooring", "Updated Kitchen & Bathrooms", "New HVAC", "New Roof", "Established Landscaping"
@@ -29,7 +47,7 @@ export const listings = [
         Beds: "3",
         Baths: "2",
         Price: "$429,000",
-        Status: "Pending",
+        Status: "Sold",
         Details: "Originally built as a custom home this 3 bedroom, 2 bath open concept home features vaulted ceiling, gas fireplace & large picture window in the great room. Updated kitchen w/quartz countertops, gas range, pantry, subway tile, lots of cabinets. Primary BR w/door to deck & updated ensuite w/large tiled shower. Large BRs & updated hall bath. Fully fenced backyard,UGS. Apprx 500sf shop/storage w/electric & shelving in basement w/exterior access. Sunrise view off deck & UGS. Great location & coveted schools.",
         Features: [
             "Gas Fireplace", "Vaulted Ceilings", "Updated Kitchen", "Quartz Countertops", "Gas Range", "Subway Tile", "Fully Fenced", "UGS", "Shop/Storage"
@@ -65,7 +83,7 @@ export const listings = [
         Beds: "3",
         Baths: "3",
         Price: "$1,275,000",
-        Status: "Active",
+        Status: "Sold",
         Details: "A Pilot's Dream, property offers an unparalleled opportunity. Take to the skies w/ease & land directly on your own private airstrip then taxi right to your doorstep. On 7 secluded acres offering tranquility & convenience w/multiple outbuildings including 2 plane hangers. Home has been completely remodeled & features vaulted ceilings in great room, split living design, updated kitchen/baths & unique master en-suite loft. This exclusive property is a rare gem & an aviation enthusiast's chance of a lifetime.",
         Features: [
             "Private Airstrip", "2 Plane Hangers", "Remodeled", "Vaulted Ceilings", "7 acres", "Updated Kitchen & Bathrooms", "Unique Master En-Suite Loft"
@@ -73,24 +91,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 42  
     },
-    {
-        Title: "532Hile",  
-        Address: "532 Hile Ln NE",
-        City: "Salem",
-        MLS: "810702",
-        SquareFootage: "2208",
-        FeaturedListing: true,
-        Beds: "4",
-        Baths: "3",
-        Price: "$480,000",
-        Status: "Active",
-        Details: "Well layed out 4 bedroom custom built home in 2010. Open floorplan great for entertaining. Large master suite with vaulted ceiling, walk in closet, maple cabinets & crown molding. Good size utility with lots of storage. Low utilities with shared well plus low county taxes. Fully fenced, AC. On quiet dead end private lane. Easy access to schools, I-5 and services.",
-        Features: [
-            "Custom Built", "Open Floorplan", "Large Master Suite", "Shared Well", "Low County Taxes", "Fully Fenced", "AC"
-        ],
-        FeaturedPic: '',
-        Pics: 29  
-    },
+    // {
+    //     Title: "532Hile",  
+    //     Address: "532 Hile Ln NE",
+    //     City: "Salem",
+    //     MLS: "810702",
+    //     SquareFootage: "2208",
+    //     FeaturedListing: true,
+    //     Beds: "4",
+    //     Baths: "3",
+    //     Price: "$480,000",
+    //     Status: "Active",
+    //     Details: "Well layed out 4 bedroom custom built home in 2010. Open floorplan great for entertaining. Large master suite with vaulted ceiling, walk in closet, maple cabinets & crown molding. Good size utility with lots of storage. Low utilities with shared well plus low county taxes. Fully fenced, AC. On quiet dead end private lane. Easy access to schools, I-5 and services.",
+    //     Features: [
+    //         "Custom Built", "Open Floorplan", "Large Master Suite", "Shared Well", "Low County Taxes", "Fully Fenced", "AC"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 29  
+    // },
     {
         Title: "14954th",  
         Address: "1495 4th St NE",
@@ -109,24 +127,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 38  
     },
-    {
-        Title: "101711th",  
-        Address: "1017 11th Ave SW",
-        City: "Albany",
-        MLS: "809176",
-        SquareFootage: "1068",
-        FeaturedListing: true,
-        Beds: "3",
-        Baths: "2",
-        Price: "$359,000",
-        Status: "Preview",
-        Details: "Thoughtfully remodeled home in desirable West Albany neighborhood. Near services, hospital, schools, parks & downtown. Complete rehab. New windows, roof, kitchen, baths, flooring, paint, on-demand H2O heater & much more! Open concept living showcases large kitchen w/all new cabinets, quartz CT, ss appl & large island. Primary has slider to back deck, en-suite & extra living loft space w/spiral staircase. Alley access for dual living possibilities? Great primary residence or investment property.",
-        Features: [
-            "Recently remodeled", "SS Appliances", "Alley Access", "New Windows", "New Roof", "New Kitchen", "New Bathrooms", "New Flooring", "New Paint", "On-Demand H20 Heater"
-        ],
-        FeaturedPic: '',
-        Pics: 1 
-    },
+    // {
+    //     Title: "101711th",  
+    //     Address: "1017 11th Ave SW",
+    //     City: "Albany",
+    //     MLS: "809176",
+    //     SquareFootage: "1068",
+    //     FeaturedListing: true,
+    //     Beds: "3",
+    //     Baths: "2",
+    //     Price: "$359,000",
+    //     Status: "Preview",
+    //     Details: "Thoughtfully remodeled home in desirable West Albany neighborhood. Near services, hospital, schools, parks & downtown. Complete rehab. New windows, roof, kitchen, baths, flooring, paint, on-demand H2O heater & much more! Open concept living showcases large kitchen w/all new cabinets, quartz CT, ss appl & large island. Primary has slider to back deck, en-suite & extra living loft space w/spiral staircase. Alley access for dual living possibilities? Great primary residence or investment property.",
+    //     Features: [
+    //         "Recently remodeled", "SS Appliances", "Alley Access", "New Windows", "New Roof", "New Kitchen", "New Bathrooms", "New Flooring", "New Paint", "On-Demand H20 Heater"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 1 
+    // },
     {
         Title: "5089Constellation",  
         Address: "5089 Constellation Av NE",
@@ -145,24 +163,24 @@ export const listings = [
         FeaturedPic: '',
         Pics: 36  
     },
-    {
-        Title: "15270Sparrow",  
-        Address: "15270 SW Sparrow Lp",
-        City: "Beaverton",
-        MLS: "808221",
-        SquareFootage: "1,083",
-        FeaturedListing: true,
-        Beds: "2",
-        Baths: "2.5",
-        Price: "$375,000",
-        Status: "Pending",
-        Details: "Desirable Progress Ridge condo. Well maintained and move-in ready. Upgrades include Bamboo flooring, extra cabinetry in kitchen, designer interior paint colors and more. Gas fireplace in living room with slider to large deck with great territorial views. Kitchen appliances and stack washer/dryer included. Tandem garage also has small storage area. Close to services & Progress Lake Park. Great place to live!",
-        Features: [
-            "Bamboo flooring", "Gas fireplace", "Large deck", "Tandem garage", "Close to services & Progress Lake Park"
-        ],
-        FeaturedPic: '',
-        Pics: 30  
-    },
+    // {
+    //     Title: "15270Sparrow",  
+    //     Address: "15270 SW Sparrow Lp",
+    //     City: "Beaverton",
+    //     MLS: "808221",
+    //     SquareFootage: "1,083",
+    //     FeaturedListing: true,
+    //     Beds: "2",
+    //     Baths: "2.5",
+    //     Price: "$375,000",
+    //     Status: "Pending",
+    //     Details: "Desirable Progress Ridge condo. Well maintained and move-in ready. Upgrades include Bamboo flooring, extra cabinetry in kitchen, designer interior paint colors and more. Gas fireplace in living room with slider to large deck with great territorial views. Kitchen appliances and stack washer/dryer included. Tandem garage also has small storage area. Close to services & Progress Lake Park. Great place to live!",
+    //     Features: [
+    //         "Bamboo flooring", "Gas fireplace", "Large deck", "Tandem garage", "Close to services & Progress Lake Park"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 30  
+    // },
     {
         Title: "133519th",  
         Address: "1335 19th St NE",
@@ -676,3 +694,59 @@ export const listings = [
         Pics: 16
     }
 ]
+
+
+  // {
+    //     Title: "1922Wagtail",  
+    //     Address: "1922 Wagtail Ct NW Ct NW",
+    //     City: "Salem",
+    //     MLS: "813913",
+    //     SquareFootage: "2,166",
+    //     FeaturedListing: true,
+    //     Beds: "4",
+    //     Baths: "3",
+    //     Price: "$579,000",
+    //     Status: "Pending",
+    //     Details: "Welcome to your dream home! Completely updated boosting stunning finishes throughout. Vaulted living room, formal dining room & LVP throughout. Prepare to be wowed by the kitchen with all new cabinets, appliances, epoxy countertops & a charing coffee bar. Tastefully updated baths, 4 BR including primary bedroom with vaulted ceilings & ensuite. Large private backard with a covered patio, stone paver paths & fully fenced. Gas furnace, AC & 3 car garage with deep sink. Prepare to be impressed!",
+    //     Features: [
+    //         "Updated", "Vaulted Ceilings", "LVP Flooring", "Epoxy Countertops", "Covered Patio", "Fully Fenced", "3 Car Garage"
+    //     ],
+    //     FeaturedPic: ''
+    //     Pics: XX  
+    // },
+    // {
+    //     Title: "1395Fairmount",  
+    //     Address: "1395 Fairmount Av S",
+    //     City: "Salem",
+    //     MLS: "813330",
+    //     SquareFootage: "2,042",
+    //     FeaturedListing: true,
+    //     Beds: "4",
+    //     Baths: "2",
+    //     Price: "$495,900",
+    //     Status: "Pending",
+    //     Details: "Updated charmer in coveted Fairmount area. Classic appeal like wood floors, arches, FP, built-ins & more. Convenient main floor BR & full bath. Upstairs, 3 additional bedrooms & full bath. Basement offers family room, Den/BR, utility room & work with space for storage & projects. Beautiful, mature yard with paver patios & garden shed. Detached garage with great storage. Quiet neighborhood with minimal traffic. Enjoy peace & serenity while conveniently located near amenities & attractions.",
+    //     Features: [
+    //         "Wood floors", "Fireplace", "Detached garage", "Garden shed"
+    //     ],
+    //     FeaturedPic: ''
+    //     Pics: XX  
+    // },
+    // {
+    //     Title: "216437th",  
+    //     Address: "2164 37th Av NW",
+    //     City: "Salem",
+    //     MLS: "812964",
+    //     SquareFootage: "2,232",
+    //     FeaturedListing: true,
+    //     Beds: "4",
+    //     Baths: "3",
+    //     Price: "$639,000",
+    //     Status: "Pending",
+    //     Details: "Stunning updated home w/views of Mt Hood & Mt Jefferson. Practically a new build after extensive remodel in 2021. Enjoy carefree living w/new siding, roof, gutters, HVAC, doors, trim, & more. Interior boasts a complete transformation w/brand-new kitchen & bathrooms featuring abundant cabinetry. The well-designed layout includes 4 BR & 3 full baths. New approx 250-square-foot covered deck overlooking the newly terraced yard. RV space electrical hookups, along with a small shop & garden shed. Low county taxs!",
+    //     Features: [
+    //         "Mountain Views", "Extensive Remodel", "New Roof", "New HVAC", "New Deck", "RV Parking", "Shop", "Garden Shed"
+    //     ],
+    //     FeaturedPic: ''
+    //     Pics: XX  
+    // },
