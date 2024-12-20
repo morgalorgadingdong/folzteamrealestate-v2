@@ -3,6 +3,10 @@
     import ListingCard from './ListingCard.svelte'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
+    let max =4;
+    $: featuredListings = listings
+    .filter((listing) => listing.FeaturedListing && listing.Status !== "Sold")
+    .slice(0, max);
 </script>
 
 <div id="listingsContainer" class="col-12 d-block d-sm-none justify-content-between flex-wrap" >
@@ -20,12 +24,10 @@
         snap: true
       } }>
       <SplideTrack>
-        {#each listings as listing}
-            {#if listing.FeaturedListing}
-                <SplideSlide class="my-3 mt-0">    
-                    <ListingCard { listing } />
-                </SplideSlide>
-            {/if}
+        {#each featuredListings as listing}
+            <SplideSlide class="my-3 mt-0">    
+                <ListingCard { listing } />
+            </SplideSlide>
         {/each}    
 
         </SplideTrack>

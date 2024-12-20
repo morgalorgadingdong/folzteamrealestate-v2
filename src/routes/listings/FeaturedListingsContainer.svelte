@@ -4,7 +4,9 @@
     let max =4;
     let count = 0;
     // Write a function that increments count by 1
-    $: featuredListings = listings.filter((listing) => listing.FeaturedListing).slice(0, max);
+    $: featuredListings = listings
+    .filter((listing) => listing.FeaturedListing && listing.Status !== "Sold")
+    .slice(0, max);
 
 </script>
 
