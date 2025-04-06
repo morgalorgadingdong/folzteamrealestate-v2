@@ -188,7 +188,7 @@
                 <p></p>
                 <a href="/about" ><button id="aboutButton" class="button third center textCenter">Our Story</button></a>
             </div>
-            <img class="col-10 col-md-5 rounded-5 order-0 order-md-2 my-3" src="{ about }" alt="Group of people in business casual attire pretending to be doing various 'real estate agent' tasks (asnwering phones, on laptop, holding a 'sold' sign, etc) around a couch in an empty room.">
+            <img class="col-10 col-md-5 order-0 order-md-2 my-3" src="{ about }" alt="Group of people in business casual attire pretending to be doing various 'real estate agent' tasks (asnwering phones, on laptop, holding a 'sold' sign, etc) around a couch in an empty room.">
             <!-- <img class="col-12 col-md-6 circleIMG" src="$lib/img/about-home-page.jpg" alt="dfa"> -->
         </div>
     </div>
