@@ -555,6 +555,11 @@ a {
   background-color: white;
 }
 
+.color-primary {
+  background-color: var(--color-primary-dark);
+}
+
+
 .whiteText {
   color: white;
 }

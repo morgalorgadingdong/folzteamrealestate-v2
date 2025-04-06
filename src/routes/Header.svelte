@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/img/logo-2.png';
-    import realLogo from '$lib/img/Real Logo Solid White with Black Wordmark.png'
+    import realLogo from '$lib/img/Real Logo Solid White with Black Wordmark - cropped.png'
     // function hideMobileMenu() {
     //     setTimeout(document.getElementById("mobileMenuToggler").checked = false, 0)
     //     console.log("hideMobileMenu");
@@ -14,9 +14,9 @@
     <nav class="col-10 d-flex justify-content-center justify-content-md-between mt-0">
         <div id="mobileMenuToggle">
             <input id="mobileMenuToggler" type="checkbox" />
-            <span class="lightGray"></span>
-            <span class="lightGray"></span>
-            <span class="lightGray"></span>
+            <span class="color-primary"></span>
+            <span class="color-primary"></span>
+            <span class="color-primary"></span>
             <ul id="mobileMenu">
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="https://folzteamrealestate.idxbroker.com/idx/map/mapsearch" ><li>Search</li></a>
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a>
@@ -26,7 +26,7 @@
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined} href="/contact" ><li>Contact</li></a>
             </ul>
         </div>
-        <div class="col-2 d-sm-none"></div>
+        <div class="col-1 d-sm-none"></div>
         <div class="d-flex justify-content-start align-items-center ">
             <a href="/"><img src={realLogo} alt="real logo" class="logo"></a>
             <a href="/"><img src={logo} alt="logo" class="logo py-2"></a>
@@ -99,7 +99,7 @@
     #mobileMenuToggle span
     {
         display: block;
-        width: 33px;
+        width: 18px;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
