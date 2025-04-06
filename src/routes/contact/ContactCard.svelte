@@ -19,7 +19,7 @@
         </div>
     </div>
     <ul class="actions col-12 d-flex justify-content-center px-0">
-        <li><input type="submit" value="Submit" class="col-12" id="submitbtn"/></li>
+        <li><input type="submit" value="Submit" class="col-12 button" id="submitbtn"/></li>
     </ul>
 </form>
 

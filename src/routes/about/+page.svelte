@@ -55,35 +55,35 @@
     <div class="content-container d-flex justify-content-center flex-wrap">
         <h2 class="col-12 aboutH2 pb-3">The Salem REAL Team</h2>
         <div id="salemTeamContainer" class="col-12 center flexSpaceAroundH flex-wrap">
-            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/aprilrainsrealtor1';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/aprilrainsrealtor1';" style="cursor: pointer;">
                 <div id="aprilIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">April Rains</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://joinreal.com/derek-adent';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://joinreal.com/derek-adent';" style="cursor: pointer;">
                 <div id="DerekIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Derek Adent</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
                 <div id="meganIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Megan Johnson</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
                 <div id="paulAndMichelleIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Paul & Michelle</h3>
                     <p class="textCenter">Real Estate Agent Team</p>
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-2 card profileCard-sm" onclick="location.href='https://www.shelbyholmanrealestate.com';" style="cursor: pointer;">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.shelbyholmanrealestate.com';" style="cursor: pointer;">
                 <div id="shelbyIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Shelby Holman</h3>
@@ -93,7 +93,7 @@
     </div>
     </section>
     <div id="interestedContainer" class="col-10 my-5 py-5 inViewport">
-        <h3 class="textCenter py-3">Interested in joining our growing team?</h3>
+        <h3 class="textCenter py-5">Interested in joining our growing team?</h3>
         <a href="/join" ><div id="joinButton" class="button fiddy center textCenter">Learn More</div></a>
     </div>  
     
@@ -112,80 +112,6 @@
         z-index: 0;
     }
 
-        #folzTeamStory::-webkit-scrollbar {
-        display: none;
-        }
-
-        .aboutH2 {
-        border-bottom: rgb(5, 195, 249) solid 3px;
-        margin-bottom: 30px;
-        padding-bottom: 0;
-        line-height: calc(1.325rem + .9vw);
-        }
-
-        .storyP {
-        margin: 0 auto;
-        font-size: 1.2rem;
-        }
-
-        .profileIMG {
-        height: 300px;
-        background-position: center;
-        background-size: cover;
-        }
-
-        .profileCard {
-        margin: 15px 0px;
-        }
-
-        .profileCard-sm {
-        margin: 15px 5px;
-        }
-
-        .profileCardTitle {
-        font-size: 1.7rem;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 5px;
-        }
-
-        .profileCardSocial {
-        color: black;
-        }
-
-        .profileCardSection1 {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        margin: auto;
-        flex-wrap: wrap;
-        
-        }
-
-        .profileCardSection2 {
-        display: flex;
-        justify-content: left;
-        width: 90%;
-        margin: auto;
-        flex-wrap: wrap;
-        border-top: #AFADAC solid 1px;
-        }
-
-        .profileCardSection3 {
-        display: flex;
-        width: 90%;
-        margin: auto;
-        flex-wrap: wrap;
-        }
-
-        #interestedContainer {
-        margin: 50px auto;
-        }
-
-        #joinButton {
-        padding: 15px 30px;
-        width: fit-content;
-        }
 
         #christineIMG {
         background-image: url('$lib/img/headshot-christine.jpg');

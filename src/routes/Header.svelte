@@ -19,7 +19,7 @@
             <span class="color-primary"></span>
             <ul id="mobileMenu">
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="https://folzteamrealestate.idxbroker.com/idx/map/mapsearch" ><li>Search</li></a>
-                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a>
+                <!-- <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a> -->
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about" ><li>About</li></a>
                 <!-- <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog" ><li>Blog</li></a> -->
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/join') ? 'page' : undefined} href="/join" ><li>Join</li></a>
@@ -33,7 +33,7 @@
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">
             <a class="flex-grow-1 text-center" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="/search"><li>Search</li></a>
-            <a aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} class="flex-grow-1 text-center" href="/listings"><li>Listings</li></a>
+            <!-- <a aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} class="flex-grow-1 text-center" href="/listings"><li>Listings</li></a> -->
             <a aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="flex-grow-1 text-center" href="/about"><li>About</li></a>
             <!-- <a aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="flex-grow-1 text-center" href="/blog"><li>Blog</li></a> -->
             <a aria-current={$page.url.pathname === '/join' ? 'page' : undefined} class="flex-grow-1 text-center" href="/join"><li>Join</li></a>

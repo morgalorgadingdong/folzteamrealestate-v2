@@ -8,16 +8,16 @@
             <h2 class="whiteText py-3">Ready to take charge of your career?</h2>
         </div>
         <div class="col-3 flexColumn flexCenterV">
-            <i class="p-3 fa-solid fa-hand-holding-dollar joinIcon blueText"></i>
-            <h6>Great splits, low cap and fees</h6>
+            <i class="p-3 fa-solid fa-hand-holding-dollar joinIcon text-white"></i>
+            <h6 class="text-white">Great splits, low cap and fees</h6>
         </div>
         <div class="col-3 flexColumn flexCenterV">
-            <i class="p-3 fa-solid fa-circle-nodes joinIcon blueText"></i>
-            <h6>Powerful technology tools</h6>
+            <i class="p-3 fa-solid fa-circle-nodes joinIcon text-white"></i>
+            <h6 class="text-white">Powerful technology tools</h6>
         </div>
         <div class="col-3 flexColumn flexCenterV">
-            <i class="p-3 fa-solid fa-user-group joinIcon blueText"></i>
-            <h6>Mentorship and community</h6>
+            <i class="p-3 fa-solid fa-user-group joinIcon text-white"></i>
+            <h6 class="text-white">Mentorship and community</h6>
         </div>
     </div>
 </div>
@@ -41,7 +41,7 @@
                     <li class="padL"><b>&#10004</b> Free access to powerful tech tools, such as Chime, Skyscope, and more</li>
                 </ul>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <a href="https://www.joinreal.com/about/details/agentplan" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
+                    <a href="https://www.joinreal.com/" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
                 </div>
             </div>
         </div> 
@@ -56,7 +56,7 @@
                 <h3 class="onehundo joinSubContentHeader">Earn extra revenue</h3>
                 <p class="">Earn 5% revenue share up to $4,000 per capping agent from Real's portion of the split. Unlock additional tiers as your network grows.</p>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <a href="https://www.joinreal.com/about/details/revenueshare" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
+                    <a href="https://www.joinreal.com/" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
                 </div>
             </div>
             
@@ -71,7 +71,7 @@
                 <h3 class="onehundo joinSubContentHeader">Own a piece of your company</h3>
                 <p>Real is publicly trading as The Real Brokerage Inc. (NASDAQ: REAX) (TSXV: REAX). Agents can earn a piece of the company through three stock plans.</p>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <a href="https://www.joinreal.com/about/details/stockplan" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
+                    <a href="https://www.joinreal.com/" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
                 </div>
             </div>
         </div>    
@@ -86,7 +86,6 @@
             <ContactCard />
             <!-- <a href="contact.html"><div class="button">Contact Us</div></a> -->
         </div>
-
 
 <style>
     section, .content-container {
@@ -105,99 +104,16 @@
         z-index: 0;
     }
 
-#joinBanner > div {
-    margin: 10px;
-}
 
-#joinBanner h6 {
-    color: white;
-}
+        #buildYourBusinessIMG {
+            background-image: url('$lib/img/christine-folz-1.jpg');
+        }
 
-#whoWereLookingFor {
-    height: 40vh;
-    max-height: 400px;
-    min-height: 30px;
+        #revShareIMG {
+            background-image: url("$lib/img/Team-photo-3.jpg");
+        }
 
-}
-
-#whoWereLookingFor h4 {
-    color: rgb(5,195,249);
-    font-size: 1.5rem;
-    font-style: italic;
-}
-
-#buildYourBusinessIMG, #revShareIMG, #ownAPieceIMG {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 35vh;
-    max-height: 450px;
-    margin-top: 10px;
-}
-
-#buildYourBusinessIMG {
-    background-image: url('$lib/img/christine-folz-1.jpg');
-}
-
-#revShareIMG {
-    background-image: url("$lib/img/Team-photo-3.jpg");
-}
-
-#ownAPieceIMG {
-    background-image: url("$lib/img/Team-photo-4.jpg");
-}
-
-b {
-    color: rgb(5,195,249);
-}
-
-.joinIcon {
-    font-size: 3rem;
-}
-
-/* .joinReasonContainer {
-    height: 500px;
-} */
-
-.learnMoreButton {
-    margin: 20px 0 20px 15px;
-}
-
-.textRight {
-    text-align: end;
-}
-
-.joinSubContentRight, .joinSubContent {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px
-}
-
-.joinSubContent ul {
-    padding: 0;
-}
-
-.joinSubContentRight {
-    /* align-items: flex-end; */
-}
-
-
-.joinSubContent > ul {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.joinSubContentHeader {
-    border-bottom: solid rgb(5,195,249);
-    font-size: 1.5rem;
-}
-
-#joinContactUs {
-    margin: 30px auto;
-}
-        </style>
+        #ownAPieceIMG {
+            background-image: url("$lib/img/Team-photo-4.jpg");
+        }
+    </style>
