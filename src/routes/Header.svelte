@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/img/logo.png';
+	import logo from '$lib/img/logo-2.png';
+    import realLogo from '$lib/img/Real Logo Solid White with Black Wordmark.png'
     // function hideMobileMenu() {
     //     setTimeout(document.getElementById("mobileMenuToggler").checked = false, 0)
     //     console.log("hideMobileMenu");
@@ -17,6 +18,7 @@
             <span class="lightGray"></span>
             <span class="lightGray"></span>
             <ul id="mobileMenu">
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="https://folzteamrealestate.idxbroker.com/idx/map/mapsearch" ><li>Search</li></a>
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a>
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about" ><li>About</li></a>
                 <!-- <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog" ><li>Blog</li></a> -->
@@ -26,9 +28,11 @@
         </div>
         <div class="col-2 d-sm-none"></div>
         <div class="d-flex justify-content-start align-items-center ">
-            <a href="/"><img src={logo} alt="logo" class="logo"></a>
+            <a href="/"><img src={realLogo} alt="real logo" class="logo"></a>
+            <a href="/"><img src={logo} alt="logo" class="logo py-2"></a>
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">
+            <a class="flex-grow-1 text-center" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="/search"><li>Search</li></a>
             <a aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} class="flex-grow-1 text-center" href="/listings"><li>Listings</li></a>
             <a aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="flex-grow-1 text-center" href="/about"><li>About</li></a>
             <!-- <a aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="flex-grow-1 text-center" href="/blog"><li>Blog</li></a> -->
@@ -39,49 +43,7 @@
 </header>
 
 <style>
-    header {
-        box-shadow: 0 3px 3px lightgray;
-        
-    }
     
-    .logo {
-        height: 40px;
-    }
-
-    ul > a {
-        border-bottom: solid 5px rgb(5, 195, 249, 0);
-        border-top: solid 5px rgb(5, 195, 249, 0);
-    }
-
-    a[aria-current='page'] {
-        border-bottom: solid 5px rgb(5, 195, 249, 0.5);
-    }
-
-    a.mobile-menu-item[aria-current='page'] > li {
-        color: rgb(5, 195, 249, 1);
-    }
-
-    a.mobile-menu-item {
-        border-bottom: none;
-    }
-
-    ul > a > li {
-        text-decoration: none;
-        color: #3e3f3c;
-        font-size: 1.3rem;
-        display: inline-block;
-    }
-
-    nav > ul > a:hover {
-        border-bottom: solid 5px rgb(5, 195, 249, 0.5);
-        transition: width 0.5s ease;
-        transition: background-color 1s ease;
-    }
-
-    #mobileMenuToggle, #mobileMenuToggle input, #mobileMenuToggle a, #mobileMenuToggle input {
-    display: none;
-}
-
 
 @media screen and (max-width: 768px) {
     #nonMobileMenu {

@@ -28,7 +28,7 @@ export const listings = [
         FeaturedListing: true,
         Beds: "4",
         Baths: "3",
-        Price: "$875,000",
+        Price: "$750,000",
         Status: "Active",
         Details: "Walking distance to coveted West Salem schools. Boasting 4,092 sf & 4 BRs on 1 acre. Features huge kitchen w/abundant oak cabinets, formal dining, skylights, living room w/FP, mountain views, sunroom & 25x10.9 heated/cooled storage rm. Downstairs- huge family room w/wet bar, flex space, BR & full bath(dual living?). Outside has rose garden, fruit trees & room for small farm animals if desired! Plus potential to divide into 3+ residential lots & live in this beautiful home.Lots of options for a great price!",
         Features: [
@@ -381,14 +381,14 @@ export const listings = [
     },
     {
         Title: "101Moolack",
-        Address: "Hwy 101 Moolack Shores",
+        Address: "TL 100 N Coast Highway Hwy",
         City: "Newport",
         MLS: "803858",
         SquareFootage: "160,736",
         FeaturedListing: true,
         Beds: "-",
         Baths: "-",
-        Price: "$499,000",
+        Price: "$589,000",
         Status: "Active",
         Details: "Ocean front buildable property. Amazing panoramic views. Build your ocean front home here. Development study indicates lot could accommodate a 5000+ sqft home. Lots of parking. Close to Newport and services. Development report available.",
         Features: [
@@ -406,7 +406,7 @@ export const listings = [
         FeaturedListing: false,
         Beds: "NA",
         Baths: "NA",
-        Price: "$1,732,500",
+        Price: "$1,730,000",
         Status: "Active",
         Details: "Commercial IG zoned property for sale with multiple income streams, includes an industrial, detached office & several residential units. The industrial building is equipped w/forced air furnace. 3 phase electrical & piped for air. Office w/mini split & bath. Fully fenced w/rolling gate. Adjacent is .21 acre paved lot w/ transfer loading dock. Also includes a duplex & house. Current rents $8000+. Great opportunity for an investor or owner occupy.",
         Features: [

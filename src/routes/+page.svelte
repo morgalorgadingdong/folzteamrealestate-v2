@@ -4,6 +4,7 @@
     let description = `Folz Team Real Estate, Salem Oregon's most trusted real estate team. We are a full service real estate team that specializes in residential, commercial, and investment properties. We are a team of 8 agents that are here to help you with all of your real estate needs.`; 
     // import hero from '$lib/img/hero.jpg'
     import about from '$lib/img/about-home-page.jpg'
+    import workhardbekind from '$lib/img/WorkHard_NewFont01@2x.png'
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
@@ -23,7 +24,17 @@
     </div>
 </section>
 
-<section id="featuredListings" class="contentSection inViewport pb-5">
+<!-- <section class="contentSection pb-5">
+    <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-5369" src="//folzteamrealestate.idxbroker.com/idx/quicksearchjs.php?widgetid=5369"></script>
+
+</section> -->
+
+<!-- <section id="featuredListings" class="contentSection inViewport pb-5">
+    <h2>Featured Listings - Coming soon!</h2>
+</section> -->
+
+
+<!-- <section id="featuredListings" class="contentSection inViewport pb-5">
     <h2>Featured Listings</h2>
     <FeaturedListingsContainerMobile/>
     <div class="content-container">
@@ -36,7 +47,7 @@
             <a href="/listings"><button class="button">See All Listings</button></a>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="whatOurClientsSay" class="inViewport">
     <div class="py-5">
@@ -125,7 +136,8 @@
 <div id="quoteSection" class="d-flex justify-content-center align-items-center flex-wrap">
     <div class="content-container d-flex justify-content-center align-items-center flex-wrap text-center">
         <!-- <p class="grayText">Our motto</p> -->
-        <h2 class="col-12 py-0" id="quote">Work Hard. <b>Be Kind.</b></h2>
+        <img class="col-10 p-3" id="quote" src={workhardbekind}/>
+        <!-- <h2 class="col-12 py-0" id="quote">Work Hard. <b>Be Kind.</b></h2> -->
         <!-- <p class="grayText col-11">Doing the right thing is rarely easy, that's why we embrace a culture of hard work in order to help our clients to the best of our ability.</p> -->
         <!-- <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="/about"><button class="button">About us</button></a>
@@ -133,7 +145,7 @@
 </div>
 </div>
 
-<section id="theMarketAtAGlance" class="my-0 d-flex flex-wrap align-content-center">
+<!-- <section id="theMarketAtAGlance" class="my-0 d-flex flex-wrap align-content-center">
     <div class="backgroundIMGContent1 content-section">
     <h2 class="whiteText">The Willamette Valley Market at a Glance</h2>
     <p class="sectionSubHeader">For the Month of January, 2023</p>
@@ -165,7 +177,7 @@
         </div>
     </div>
 </div>
-</section>
+</section> -->
 
 <section id="aboutUsSection" class="inViewport col-12 my-0">
     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap mb-5">
@@ -183,85 +195,35 @@
 </section>
 
 <style>
-    
-#heroIMG {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('$lib/img/hero.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 85vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heroText {
-  font-size: 1.2rem;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background: rgba(175, 173, 172, 0.6);
-  padding: 10px;
-}
-
-
-
-
-
-#quote {
-    color: black;
-}
-
-#quoteSection b {
-    color: #05c3f9;
-    font-weight: 700;
-}
-
-
-#whatOurClientsSay h2 {
-  color: #05c3f9;
-  color: #FFFFFF;
-}
-
-#whatOurClientsSay {
-    background-color: var(--bs-body-color);
+    #heroIMG {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('$lib/img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #theMarketAtAGlance {
-  color: white;
-  background-image: linear-gradient(
-      rgba(175, 173, 172, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('$lib/img/mt-hood.jpg');
+color: white;
+background-image: linear-gradient(
+    rgba(175, 173, 172, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('$lib/img/mt-hood.jpg');
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin: auto;
-  background-attachment: fixed;
-  background-position: center;
-  z-index: 1;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin: auto;
+background-attachment: fixed;
+background-position: center;
+z-index: 1;
 }
-
-.maagItem .fa-arrow-down {
-    color: #f84c6c;
-}
-
-.maagItem .fa-arrow-up {
-    color: #02cc7d;
-}
-
-
-#aboutUsSection > div {
-    min-height: 80vh;
-}
-
 
 </style>
 
