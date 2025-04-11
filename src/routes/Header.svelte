@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/img/logo-2.png';
-    import realLogo from '$lib/img/Real Logo Solid White with Black Wordmark - cropped.png'
+    import realLogo from '$lib/img/real-logo-with-name.png'
     // function hideMobileMenu() {
     //     setTimeout(document.getElementById("mobileMenuToggler").checked = false, 0)
     //     console.log("hideMobileMenu");
@@ -28,8 +28,8 @@
         </div>
         <div class="col-1 d-sm-none"></div>
         <div class="d-flex justify-content-start align-items-center ">
-            <a href="/"><img src={realLogo} alt="real logo" class="logo"></a>
-            <a href="/"><img src={logo} alt="logo" class="logo py-2"></a>
+            <a href="/"><img src={realLogo} alt="real logo" class="logo py-2 py-md-1 me-3"></a>
+            <a href="/"><img src={logo} alt="logo" class="logo py-2 py-md-1"></a>
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">
             <a class="flex-grow-1 text-center" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="/search"><li>Search</li></a>

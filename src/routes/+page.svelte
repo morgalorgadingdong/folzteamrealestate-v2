@@ -4,7 +4,7 @@
     let description = `Folz Team Real Estate, Salem Oregon's most trusted real estate team. We are a full service real estate team that specializes in residential, commercial, and investment properties. We are a team of 8 agents that are here to help you with all of your real estate needs.`; 
     // import hero from '$lib/img/hero.jpg'
     import about from '$lib/img/about-home-page.jpg'
-    import workhardbekind from '$lib/img/WorkHard_NewFont01@2x.png'
+    import workhardbekind from '$lib/img/WorkHard_NewFont01@2x-cropped.png'
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';

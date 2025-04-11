@@ -1,6 +1,7 @@
 <script>
 	import logo from '$lib/img/logo-2.png';
     import realLogo from '$lib/img/Real Logo Knockout Black with White Wordmark.png'
+    import wvmlsLogo from '$lib/img/wvmls-logo.png'
 </script>
 
 <footer class="black flexCenterV py-5 flex-wrap d-flex justify-content-center">
@@ -27,5 +28,9 @@
     <div class="col-lg-6 col-10 d-flex justify-content-center pt-5 flex-wrap">
         <p class="testimonialText whiteText text-italic">Based on information from Willamette Valley Multiple Listing Service, which neither guarantees nor is in any way responsible for its accuracy. All data is provided ‘AS IS’ and with all faults. Data maintained by Willamette Valley Multiple Listing Service may not reflect all real estate activity in the market.</p>
     </div>
+    <div class="col-12 d-flex justify-content-center">
+        <img class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-3" src={wvmlsLogo} alt="REAL Brokers">
+    </div>
+    
     <p class="text-white col-12 text-center mt-3">2025</p>
 </footer>
