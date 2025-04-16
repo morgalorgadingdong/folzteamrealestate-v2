@@ -28,7 +28,7 @@
         </div>
         <div class="col-1 d-sm-none"></div>
         <div class="d-flex justify-content-start align-items-center ">
-            <a href="/"><img src={realLogo} alt="real logo" class="logo py-2 py-md-1 me-3"></a>
+            <a href="/"><img src={realLogo} alt="real logo" class="logo py-1 py-md-0 me-3"></a>
             <a href="/"><img src={logo} alt="logo" class="logo py-2 py-md-1"></a>
         </div>
         <ul class="d-flex justify-content-between col-6 my-0" id="nonMobileMenu">

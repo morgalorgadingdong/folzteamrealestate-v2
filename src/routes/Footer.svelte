@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/img/logo-2.png';
-    import realLogo from '$lib/img/Real Logo Knockout Black with White Wordmark.png'
+    import realLogo from '$lib/img/real-logo-with-name-white.png'
     import wvmlsLogo from '$lib/img/wvmls-logo.png'
 </script>
 
@@ -8,7 +8,7 @@
     <div class="col-10 d-flex justify-content-center justify-content-sm-between center flex-wrap">
         <div class="col-8 col-sm-4 col-md-3 order-sm-2 mb-5 mb-sm-0">
             <img class="col-12" src={realLogo} alt="REAL Brokers">
-            <p class="text-white col-12 text-center">Real Broker, LLC</p>
+            <!-- <p class="text-white col-12 text-center">Real Broker, LLC</p> -->
         </div>
         
 
