@@ -8,8 +8,8 @@
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
-    import FeaturedListingsContainer from './listings/FeaturedListingsContainer.svelte';
-    import FeaturedListingsContainerMobile from './listings/FeaturedListingsContainerMobile.svelte';
+    import FeaturedListingsContainer from './listings_ARCHIVE/FeaturedListingsContainer.svelte';
+    import FeaturedListingsContainerMobile from './listings_ARCHIVE/FeaturedListingsContainerMobile.svelte';
     
 </script>
 
@@ -22,6 +22,9 @@
     <div class="heroText col-12 col-md-10 col-lg-6">
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
+</section>
+<section id="" class="contentSection pb-5">
+    <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-99186" src="//folzteamrealestate.idxbroker.com/idx/widgets/99186"></script>
 </section>
 
 <!-- <section class="contentSection pb-5">
