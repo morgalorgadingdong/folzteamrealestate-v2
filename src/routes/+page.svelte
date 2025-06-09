@@ -16,19 +16,20 @@
     import { onMount } from 'svelte';
 
     onMount(() => {
-    const container = document.getElementById('listings');
-    if (container) {
-      const script = document.createElement('script');
-      script.src = 'https://folzteamrealestate.idxbroker.com/idx/widgets/99186';
-      script.charset = 'UTF-8';
-      script.async = true;
+        const container = document.getElementById('listings');
+        if (container) {
+            const script = document.createElement('script');
+            script.id = 'idxwidgetsrc-99186'; // Add the ID expected by the widget
+            script.src = 'https://folzteamrealestate.idxbroker.com/idx/widgets/99186';
+            script.charset = 'UTF-8';
+            script.async = true;
 
-      container.innerHTML = ''; // Optional: Clear any previous content
-      container.appendChild(script);
-    } else {
-      console.warn('Element with ID "listings" not found.');
-    }
-  });
+            container.innerHTML = ''; // Optional: Clear previous content
+            container.appendChild(script);
+        } else {
+            console.warn('Element with ID "listings" not found.');
+        }
+        });
 
 </script>
 
