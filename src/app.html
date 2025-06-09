@@ -9,8 +9,14 @@
 		<meta name="author" content="giddyup digital">
 		<link rel="canonical" href="https://www.folzteamrealestate.com">
 		
-		<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com https://folzteamrealestate.idxbroker.com">
-
+		<meta http-equiv="Content-Security-Policy" content="
+		default-src 'self';
+		script-src 'self' 'unsafe-inline' https://apis.google.com https://folzteamrealestate.idxbroker.com https://www.googletagmanager.com https://cdn.jsdelivr.net;
+		style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+		font-src 'self' https://cdn.jsdelivr.net;
+		img-src 'self' data: https://www.google-analytics.com;
+		connect-src 'self' https://www.google-analytics.com https://folzteamrealestate.idxbroker.com;
+	  ">
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
