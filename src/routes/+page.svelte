@@ -10,7 +10,24 @@
     import '@splidejs/svelte-splide/css';
     import FeaturedListingsContainer from './listings_ARCHIVE/FeaturedListingsContainer.svelte';
     import FeaturedListingsContainerMobile from './listings_ARCHIVE/FeaturedListingsContainerMobile.svelte';
-    
+
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+    const container = document.getElementById('listings');
+    if (container) {
+      const script = document.createElement('script');
+      script.src = 'https://folzteamrealestate.idxbroker.com/idx/widgets/99186';
+      script.charset = 'UTF-8';
+      script.async = true;
+
+      container.innerHTML = ''; // Optional: Clear any previous content
+      container.appendChild(script);
+    } else {
+      console.warn('Element with ID "listings" not found.');
+    }
+  });
+
 </script>
 
 <svelt:head>
@@ -23,8 +40,13 @@
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
 </section>
-<section id="" class="contentSection pb-5">
-    <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-99186" src="//folzteamrealestate.idxbroker.com/idx/widgets/99186"></script>
+<section id="listings" class="contentSection pb-5">
+    <!-- <script
+  charset="UTF-8"
+  type="text/javascript"
+  id="idxwidgetsrc-99186"
+  src="https://folzteamrealestate.idxbroker.com/idx/widgets/99186">
+</script> -->
 </section>
 
 <!-- <section class="contentSection pb-5">
