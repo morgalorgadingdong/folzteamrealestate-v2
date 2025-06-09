@@ -1,42 +1,42 @@
 
 
 export const listings = [
-    {
-        Title: "25055th",  
-        Address: "2505 5th St NE",
-        City: "Salem",
-        MLS: "823948",
-        SquareFootage: "1456",
-        FeaturedListing: true,
-        Beds: "3",
-        Baths: "1",
-        Price: "$400,000",
-        Status: "Active",
-        Details: "Classic home with spacious fully fenced yard, high ceilings on both floors & timeless charm! Main floor features laminate flooring, upper level has original refinished hardwood floors. Electrical & plumbing updates, high-efficiency in-line water heater & extra basement storage. New exterior paint (March 2022), furnace (Nov 2021) & 200-amp electrical panel(April 2024) Large yard has raised garden beds & 2 storage sheds. Attached newer 2 car garage & electric gate. Character-filled home w/modern upgrades!",
-        Features: [
-            "Fully Fenced", "Original Hardwood Floors", "Updated Electrical & Plumbing", "High-Efficiency Water Heater", "2 Storage Sheds", "New Exterior Paint", "New Furnace", "New Electrical Panel", "Attached 2 Car Garage", "Electric Gate"
-        ],
-        FeaturedPic: '',
-        Pics: 39  
-    },
-    {
-        Title: "1584DoaksFerry",  
-        Address: "1584 Doaks Ferry Rd NW",
-        City: "Salem",
-        MLS: "819680",
-        SquareFootage: "4,092",
-        FeaturedListing: true,
-        Beds: "4",
-        Baths: "3",
-        Price: "$750,000",
-        Status: "Active",
-        Details: "Walking distance to coveted West Salem schools. Boasting 4,092 sf & 4 BRs on 1 acre. Features huge kitchen w/abundant oak cabinets, formal dining, skylights, living room w/FP, mountain views, sunroom & 25x10.9 heated/cooled storage rm. Downstairs- huge family room w/wet bar, flex space, BR & full bath(dual living?). Outside has rose garden, fruit trees & room for small farm animals if desired! Plus potential to divide into 3+ residential lots & live in this beautiful home.Lots of options for a great price!",
-        Features: [
-            "Mountain Views", "Formal Dining", "Skylights", "Sunroom", "Heated/Cooled Storage Room", "Wet Bar", "Flex Space", "Rose Garden", "Fruit Trees", "Room for Small Farm Animals"
-        ],
-        FeaturedPic: '',
-        Pics: 19  
-    },
+    // {
+    //     Title: "25055th",  
+    //     Address: "2505 5th St NE",
+    //     City: "Salem",
+    //     MLS: "823948",
+    //     SquareFootage: "1456",
+    //     FeaturedListing: true,
+    //     Beds: "3",
+    //     Baths: "1",
+    //     Price: "$400,000",
+    //     Status: "Active",
+    //     Details: "Classic home with spacious fully fenced yard, high ceilings on both floors & timeless charm! Main floor features laminate flooring, upper level has original refinished hardwood floors. Electrical & plumbing updates, high-efficiency in-line water heater & extra basement storage. New exterior paint (March 2022), furnace (Nov 2021) & 200-amp electrical panel(April 2024) Large yard has raised garden beds & 2 storage sheds. Attached newer 2 car garage & electric gate. Character-filled home w/modern upgrades!",
+    //     Features: [
+    //         "Fully Fenced", "Original Hardwood Floors", "Updated Electrical & Plumbing", "High-Efficiency Water Heater", "2 Storage Sheds", "New Exterior Paint", "New Furnace", "New Electrical Panel", "Attached 2 Car Garage", "Electric Gate"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 39  
+    // },
+    // {
+    //     Title: "1584DoaksFerry",  
+    //     Address: "1584 Doaks Ferry Rd NW",
+    //     City: "Salem",
+    //     MLS: "819680",
+    //     SquareFootage: "4,092",
+    //     FeaturedListing: true,
+    //     Beds: "4",
+    //     Baths: "3",
+    //     Price: "$750,000",
+    //     Status: "Active",
+    //     Details: "Walking distance to coveted West Salem schools. Boasting 4,092 sf & 4 BRs on 1 acre. Features huge kitchen w/abundant oak cabinets, formal dining, skylights, living room w/FP, mountain views, sunroom & 25x10.9 heated/cooled storage rm. Downstairs- huge family room w/wet bar, flex space, BR & full bath(dual living?). Outside has rose garden, fruit trees & room for small farm animals if desired! Plus potential to divide into 3+ residential lots & live in this beautiful home.Lots of options for a great price!",
+    //     Features: [
+    //         "Mountain Views", "Formal Dining", "Skylights", "Sunroom", "Heated/Cooled Storage Room", "Wet Bar", "Flex Space", "Rose Garden", "Fruit Trees", "Room for Small Farm Animals"
+    //     ],
+    //     FeaturedPic: '',
+    //     Pics: 19  
+    // },
     {
         Title: "370Veall",
         Address: "370 Veall Ln NW",
