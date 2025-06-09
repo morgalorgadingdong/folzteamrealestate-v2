@@ -8,8 +8,8 @@
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
-    import FeaturedListingsContainer from './listings_ARCHIVE/FeaturedListingsContainer.svelte';
-    import FeaturedListingsContainerMobile from './listings_ARCHIVE/FeaturedListingsContainerMobile.svelte';
+    // import FeaturedListingsContainer from './listings/FeaturedListingsContainer.svelte';
+    // import FeaturedListingsContainerMobile from './listings/FeaturedListingsContainerMobile.svelte';
 
     import { onMount } from 'svelte';
 
