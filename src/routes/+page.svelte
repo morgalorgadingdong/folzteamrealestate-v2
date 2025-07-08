@@ -43,14 +43,14 @@
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
 </section>
-<section id="listings" class="contentSection pb-5">
+<div id="listings" class="contentSection pb-5 d-flex align-items-center">
     <!-- <script
   charset="UTF-8"
   type="text/javascript"
   id="idxwidgetsrc-99186"
   src="https://folzteamrealestate.idxbroker.com/idx/widgets/99186">
 </script> -->
-</section>
+</div>
 
 <!-- <section class="contentSection pb-5">
     <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-5369" src="//folzteamrealestate.idxbroker.com/idx/quicksearchjs.php?widgetid=5369"></script>
