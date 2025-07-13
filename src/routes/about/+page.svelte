@@ -37,10 +37,10 @@
                     <p></p>
                 </div> -->
             </div>
-            <div class="col-10 col-sm-8 col-md-3 card profileCard">
-                <div id="laurenIMG" class="col-12 center profileIMG"></div>
+            <div class="col-10 col-sm-8 col-md-3 card profileCard" onclick="location.href='https://www.facebook.com/profile.php?viewas=100000686899395&id=61576758256242';" style="cursor: pointer;">
+                <div id="jamieIMG" class="col-12 center profileIMG" ></div>
                 <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">Lauren Oss</h3>
+                    <h3 class="profileCardTitle">Jamie Foglesong</h3>
                     <p>Transaction Coordinator</p>
                 </div>
                 <!-- <div class="profileCardSection2">
@@ -69,13 +69,13 @@
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
             </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
+            <!-- <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
                 <div id="meganIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Megan Johnson</h3>
                     <p class="textCenter">Real Estate Agent</p>
                 </div>
-            </div>
+            </div> -->
             <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
                 <div id="paulAndMichelleIMG" class="col-12 center profileIMG"></div>
                 <div class="profileCardSection1">
@@ -119,6 +119,10 @@
 
         #evanIMG {
         background-image: url('$lib/img/headshot-evan-3-cropped.jpg');
+        }
+
+        #jamieIMG {
+        background-image: url('$lib/img/headshot-jamie.jpg');
         }
 
         #laurenIMG {
