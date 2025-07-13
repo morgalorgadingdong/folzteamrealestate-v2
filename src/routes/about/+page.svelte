@@ -41,7 +41,7 @@
                 <div id="jamieIMG" class="col-12 center profileIMG" ></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Jamie Foglesong</h3>
-                    <p>Transaction Coordinator</p>
+                    <p>Real Estate Agent</p>
                 </div>
                 <!-- <div class="profileCardSection2">
                     <p></p>
@@ -122,7 +122,8 @@
         }
 
         #jamieIMG {
-        background-image: url('$lib/img/headshot-jamie.jpg');
+        background-image: url('$lib/img/headshot-jamie.png');
+        image-rendering: auto;
         }
 
         #laurenIMG {
