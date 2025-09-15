@@ -122,7 +122,7 @@
         }
 
         #jamieIMG {
-        background-image: url('$lib/img/headshot-jamie.png');
+        background-image: url('$lib/img/headshot-jamie.jpg');
         image-rendering: auto;
         }
 
