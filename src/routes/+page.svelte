@@ -5,11 +5,12 @@
     // import hero from '$lib/img/hero.jpg'
     import about from '$lib/img/about-home-page.jpg'
     import workhardbekind from '$lib/img/WorkHard_NewFont01@2x-cropped.png'
+    import featuredListingPhoto from '$lib/img/featured-listing.png'
     // import maag from '$lib/img/market-at-a-glance.jpg'
     import {Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
-    // import FeaturedListingsContainer from './listings/FeaturedListingsContainer.svelte';
-    // import FeaturedListingsContainerMobile from './listings/FeaturedListingsContainerMobile.svelte';
+    import FeaturedListingsContainer from './listings/FeaturedListingsContainer.svelte';
+    import FeaturedListingsContainerMobile from './listings/FeaturedListingsContainerMobile.svelte';
 
     //F IDX Broker
 
@@ -43,14 +44,14 @@
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
 </section>
-<div id="listings" class="contentSection pb-5 d-flex align-items-center justify-content-center col-12">
+<!-- <div id="listings" class="contentSection pb-5 d-flex align-items-center justify-content-center col-12"> -->
     <!-- <script
   charset="UTF-8"
   type="text/javascript"
   id="idxwidgetsrc-99186"
   src="https://folzteamrealestate.idxbroker.com/idx/widgets/99186">
 </script> -->
-</div>
+<!-- </div> -->
 
 <!-- <section class="contentSection pb-5">
     <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-5369" src="//folzteamrealestate.idxbroker.com/idx/quicksearchjs.php?widgetid=5369"></script>
@@ -62,20 +63,32 @@
 </section> -->
 
 
-<!-- <section id="featuredListings" class="contentSection inViewport pb-5">
-    <h2>Featured Listings</h2>
-    <FeaturedListingsContainerMobile/>
-    <div class="content-container">
-        
+<section id="featuredListings" class="contentSection inViewport pb-5">
+    <!-- <h2>Featured Listing</h2> -->
+    <!-- <FeaturedListingsContainerMobile/> -->
     
         
-        <FeaturedListingsContainer/>
+    <a href="https://theriverspenthouse.com/?mls=" target="_blank" rel="noreferrer"><div class="individualListingBG d-flex align-items-end">
+                <div class="ytBg">
+                    <iframe
+                        class="ytIframe"
+                        src="https://www.youtube.com/embed/Rxf52YobdAU?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=Rxf52YobdAU"
+                        title="Featured listing video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    </div>
+                <div class="listingTitleContainer oneHundo flexCenterH flexWrap mb-5">
+                    <h1 class="listingTitle">Featured Listing!</h1>
+            </div></a>
+        
+        <!-- <FeaturedListingsContainer/> -->
     
-        <div class="col-12 center flexCenterH flexSpaceAroundH">
+        <!-- <div class="col-12 center flexCenterH flexSpaceAroundH">
             <a href="/listings"><button class="button">See All Listings</button></a>
-        </div>
-    </div>
-</section> -->
+        </div> -->
+</section>
 
 <section id="whatOurClientsSay" class="inViewport">
     <div class="py-5">
@@ -234,6 +247,113 @@
   justify-content: center;
   align-items: center;
 }
+
+.individualListingBG {
+        background-color: black;
+        height: 500px;
+        min-height: 80vh;
+        max-height: 95vh;
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        position: relative;
+        margin: auto;
+        /* background-position: center; */
+        z-index: 0;
+    }
+
+    .individualListingBG::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  z-index: -1; /* keep it behind text but above video */
+}
+
+    .individualListingBG > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0.6;
+        /* mask-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        -webkit-mask-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0)); */
+    }
+    .listingTitleContainer {
+    margin: 0;
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(5, 195, 249,.4);
+    z-index: 1;
+}
+
+.listingTitleContainer > h1 {
+    margin: 0 0 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.listingSubTitleContainer {
+    min-width: 330px;
+    max-width: 650px;
+}
+
+.listingSubTitleContainer > p {
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    text-align: start;
+    font-weight: lighter;
+}
+
+.row {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.listingInfoContainer h2 {
+    font-size: 2rem;
+    /* width: max-content; */
+    margin: 0 30px 0 0;
+}
+
+.ytBg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.6;
+  overflow: hidden;
+  pointer-events: none; /* keep section clickable */
+}
+
+/* “cover” trick for YouTube iframe */
+.ytIframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 177.78vh; /* 16/9 * 100vh */
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+/* On very wide screens, switch sizing so it still covers */
+@media (min-aspect-ratio: 16/9) {
+  .ytIframe {
+    width: 100vw;
+    height: 56.25vw; /* 9/16 * 100vw */
+  }
+}
+
 
 #theMarketAtAGlance {
 color: white;

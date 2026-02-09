@@ -1180,3 +1180,9 @@ color: black;
   max-height: 450px;
   margin-top: 10px;
 }
+
+
+/* Carousel */
+.idx-listings-carousel {
+  width: 100%;
+}
