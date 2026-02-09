@@ -32,5 +32,5 @@
         <img class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-3" src={wvmlsLogo} alt="REAL Brokers">
     </div>
     
-    <p class="text-white col-12 text-center mt-3">2025</p>
+    <p class="text-white col-12 text-center mt-3">2026</p>
 </footer>
