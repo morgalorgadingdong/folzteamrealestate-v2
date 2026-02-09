@@ -44,19 +44,9 @@
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
 </section>
-<!-- <div id="listings" class="contentSection pb-5 d-flex align-items-center justify-content-center col-12"> -->
-    <!-- <script
-  charset="UTF-8"
-  type="text/javascript"
-  id="idxwidgetsrc-99186"
-  src="https://folzteamrealestate.idxbroker.com/idx/widgets/99186">
-</script> -->
-<!-- </div> -->
 
-<!-- <section class="contentSection pb-5">
-    <script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-5369" src="//folzteamrealestate.idxbroker.com/idx/quicksearchjs.php?widgetid=5369"></script>
 
-</section> -->
+
 
 <!-- <section id="featuredListings" class="contentSection inViewport pb-5">
     <h2>Featured Listings - Coming soon!</h2>
@@ -89,6 +79,19 @@
             <a href="/listings"><button class="button">See All Listings</button></a>
         </div> -->
 </section>
+
+<div class="contentSection pb-5">
+  <div class="idx-shell">
+    <div id="listings">
+        <script
+            charset="UTF-8"
+            type="text/javascript"
+            id="idxwidgetsrc-99186"
+            src="https://folzteamrealestate.idxbroker.com/idx/widgets/99186">
+        </script>
+    </div>
+  </div>
+</div>
 
 <section id="whatOurClientsSay" class="inViewport">
     <div class="py-5">
@@ -354,6 +357,12 @@
   }
 }
 
+.idx-shell {
+  width: 100%;
+  max-width: 1400px;   /* or 1200 / 1600 — your call */
+  margin: 0 auto;
+  padding: 0 1rem;     /* keeps it off screen edges */
+}
 
 #theMarketAtAGlance {
 color: white;
