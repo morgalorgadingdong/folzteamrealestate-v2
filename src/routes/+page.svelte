@@ -43,7 +43,7 @@
         <h1>The Willamette Valley's most trusted Real Estate Team.</h1>
     </div>
 </section>
-<div id="listings" class="contentSection pb-5 d-flex align-items-center">
+<div id="listings" class="contentSection pb-5 d-flex align-items-center justify-content-center col-12">
     <!-- <script
   charset="UTF-8"
   type="text/javascript"
