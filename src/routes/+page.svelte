@@ -364,6 +364,23 @@
   padding: 0 1rem;     /* keeps it off screen edges */
 }
 
+#listings,
+#listings * {
+  box-sizing: border-box;
+}
+
+#listings {
+  overflow-x: clip; /* modern */
+}
+
+/* fallback */
+@supports not (overflow: clip) {
+  #listings {
+    overflow-x: hidden;
+  }
+}
+
+
 #theMarketAtAGlance {
 color: white;
 background-image: linear-gradient(
