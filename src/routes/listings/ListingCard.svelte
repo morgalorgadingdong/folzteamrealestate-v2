@@ -67,8 +67,8 @@
     }
 
     .card-section {
-        border-top: #afadac solid 1px;
-        padding-top: 1rem;
+        border-top: var(--color-text-muted) solid 1px;
+        padding-top: var(--space-sm);
     }
 
     .card-section p {
@@ -76,12 +76,12 @@
     }
 
     .Active, .Preview {
-        color: #02cc7d;
+        color: var(--color-status-active);
     }
     .Pending {
-        color: orange;
+        color: var(--color-status-pending);
     }
     .Sold {
-        color: #f84c6c;
+        color: var(--color-status-sold);
     }
 </style>

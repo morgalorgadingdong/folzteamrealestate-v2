@@ -97,7 +97,7 @@
         font-weight: 600;
         font-style: italic;
         margin-bottom: -0.5rem !important;
-        color: #3e3f3c;
+        color: var(--color-text-dark);
     }
     
     .blog-text {
@@ -148,27 +148,27 @@
 }
 
 .blogDate {
-    color: #afadac;
+    color: var(--color-text-muted);
 }
 
 .blog-header-divider {
-    margin-bottom: 40px;
+    margin-bottom: var(--space-xl);
 }
 
 a {
-    color: #05c3f9;
+    color: var(--color-accent-cyan);
 }
 
 .blog-highlight {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #05c3f9;
+    color: var(--color-accent-cyan);
     font-style: italic;
     background-color: rgb(175, 173, 172, 0.1);
 }
 
 .blog-divider {
-    border-top: #05c3f9 solid 2px;
+    border-top: var(--color-accent-cyan) solid 2px;
 }
 
 @media (max-width: 768px) {
@@ -193,7 +193,7 @@ a {
 }
 
 .testimonialContainer .fa-quote-left, .testimonialContainer .fa-quote-right {
-  color: rgb(5, 195, 249, 0.5);
+  color: color-mix(in srgb, var(--color-accent-cyan) 50%, transparent);
   font-size: 3rem;
 }
 

@@ -15,14 +15,14 @@
         <div class="col-6 col-sm-3 flexLeft flexColumn flexCenterH whiteText flexWrap order-sm-1 ">
             <p class="testimonialText">Folz Team Real Estate</p>
             <p class="testimonialText">Christine Folz</p>
-            <p class="testimonialText">christinefolzre@gmail.com</p>
-            <p class="testimonialText">(503) 949-3087</p>
+            <a href="mailto:christinefolzre@gmail.com" class="testimonialText whiteText">christinefolzre@gmail.com</a>
+            <a href="tel:+15039493087" class="testimonialText whiteText">(503) 949-3087</a>
         </div>
         
         <div class="col-6 col-sm-3  justify-content-end justify-content-sm-around align-items-center align-content-sm-center flexCenterV  order-sm-3">
-            <i class="fa-brands fa-instagram whiteText footerSocial" onclick="location.href='https://www.instagram.com/folzteamrealestate/';" style="cursor: pointer;"></i>
-            <i class="fa-brands fa-facebook whiteText footerSocial" onclick="location.href='https://www.facebook.com/folzteamrealestate/';" style="cursor: pointer;"></i>
-            <i class="fa-solid fa-envelope whiteText footerSocial" onclick="location.href='/contact';" style="cursor: pointer;"></i>
+            <a href="https://www.instagram.com/folzteamrealestate/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram whiteText footerSocial"></i></a>
+            <a href="https://www.facebook.com/folzteamrealestate/" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook whiteText footerSocial"></i></a>
+            <a href="/contact" aria-label="Contact us"><i class="fa-solid fa-envelope whiteText footerSocial"></i></a>
         </div>
     </div>
     <div class="col-lg-6 col-10 d-flex justify-content-center pt-5 flex-wrap">

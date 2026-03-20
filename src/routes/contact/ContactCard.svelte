@@ -30,7 +30,7 @@
 }
 
 #submissionForm {
-    margin-bottom: 25px;
+    margin-bottom: var(--space-xl);
 }
 
 .fields {
@@ -38,7 +38,7 @@
 }
 
 .field {
-    padding: 10px 5px;
+    padding: var(--space-xs) var(--space-xs);
     width: 100%;
 }
 

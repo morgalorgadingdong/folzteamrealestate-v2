@@ -70,7 +70,7 @@
         padding: 0;
         background-size: cover;
         background-position: center;
-        border-bottom: solid 4px #05c3f9;
+        border-bottom: solid 4px var(--color-accent-cyan);
         /* background-image: url({imgSrc}) */
     }
     .card-img-top > img, .card-img-left > img {
@@ -89,8 +89,8 @@
     }
 
     .card-section {
-        border-top: #afadac solid 1px;
-        padding-top: 1rem;
+        border-top: var(--color-text-muted) solid 1px;
+        padding-top: var(--space-sm);
     }
 
     .card-section p {
@@ -114,7 +114,7 @@
 }
 
 .blogDate {
-    color: #afadac;
+    color: var(--color-text-muted);
 }
 
 .blogDescription {
@@ -129,7 +129,7 @@
 }
 
     .card-title-container {
-        border-bottom: solid 2px #05c3f9;
+        border-bottom: solid 2px var(--color-accent-cyan);
     }
 
 </style>

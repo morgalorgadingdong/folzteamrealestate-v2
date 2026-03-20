@@ -20,7 +20,7 @@
 }
 
 .blogDate {
-    color: #afadac;
+    color: var(--color-text-muted);
 }
 
 .blogDescription {
@@ -34,19 +34,9 @@
     font-size: 14px;
 }
 
-section {
-    min-height: 80vh;
-}
-
 nav > ul {
     margin-bottom: 0;
 }
-
-a {
-    color: #05c3f9;
-}
-
-
 
 .blogHeader {
     background-position: center;
@@ -58,11 +48,11 @@ a {
 .blog-highlight {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #05c3f9;
+    color: var(--color-accent-cyan);
     font-style: italic;
     background-color: rgb(175, 173, 172, 0.1);
 }
 
 .blog-divider {
-    border-top: #05c3f9 solid 2px;
+    border-top: var(--color-accent-cyan) solid 2px;
 }

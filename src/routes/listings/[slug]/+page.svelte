@@ -52,7 +52,7 @@
         {#if listing.Title == data.slug}
             <div class="individualListingBG flexCenterV">
                 <img src = {imgSrcBanner} alt="banner" class="bannerImg" />
-                <div class="listingTitleContainer oneHundo flexCenterH flexWrap">
+                <div class="listingTitleContainer w-full flexCenterH flexWrap">
                     <h1 class="listingTitle">{listing.Address}</h1>
                     <div class="listingSubTitleContainer d-flex justify-content-around col-12 col-lg-6 flex-wrap">
                         <p>{listing.SquareFootage} sq ft</p>
@@ -166,15 +166,15 @@
 .listingTitleContainer {
     margin: 0;
     color: white;
-    padding: 50px 10px;
+    padding: var(--space-xl) var(--space-xs);
     text-align: center;
     height: fit-content;
-    background-color: rgb(5, 195, 249,.4);
+    background-color: color-mix(in srgb, var(--color-accent-cyan) 40%, transparent);
     z-index: 1;
 }
 
 .listingTitleContainer > h1 {
-    margin: 0 0 20px 0;
+    margin: 0 0 var(--space-md) 0;
     color: white;
     text-align: center;
     font-size: 2.5rem;
@@ -204,19 +204,19 @@
 .listingInfoContainer h2 {
     font-size: 2rem;
     width: max-content;
-    margin: 0 30px 0 0;
+    margin: 0 var(--space-xl) 0 0;
 }
 
 /* #AFADAC */
 
 #details {
-    padding: 15px 0;
+    padding: var(--space-sm) 0;
     width: 90%;
     margin: auto;
 }
 
 .listingInfoContainer ul {
-    padding: 15px 0;
+    padding: var(--space-sm) 0;
     width: 90%;
     margin: auto;
     display: flex;
@@ -230,7 +230,7 @@
 } */
 
 .listingInfoContainer ul li {
-    margin: 0 0 15px 0;
+    margin: 0 0 var(--space-sm) 0;
     display: flex;
 }
 
@@ -254,7 +254,7 @@ button {
 
 .listingPhotoContainer {
     height: 30vh;
-    padding: 0.3rem;
+    padding: var(--space-xs);
 }
 
 .listingPhoto {
@@ -269,23 +269,23 @@ button {
       height: 4px;
       width: 90%;
       display: flex;
-      margin-bottom: 15px;
+      margin-bottom: var(--space-sm);
   }
 
   .listingContactBar {
     width: 90%;
     height: fit-content;
-    margin: 30px auto;
-    /* background-color: rgb(5, 195, 249,.3); */
+    margin: var(--space-xl) auto;
+    /* background-color: color-mix(in srgb, var(--color-accent-cyan) 30%, transparent); */
 }
 
 .Active, .Preview {
-        color: #02cc7d;
+        color: var(--color-status-active);
     }
     .Pending {
-        color: orange;
+        color: var(--color-status-pending);
     }
     .Sold {
-        color: #f84c6c;
+        color: var(--color-status-sold);
     }
 </style>

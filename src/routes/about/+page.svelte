@@ -37,16 +37,15 @@
                     <p></p>
                 </div> -->
             </div>
-            <div class="col-10 col-sm-8 col-md-3 card profileCard" onclick="location.href='https://www.facebook.com/profile.php?viewas=100000686899395&id=61576758256242';" style="cursor: pointer;">
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61576758256242" target="_blank" rel="noreferrer" class="col-10 col-sm-8 col-md-3 profile-card-link">
+            <div class="col-12 card profileCard">
                 <div id="jamieIMG" class="col-12 center profileIMG" ></div>
                 <div class="profileCardSection1">
                     <h3 class="profileCardTitle">Jamie Foglesong</h3>
                     <p>Real Estate Agent</p>
                 </div>
-                <!-- <div class="profileCardSection2">
-                    <p></p>
-                </div> test-->
             </div>
+            </a>
         </div>
     </div>
 </section>
@@ -55,53 +54,60 @@
     <div class="content-container d-flex justify-content-center flex-wrap">
         <h2 class="col-12 aboutH2 pb-3">The Salem REAL Team</h2>
         <div id="salemTeamContainer" class="col-12 center flexSpaceAroundH flex-wrap">
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/aprilrainsrealtor1';" style="cursor: pointer;">
-                <div id="aprilIMG" class="col-12 center profileIMG"></div>
-                <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">April Rains</h3>
-                    <p class="textCenter">Real Estate Agent</p>
+            <a href="https://www.facebook.com/aprilrainsrealtor1" target="_blank" rel="noreferrer" class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 profile-card-link">
+                <div class="col-12 card profileCard-sm">
+                    <div id="aprilIMG" class="col-12 center profileIMG"></div>
+                    <div class="profileCardSection1">
+                        <h3 class="profileCardTitle">April Rains</h3>
+                        <p class="textCenter">Real Estate Agent</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://joinreal.com/derek-adent';" style="cursor: pointer;">
-                <div id="DerekIMG" class="col-12 center profileIMG"></div>
-                <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">Derek Adent</h3>
-                    <p class="textCenter">Real Estate Agent</p>
+            </a>
+            <a href="https://joinreal.com/derek-adent" target="_blank" rel="noreferrer" class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 profile-card-link">
+                <div class="col-12 card profileCard-sm">
+                    <div id="DerekIMG" class="col-12 center profileIMG"></div>
+                    <div class="profileCardSection1">
+                        <h3 class="profileCardTitle">Derek Adent</h3>
+                        <p class="textCenter">Real Estate Agent</p>
+                    </div>
                 </div>
-            </div>
-            <!-- <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/doutthometeam/';" style="cursor: pointer;">
-                <div id="meganIMG" class="col-12 center profileIMG"></div>
-                <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">Megan Johnson</h3>
-                    <p class="textCenter">Real Estate Agent</p>
+            </a>
+            <a href="https://www.facebook.com/TeamPaulandMichelle" target="_blank" rel="noreferrer" class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 profile-card-link">
+                <div class="col-12 card profileCard-sm">
+                    <div id="paulAndMichelleIMG" class="col-12 center profileIMG"></div>
+                    <div class="profileCardSection1">
+                        <h3 class="profileCardTitle">Paul & Michelle</h3>
+                        <p class="textCenter">Real Estate Agent Team</p>
+                    </div>
                 </div>
-            </div> -->
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.facebook.com/TeamPaulandMichelle';" style="cursor: pointer;">
-                <div id="paulAndMichelleIMG" class="col-12 center profileIMG"></div>
-                <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">Paul & Michelle</h3>
-                    <p class="textCenter">Real Estate Agent Team</p>
+            </a>
+            <a href="https://www.shelbyholmanrealestate.com" target="_blank" rel="noreferrer" class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 profile-card-link">
+                <div class="col-12 card profileCard-sm">
+                    <div id="shelbyIMG" class="col-12 center profileIMG"></div>
+                    <div class="profileCardSection1">
+                        <h3 class="profileCardTitle">Shelby Holman</h3>
+                        <p class="textCenter">Real Estate Agent</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-2 card profileCard-sm" onclick="location.href='https://www.shelbyholmanrealestate.com';" style="cursor: pointer;">
-                <div id="shelbyIMG" class="col-12 center profileIMG"></div>
-                <div class="profileCardSection1">
-                    <h3 class="profileCardTitle">Shelby Holman</h3>
-                    <p class="textCenter">Real Estate Agent</p>
-                </div>
-            </div>
+            </a>
     </div>
     </section>
     <div id="interestedContainer" class="col-10 my-5 py-5 inViewport">
         <h3 class="textCenter py-5">Interested in joining our growing team?</h3>
-        <a href="/join" ><div id="joinButton" class="button fiddy center textCenter">Learn More</div></a>
+        <a href="/join" ><div id="joinButton" class="button w-50 center textCenter">Learn More</div></a>
     </div>  
     
 
 
 <style>
+    .profile-card-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
     #folzTeamStory {
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('$lib/img/about-home-page.jpg');
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.4)), url('$lib/img/about-home-page.jpg');
         min-height: 60vh;
         max-height: fit-content;
         background-position: center;

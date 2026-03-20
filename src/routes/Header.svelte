@@ -19,7 +19,7 @@
             <span class="color-primary"></span>
             <ul id="mobileMenu">
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/search') ? 'page' : undefined} href="https://folzteamrealestate.idxbroker.com/idx/map/mapsearch" ><li>Search</li></a>
-                <!-- <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a> -->
+                <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/listings') ? 'page' : undefined} href="/listings" ><li>Listings</li></a>
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined} href="/about" ><li>About</li></a>
                 <!-- <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined} href="/blog" ><li>Blog</li></a> -->
                 <a class="mobile-menu-item" aria-current={$page.url.pathname.startsWith('/join') ? 'page' : undefined} href="/join" ><li>Join</li></a>
@@ -103,8 +103,7 @@
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        /* opacity: .8; */
-        /* background: #EDEDED; */
+        background: var(--color-primary-dark);
         border-radius: 3px;
         
         z-index: 2;

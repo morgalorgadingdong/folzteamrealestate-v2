@@ -53,7 +53,7 @@
         <div class="col-12 d-flex flex-wrap justify-content-center align-items-center center joinReasonContainer text-start my-0">
             <div id="revShareIMG" class="col-10 col-md-4 my-5 my-md-0 order-0 order-md-2"></div>
             <div class="col-12 col-md-8 joinSubContentRight text-start flexColumn px-5">
-                <h3 class="onehundo joinSubContentHeader">Earn extra revenue</h3>
+                <h3 class="w-full joinSubContentHeader">Earn extra revenue</h3>
                 <p class="">Earn 5% revenue share up to $4,000 per capping agent from Real's portion of the split. Unlock additional tiers as your network grows.</p>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
                     <a href="https://www.joinreal.com/" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
@@ -68,7 +68,7 @@
         <div class="col-12 d-flex flex-wrap justify-content-center align-items-center center joinReasonContainer text-start my-0">
             <div id="ownAPieceIMG" class="col-10 col-md-4 my-5 my-md-0"></div>
             <div class="col-12 col-md-8 joinSubContent">
-                <h3 class="onehundo joinSubContentHeader">Own a piece of your company</h3>
+                <h3 class="w-full joinSubContentHeader">Own a piece of your company</h3>
                 <p>Real is publicly trading as The Real Brokerage Inc. (NASDAQ: REAX) (TSXV: REAX). Agents can earn a piece of the company through three stock plans.</p>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
                     <a href="https://www.joinreal.com/" target="_blank" rel="noreferrer noopener"><div class="button learnMoreButton">Learn more</div></a>
@@ -80,7 +80,7 @@
 
 </section>
     
-        <div id="joinContactUs" class="listingContactBar flexColumn flexCenterV inViewport ayyydee center">
+        <div id="joinContactUs" class="listingContactBar flexColumn flexCenterV inViewport w-80 center">
             <h3 class="pt-5">Interested?</h3>
             <p>We're looking for motivated Agents interested in taking ownership of their careers to join our growing team. If you think you might be a good fit, use the form below to reach out or email us at christinefolzre@gmail.com</p>
             <ContactCard />
